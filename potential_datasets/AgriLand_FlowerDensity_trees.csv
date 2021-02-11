@@ -1,32 +1,32 @@
 species,date,hour,location,habitat,FU.category,year,quadrat.no.independency,distance.m,top.tree.height,top.trunk.height,bottom.tree,height.of.tree,flower.distribution,mean.flower.distribution,nb.of.floral.units.in.buds,nb.of.opened.floral.units,nb.of.fruited.floral.units,total.nb.of..floral.units.in.buds,total.nb.of..opened.floral.units,total.nb.of..fruited.floral.units,nb.of.buds.per.opened.floral.unit,nb.of.opened.flowers.per.opened.floral.unit,nb.of.fruited.flowers.per.opened.floral.unit,vegetative.area,nb.of.opened.flowers.per.m2,nb.of.total.flowers.per.m2
-Acer campestre,04/05/2012,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,0,0,105,0,0,189,0,1,0,0.25,0,756
-Acer campestre,04/05/2012,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,4,14,207,7.2,25.2,372.6,0,1,0,0.25,100.8,1620
-Acer campestre,04/05/2012,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,9,94,141,16.2,169.2,253.8,0,1,0,0.25,676.8,1756.8
-Acer campestre,04/05/2012,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,18,27,217,32.4,48.6,390.6,0,1,0,0.25,194.4,1886.4
-Acer campestre,04/05/2012,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,6,39,124,10.8,70.2,223.2,0,1,0,0.25,280.8,1216.8
+Acer campestre,4/5/12,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,0,0,105,0,0,189,0,1,0,0.25,0,756
+Acer campestre,4/5/12,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,4,14,207,7.2,25.2,372.6,0,1,0,0.25,100.8,1620
+Acer campestre,4/5/12,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,9,94,141,16.2,169.2,253.8,0,1,0,0.25,676.8,1756.8
+Acer campestre,4/5/12,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,18,27,217,32.4,48.6,390.6,0,1,0,0.25,194.4,1886.4
+Acer campestre,4/5/12,17:15,zoo-park-downs,grassland,single flower,2012,1,20,15,5,0,2,40-50,45,6,39,124,10.8,70.2,223.2,0,1,0,0.25,280.8,1216.8
 Acer pseudoplatanus,16/04/2012,NA,river frome,wetland,single flower,2012,1,20,45,0,-10,9,0-20,10,633,290,0,1139.4,522,0,0,1,0,0.25,2088,6645.6
 Acer pseudoplatanus,16/04/2012,NA,river frome,wetland,single flower,2012,1,20,45,0,-10,9,0-20,10,245,133,0,441,239.4,0,0,1,0,0.25,957.6,2721.6
 Acer pseudoplatanus,16/04/2012,NA,river frome,wetland,single flower,2012,2,20,47,0,-11,9.4,0-20,10,648,288,0,1218.24,541.44,0,0,1,0,0.25,2165.76,7038.72
 Acer pseudoplatanus,16/04/2012,NA,river frome,wetland,single flower,2012,2,20,47,0,-11,9.4,0-20,10,208,128,0,391.04,240.64,0,0,1,0,0.25,962.56,2526.72
 Acer pseudoplatanus,16/04/2012,NA,river frome,wetland,single flower,2012,2,20,47,0,-11,9.4,0-20,10,310,160,0,582.8,300.8,0,0,1,0,0.25,1203.2,3534.4
-Acer pseudoplatanus,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,1,20,49,5,-1,8.8,30-40,35,420,260,37,2587.2,1601.6,227.92,0,1,0,0.25,6406.4,17666.88
-Acer pseudoplatanus,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,1,20,49,5,-1,8.8,30-40,35,240,87,24,1478.4,535.92,147.84,0,1,0,0.25,2143.68,8648.64
-Acer pseudoplatanus,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,2,20,26,0,-4,5.2,30-40,35,208,272,8,757.12,990.08,29.12,0,1,0,0.25,3960.32,7105.28
-Acer pseudoplatanus,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,2,20,26,0,-4,5.2,30-40,35,603,288,27,2194.92,1048.32,98.28,0,1,0,0.25,4193.28,13366.08
-Acer pseudoplatanus,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,3,20,61,2,-5,11.8,60-70,65,560,350,20,8590.4,5369,306.8,0,1,0,0.25,21476,57064.8
-Aesculus hippocastanum,01/05/2012,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,34,51,4,256.36,384.54,30.16,0,1,0,0.25,1538.16,2684.24
-Aesculus hippocastanum,01/05/2012,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,29,111,6,218.66,836.94,45.24,0,1,0,0.25,3347.76,4403.36
-Aesculus hippocastanum,01/05/2012,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,87,58,3,655.98,437.32,22.62,0,1,0,0.25,1749.28,4463.68
-Aesculus hippocastanum,01/05/2012,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,46,46,6,346.84,346.84,45.24,0,1,0,0.25,1387.36,2955.68
-Aesculus hippocastanum,01/05/2012,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,66,44,0,497.64,331.76,0,0,1,0,0.25,1327.04,3317.6
-Aesculus hippocastanum,02/05/2012,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,47,15,-5,6.4,70-80,75,100,176,17,960,1689.6,163.2,0,1,0,0.25,6758.4,11251.2
-Aesculus hippocastanum,02/05/2012,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,47,15,-5,6.4,70-80,75,72,108,8,691.2,1036.8,76.8,0,1,0,0.25,4147.2,7219.2
-Aesculus hippocastanum,02/05/2012,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,47,15,-5,6.4,70-80,75,51,153,54,489.6,1468.8,518.4,0,1,0,0.25,5875.2,9907.2
-Aesculus hippocastanum,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,1,20,27,4,-3,4.6,60-70,65,78,87,64,466.44,520.26,382.72,0,1,0,0.25,2081.04,5477.68
-Aesculus hippocastanum,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,1,20,27,4,-3,4.6,60-70,65,109,94,33,651.82,562.12,197.34,0,1,0,0.25,2248.48,5645.12
-Aesculus hippocastanum,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,2,20,57,20,-2,7.4,60,60,119,156,77,1056.72,1385.28,683.76,0,1,0,0.25,5541.12,12503.04
-Aesculus hippocastanum,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,2,20,57,20,-2,7.4,60,60,78,91,46,692.64,808.08,408.48,0,1,0,0.25,3232.32,7636.8
-Aesculus hippocastanum,03/05/2012,NA,clifton-suspension- park road,managed grassland,single flower,2012,3,20,23,5,-4,3.6,60,60,270,13,0,1166.4,56.16,0,0,1,0,0.25,224.64,4890.24
+Acer pseudoplatanus,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,1,20,49,5,-1,8.8,30-40,35,420,260,37,2587.2,1601.6,227.92,0,1,0,0.25,6406.4,17666.88
+Acer pseudoplatanus,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,1,20,49,5,-1,8.8,30-40,35,240,87,24,1478.4,535.92,147.84,0,1,0,0.25,2143.68,8648.64
+Acer pseudoplatanus,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,2,20,26,0,-4,5.2,30-40,35,208,272,8,757.12,990.08,29.12,0,1,0,0.25,3960.32,7105.28
+Acer pseudoplatanus,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,2,20,26,0,-4,5.2,30-40,35,603,288,27,2194.92,1048.32,98.28,0,1,0,0.25,4193.28,13366.08
+Acer pseudoplatanus,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,3,20,61,2,-5,11.8,60-70,65,560,350,20,8590.4,5369,306.8,0,1,0,0.25,21476,57064.8
+Aesculus hippocastanum,1/5/12,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,34,51,4,256.36,384.54,30.16,0,1,0,0.25,1538.16,2684.24
+Aesculus hippocastanum,1/5/12,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,29,111,6,218.66,836.94,45.24,0,1,0,0.25,3347.76,4403.36
+Aesculus hippocastanum,1/5/12,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,87,58,3,655.98,437.32,22.62,0,1,0,0.25,1749.28,4463.68
+Aesculus hippocastanum,1/5/12,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,46,46,6,346.84,346.84,45.24,0,1,0,0.25,1387.36,2955.68
+Aesculus hippocastanum,1/5/12,16:00,woodland road,grassland,single flower,2012,1,20,65,36,7,5.8,60-70,65,66,44,0,497.64,331.76,0,0,1,0,0.25,1327.04,3317.6
+Aesculus hippocastanum,2/5/12,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,47,15,-5,6.4,70-80,75,100,176,17,960,1689.6,163.2,0,1,0,0.25,6758.4,11251.2
+Aesculus hippocastanum,2/5/12,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,47,15,-5,6.4,70-80,75,72,108,8,691.2,1036.8,76.8,0,1,0,0.25,4147.2,7219.2
+Aesculus hippocastanum,2/5/12,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,47,15,-5,6.4,70-80,75,51,153,54,489.6,1468.8,518.4,0,1,0,0.25,5875.2,9907.2
+Aesculus hippocastanum,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,1,20,27,4,-3,4.6,60-70,65,78,87,64,466.44,520.26,382.72,0,1,0,0.25,2081.04,5477.68
+Aesculus hippocastanum,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,1,20,27,4,-3,4.6,60-70,65,109,94,33,651.82,562.12,197.34,0,1,0,0.25,2248.48,5645.12
+Aesculus hippocastanum,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,2,20,57,20,-2,7.4,60,60,119,156,77,1056.72,1385.28,683.76,0,1,0,0.25,5541.12,12503.04
+Aesculus hippocastanum,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,2,20,57,20,-2,7.4,60,60,78,91,46,692.64,808.08,408.48,0,1,0,0.25,3232.32,7636.8
+Aesculus hippocastanum,3/5/12,NA,clifton-suspension- park road,managed grassland,single flower,2012,3,20,23,5,-4,3.6,60,60,270,13,0,1166.4,56.16,0,0,1,0,0.25,224.64,4890.24
 Castanea sativa,30/07/2012,12:00,ashton court,grassland-woodland,single ring,2012,1,20,16,-9,-12,5,30-40,35,38,1140,0,133,3990,0,0,5,0,0.25,79800,82460
 Castanea sativa,30/07/2012,12:00,ashton court,grassland-woodland,single ring,2012,1,20,16,-9,-12,5,30-40,35,23,1104,0,80.5,3864,0,0,5,0,0.25,77280,78890
 Castanea sativa,30/07/2012,12:00,ashton court,grassland-woodland,single ring,2012,2,20,12,-16,-20,5.6,30,30,1,16,424,3.36,53.76,1424.64,0,0,5,0.25,0,29635.2
@@ -47,19 +47,19 @@ Crataegus monogyna,22/05/2012,12:30,brandon hill,grassland-park,single flower,20
 Crataegus monogyna,23/05/2012,13:30,brandon hill,grassland-park,single flower,2012,3,20,22,2,-4,4,40-60,50,13,112,5,52,448,20,0,1,0,0.25,1792,2080
 Crataegus monogyna,24/05/2012,14:30,brandon hill,grassland-park,single flower,2012,4,20,8,-3,-4,2.2,40-60,50,5,15,126,11,33,277.2,0,1,0,0.25,132,1284.8
 Crataegus monogyna,25/05/2012,15:30,brandon hill,grassland-park,single flower,2012,5,20,25,2,2,4.6,50-60,65,0,10,300,0,59.8,1794,0,1,0,0.25,239.2,7415.2
-Malus domestica,08/05/2012,17:20,downs,woodland-grassland-park,single flower,2012,1,20,13,-4,-6,3.4,50-60,55,3,60,20,11.22,224.4,74.8,0,1,0,0.25,897.6,1241.68
-Malus domestica,08/05/2012,17:20,downs,woodland-grassland-park,single flower,2012,1,20,13,-4,-6,3.4,50-60,55,18,5,15,67.32,18.7,56.1,0,1,0,0.25,74.8,568.48
-Malus domestica,08/05/2012,17:20,downs,woodland-grassland-park,single flower,2012,1,20,13,-4,-6,3.4,50-60,55,36,17,15,134.64,63.58,56.1,0,1,0,0.25,254.32,1017.28
-Malus domestica,08/05/2012,17:20,downs,woodland-grassland-park,single flower,2012,2,20,12,-2,-7,2.8,60-70,65,0,1,32,0,3.64,116.48,0,1,0,0.25,14.56,480.48
-Malus domestica,08/05/2012,17:20,downs,woodland-grassland-park,single flower,2012,2,20,12,-2,-7,2.8,60-70,65,1,2,49,3.64,7.28,178.36,0,1,0,0.25,29.12,757.12
+Malus domestica,8/5/12,17:20,downs,woodland-grassland-park,single flower,2012,1,20,13,-4,-6,3.4,50-60,55,3,60,20,11.22,224.4,74.8,0,1,0,0.25,897.6,1241.68
+Malus domestica,8/5/12,17:20,downs,woodland-grassland-park,single flower,2012,1,20,13,-4,-6,3.4,50-60,55,18,5,15,67.32,18.7,56.1,0,1,0,0.25,74.8,568.48
+Malus domestica,8/5/12,17:20,downs,woodland-grassland-park,single flower,2012,1,20,13,-4,-6,3.4,50-60,55,36,17,15,134.64,63.58,56.1,0,1,0,0.25,254.32,1017.28
+Malus domestica,8/5/12,17:20,downs,woodland-grassland-park,single flower,2012,2,20,12,-2,-7,2.8,60-70,65,0,1,32,0,3.64,116.48,0,1,0,0.25,14.56,480.48
+Malus domestica,8/5/12,17:20,downs,woodland-grassland-park,single flower,2012,2,20,12,-2,-7,2.8,60-70,65,1,2,49,3.64,7.28,178.36,0,1,0,0.25,29.12,757.12
 Malus domestica,15/05/2012,10:00,ashton court-nature reserve,woodland,single flower,2012,1,20,13,-1,-4,2.8,40-50,45,0,8,44,0,20.16,110.88,0,1,0,0.25,80.64,524.16
 Malus domestica,15/05/2012,10:00,ashton court-nature reserve,woodland,single flower,2012,1,20,13,-1,-4,2.8,40-50,45,2,12,52,5.04,30.24,131.04,0,1,0,0.25,120.96,665.28
 Malus domestica,15/05/2012,10:00,ashton court-nature reserve,woodland,single flower,2012,1,20,13,-1,-4,2.8,40-50,45,0,1,18,0,2.52,45.36,0,1,0,0.25,10.08,191.52
-Prunus avium,02/05/2012,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,45,1,-5,8.8,75-100,62.5,0,85,17,0,935,187,0,1,0,0.25,3740,4488
-Prunus avium,02/05/2012,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,45,1,-5,8.8,75-100,62.5,0,55,22,0,605,242,0,1,0,0.25,2420,3388
-Prunus avium,02/05/2012,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,45,1,-5,8.8,75-100,62.5,0,100,8,0,1100,88,0,1,0,0.25,4400,4752
-Prunus avium,02/05/2012,NA,clifton- victoria park cemetery,park,single flower,2012,2,20,7,0,-5,1.4,40-60,50,0,27,6,0,37.8,8.4,0,1,0,0.25,151.2,184.8
-Prunus avium,02/05/2012,NA,clifton- victoria park cemetery,park,single flower,2012,2,20,7,0,-5,1.4,40-60,50,0,40,10,0,56,14,0,1,0,0.25,224,280
+Prunus avium,2/5/12,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,45,1,-5,8.8,75-100,62.5,0,85,17,0,935,187,0,1,0,0.25,3740,4488
+Prunus avium,2/5/12,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,45,1,-5,8.8,75-100,62.5,0,55,22,0,605,242,0,1,0,0.25,2420,3388
+Prunus avium,2/5/12,NA,clifton- victoria park cemetery,park,single flower,2012,1,20,45,1,-5,8.8,75-100,62.5,0,100,8,0,1100,88,0,1,0,0.25,4400,4752
+Prunus avium,2/5/12,NA,clifton- victoria park cemetery,park,single flower,2012,2,20,7,0,-5,1.4,40-60,50,0,27,6,0,37.8,8.4,0,1,0,0.25,151.2,184.8
+Prunus avium,2/5/12,NA,clifton- victoria park cemetery,park,single flower,2012,2,20,7,0,-5,1.4,40-60,50,0,40,10,0,56,14,0,1,0,0.25,224,280
 Prunus avium,14/05/2012,NA,brandon hill,grassland,single flower,2012,1,20,-1,-12,-20,2.2,70,70,2,10,38,6.16,30.8,117.04,0,1,0,0.25,123.2,616
 Prunus avium,14/05/2012,NA,brandon hill,grassland,single flower,2012,1,20,-1,-12,-20,2.2,70,70,2,27,58,6.16,83.16,178.64,0,1,0,0.25,332.64,1071.84
 Prunus avium,14/05/2012,NA,brandon hill,grassland,single flower,2012,2,20,30,6,-2,4.8,60-70,65,6,41,38,37.44,255.84,237.12,0,1,0,0.25,1023.36,2121.6
@@ -74,13 +74,13 @@ Sorbus aucuparia,29/05/2012,NA,edale,moorland,single flower,2012,2,20,8,-4,-6,2.
 Sorbus aucuparia,29/05/2012,NA,edale,moorland,single flower,2012,3,20,4,-10,-13,2.8,50-60,55,931,588,0,2867.48,1811.04,0,0,1,0,0.25,7244.16,18714.08
 Sorbus aucuparia,29/05/2012,NA,edale,moorland,single flower,2012,4,20,5,-4,-7,1.8,60-70,65,1095,1800,55,2562.3,4212,128.7,0,1,0,0.25,16848,27612
 Sorbus aucuparia,29/05/2012,NA,edale,moorland,single flower,2012,5,20,-6,-11,-14,1,70-80,75,8,462,704,12,693,1056,0,1,0,0.25,2772,7044
-Corylus avellana,02/02/2012,15:00,brandon hill,grassland/hedgerow,single catkin,2012,1,NA,6.5,0,NA,4.55,20-40,30,35,9,0,95.55,24.57,0,18,122,0,0.25,11990.16,67267.2
-Corylus avellana,02/02/2012,15:00,brandon hill,grassland/hedgerow,single catkin,2012,2,NA,5,0,NA,3.5,20-40,30,22,3,0,46.2,6.3,0,40,72,0,0.25,1814.4,23520
-Corylus avellana,02/02/2012,15:00,brandon hill,grassland/hedgerow,single catkin,2012,3,NA,6,0,NA,4.2,20-40,30,0,5,12,0,12.6,30.24,60,46,0,0.25,2318.4,18164.16
-Corylus avellana,02/02/2012,15:00,brandon hill,grassland/hedgerow,single catkin,2012,4,NA,5,0,NA,3.5,20-40,30,42,5,1,88.2,10.5,2.1,36,54,0,0.25,2268,36288
-Corylus avellana,02/02/2012,15:00,brandon hill,grassland/hedgerow,single catkin,2012,5,NA,5,0,NA,3.5,20-40,30,38,1,0,79.8,2.1,0,30,70,0,0.25,588,32760
-Corylus avellana,02/02/2012,15:00,leigh woods,woodland,single catkin,2012,1,NA,6.5,0,NA,4.55,20-40,30,2,4,0,5.46,10.92,0,0,66,0,0.25,2882.88,4324.32
-Corylus avellana,02/02/2012,15:00,leigh woods,woodland,single catkin,2012,1,NA,6.5,0,NA,4.55,20-40,30,3,7,0,8.19,19.11,0,12,64,0,0.25,4892.16,8299.2
-Corylus avellana,02/02/2012,15:00,leigh woods,woodland,single catkin,2012,2,NA,4,0,NA,2.8,20-40,30,1,9,0,1.68,15.12,0,14,48,18,0.25,2903.04,5376
-Corylus avellana,02/02/2012,15:00,leigh woods,woodland,single catkin,2012,3,NA,8,0,NA,5.6,20-40,30,11,11,0,36.96,36.96,0,8,90,0,0.25,13305.6,28976.64
-Corylus avellana,02/02/2012,15:00,leigh woods,woodland,single catkin,2012,3,NA,8,0,NA,5.6,20-40,30,8,7,0,26.88,23.52,0,0,102,0,0.25,9596.16,20563.2
+Corylus avellana,2/2/12,15:00,brandon hill,grassland/hedgerow,single catkin,2012,1,NA,6.5,0,NA,4.55,20-40,30,35,9,0,95.55,24.57,0,18,122,0,0.25,11990.16,67267.2
+Corylus avellana,2/2/12,15:00,brandon hill,grassland/hedgerow,single catkin,2012,2,NA,5,0,NA,3.5,20-40,30,22,3,0,46.2,6.3,0,40,72,0,0.25,1814.4,23520
+Corylus avellana,2/2/12,15:00,brandon hill,grassland/hedgerow,single catkin,2012,3,NA,6,0,NA,4.2,20-40,30,0,5,12,0,12.6,30.24,60,46,0,0.25,2318.4,18164.16
+Corylus avellana,2/2/12,15:00,brandon hill,grassland/hedgerow,single catkin,2012,4,NA,5,0,NA,3.5,20-40,30,42,5,1,88.2,10.5,2.1,36,54,0,0.25,2268,36288
+Corylus avellana,2/2/12,15:00,brandon hill,grassland/hedgerow,single catkin,2012,5,NA,5,0,NA,3.5,20-40,30,38,1,0,79.8,2.1,0,30,70,0,0.25,588,32760
+Corylus avellana,2/2/12,15:00,leigh woods,woodland,single catkin,2012,1,NA,6.5,0,NA,4.55,20-40,30,2,4,0,5.46,10.92,0,0,66,0,0.25,2882.88,4324.32
+Corylus avellana,2/2/12,15:00,leigh woods,woodland,single catkin,2012,1,NA,6.5,0,NA,4.55,20-40,30,3,7,0,8.19,19.11,0,12,64,0,0.25,4892.16,8299.2
+Corylus avellana,2/2/12,15:00,leigh woods,woodland,single catkin,2012,2,NA,4,0,NA,2.8,20-40,30,1,9,0,1.68,15.12,0,14,48,18,0.25,2903.04,5376
+Corylus avellana,2/2/12,15:00,leigh woods,woodland,single catkin,2012,3,NA,8,0,NA,5.6,20-40,30,11,11,0,36.96,36.96,0,8,90,0,0.25,13305.6,28976.64
+Corylus avellana,2/2/12,15:00,leigh woods,woodland,single catkin,2012,3,NA,8,0,NA,5.6,20-40,30,8,7,0,26.88,23.52,0,0,102,0,0.25,9596.16,20563.2
