@@ -1,12 +1,26 @@
 ---
 title: "prelim data viewing"
-output: 
-  html_document: 
-    keep_md: yes
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r}
+library(tidyverse)
+library(RColorBrewer)
+library(paletteer)
+library(janitor)
+library(here)
+library(skimr)
+library(ggthemes)
+library(naniar)
+library(readr)
+```
+
+This is a preloading of the data. The original publication can be found [here](https://doi.org/10.1038/nature16532)
+```{r}
+nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
+```
 
