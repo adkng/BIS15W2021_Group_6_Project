@@ -1,0 +1,1381 @@
+species,date,hour,location,habitat,FU.category,year,quadrat.no.independency,nb.of.floral.units.in.buds,nb.of.opened.floral.units,nb.of.fruited.floral.units,nb.of.buds.per.opened.floral.unit,nb.of.opened.flowers.per.opened.floral.unit,nb.of.fruited.flowers.per.opened.floral.unit,nb.of.cross.points,vegetative.area,nb.of.opened.flowers.per.fu,nb.of.total.flowers.per.fu,nb.of.opened.flowers,nb.of.total.flowers,nb.of.opened.flowers.per.m2,nb.of.total.flowers.per.m2
+Achillea millefolium,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,1,38,494,38,4,12,0,1,0.006944444,12,16,5928,9120,853632,1313280
+Achillea millefolium,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,2,1008,360,0,2,3,0,14,0.097222222,3,5,1080,6840,11108.57143,70354.28571
+Achillea millefolium,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,3,550,220,0,2,9,0,3,0.020833333,9,11,1980,8470,95040,406560
+Achillea millefolium,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,4,395,711,79,4,4,0,6,0.041666667,4,8,2844,9480,68256,227520
+Achillea millefolium,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,5,177,354,0,1,4,0,5,0.034722222,4,5,1416,2655,40780.8,76464
+Achillea millefolium,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,1,45,132,0,8,8,0,3,0.020833333,8,16,1056,2832,50688,135936
+Achillea millefolium,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,2,60,399,0,6,6,0,13,0.090277778,6,12,2394,5508,26518.15385,61011.69231
+Achillea millefolium,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,3,228,104,0,5,2,0,22,0.152777778,2,7,208,2324,1361.454545,15211.63636
+Achillea millefolium,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,4,11,156,0,6,3,0,23,0.159722222,3,9,468,1503,2930.086957,9410.086957
+Achillea millefolium,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,5,8,700,0,5,5,0,2,0.013888889,5,10,3500,7080,252000,509760
+Aethusa cynapium,16/08/2011,10:00,river frome,wetland,single flower,2011,1,280,595,595,0,1,0,9,0.0625,1,1,595,1470,9520,23520
+Aethusa cynapium,16/08/2011,10:00,river frome,wetland,single flower,2011,2,840,1785,1785,0,1,0,14,0.097222222,1,1,1785,4410,18360,45360
+Aethusa cynapium,16/08/2011,10:00,river frome,wetland,single flower,2011,3,700,1275,1275,0,1,0,11,0.076388889,1,1,1275,3250,16690.90909,42545.45455
+Aethusa cynapium,16/08/2011,10:00,river frome,wetland,single flower,2011,4,490,1360,1360,0,1,0,9,0.0625,1,1,1360,3210,21760,51360
+Aethusa cynapium,16/08/2011,10:00,river frome,wetland,single flower,2011,5,420,340,340,0,1,0,6,0.041666667,1,1,340,1100,8160,26400
+Agrimonia eupatoria,11/07/2011,10:00,ashton court,woodland carpark,single flower,2011,1,42,6,13,0,1,0,1,0.006944444,1,1,6,61,864,8784
+Agrimonia eupatoria,11/07/2011,10:00,ashton court,woodland carpark,single flower,2011,2,34,11,24,0,1,0,2,0.013888889,1,1,11,69,792,4968
+Agrimonia eupatoria,11/07/2011,10:00,ashton court,woodland carpark,single flower,2011,3,45,8,76,0,1,0,3,0.020833333,1,1,8,129,384,6192
+Agrimonia eupatoria,11/07/2011,10:00,ashton court,woodland carpark,single flower,2011,4,135,18,98,0,1,0,5,0.034722222,1,1,18,251,518.4,7228.8
+Agrimonia eupatoria,11/07/2011,10:00,ashton court,woodland carpark,single flower,2011,5,62,7,136,0,1,0,2,0.013888889,1,1,7,205,504,14760
+Agrimonia eupatoria,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,1,19,12,31,0,1,0,1,0.006944444,1,1,12,62,1728,8928
+Agrimonia eupatoria,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,2,16,7,32,0,1,0,2,0.013888889,1,1,7,55,504,3960
+Agrimonia eupatoria,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,3,3,7,72,0,1,0,5,0.034722222,1,1,7,82,201.6,2361.6
+Agrimonia eupatoria,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,4,22,37,78,0,1,0,3,0.020833333,1,1,37,137,1776,6576
+Agrimonia eupatoria,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,5,19,8,2,0,1,0,1,0.006944444,1,1,8,29,1152,4176
+Ajuga reptans,08/05/2012,13:30,paradise bottom,grassland,single flower,2012,1,170,3,0,0,1,0,1,0.006944444,1,1,3,173,432,24912
+Ajuga reptans,08/05/2012,13:30,paradise bottom,grassland,single flower,2012,2,96,17,2,0,1,0,1,0.006944444,1,1,17,115,2448,16560
+Ajuga reptans,08/05/2012,13:30,paradise bottom,grassland,single flower,2012,3,57,15,2,0,1,0,1,0.006944444,1,1,15,74,2160,10656
+Ajuga reptans,08/05/2012,13:30,paradise bottom,grassland,single flower,2012,4,200,14,12,0,1,0,1,0.006944444,1,1,14,226,2016,32544
+Ajuga reptans,08/05/2012,13:30,paradise bottom,grassland,single flower,2012,5,84,21,17,0,1,0,1,0.006944444,1,1,21,122,3024,17568
+Allium cepa,06/08/2012,12:00,pill allotments1,allotments,primary umbel,2012,1,1,1,0,660,152,80,4,0.027777778,152,892,152,1784,5472,64224
+Allium cepa,06/08/2012,12:00,pill allotments1,allotments,primary umbel,2012,2,2,5,2,457,507,124,8,0.055555556,507,1088,2535,9792,45630,176256
+Allium cepa,06/08/2012,12:00,pill allotments1,allotments,primary umbel,2012,3,2,2,0,580,180,90,5,0.034722222,180,850,360,3400,10368,97920
+Allium cepa,06/08/2012,12:00,pill allotments1,allotments,primary umbel,2012,4,3,4,1,620,70,40,6,0.041666667,70,730,280,5840,6720,140160
+Allium cepa,06/08/2012,12:00,pill allotments1,allotments,primary umbel,2012,5,2,4,2,640,130,98,4,0.027777778,130,868,520,6944,18720,249984
+Allium cepa,06/08/2012,12:00,pill allotments2,allotments,primary umbel,2012,1,4,3,0,420,520,160,3,0.020833333,520,1100,1560,7700,74880,369600
+Allium cepa,06/08/2012,12:00,pill allotments2,allotments,primary umbel,2012,2,2,4,1,680,184,60,4,0.027777778,184,924,736,6468,26496,232848
+Allium cepa,06/08/2012,12:00,pill allotments2,allotments,primary umbel,2012,3,4,2,0,600,204,40,4,0.027777778,204,844,408,5064,14688,182304
+Allium schoenoprasum,26/06/2012,15:00,jane's garden,pot,primary umbel,2012,1,0,12,3,4,23,18,3,0.020833333,23,45,276,675,13248,32400
+Anagallis arvensis,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,1,23,7,16,0,1,0,3,0.020833333,1,1,7,46,336,2208
+Anagallis arvensis,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,2,16,7,10,0,1,0,1,0.006944444,1,1,7,33,1008,4752
+Anagallis arvensis,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,3,12,2,3,0,1,0,1,0.006944444,1,1,2,17,288,2448
+Anagallis arvensis,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,4,5,2,3,0,1,0,1,0.006944444,1,1,2,10,288,1440
+Anagallis arvensis,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,5,28,16,18,0,1,0,3,0.020833333,1,1,16,62,768,2976
+Anagallis arvensis,25/06/2012,12:40,downs,grassland,single flower,2012,1,62,10,15,0,1,0,2,0.013888889,1,1,10,87,720,6264
+Anagallis arvensis,25/06/2012,12:40,downs,grassland,single flower,2012,2,22,2,1,0,1,0,1,0.006944444,1,1,2,25,288,3600
+Anagallis arvensis,25/06/2012,12:40,downs,grassland,single flower,2012,3,77,9,4,0,1,0,1,0.006944444,1,1,9,90,1296,12960
+Anagallis arvensis,25/06/2012,12:40,downs,grassland,single flower,2012,4,96,16,7,0,1,0,1,0.006944444,1,1,16,119,2304,17136
+Anagallis arvensis,25/06/2012,12:40,downs,grassland,single flower,2012,5,175,20,18,0,1,0,3,0.020833333,1,1,20,213,960,10224
+Anagallis arvensis,28/06/2012,10:30,pill allotments,allotments,single flower,2012,1,1440,200,1440,0,1,0,33,0.229166667,1,1,200,3080,872.7272727,13440
+Anagallis arvensis,28/06/2012,10:30,pill allotments,allotments,single flower,2012,2,1080,185,960,0,1,0,34,0.236111111,1,1,185,2225,783.5294118,9423.529412
+Anagallis arvensis,28/06/2012,10:30,pill allotments,allotments,single flower,2012,3,1000,190,1000,0,1,0,35,0.243055556,1,1,190,2190,781.7142857,9010.285714
+Anagallis arvensis,28/06/2012,10:30,pill allotments,allotments,single flower,2012,4,582,130,290,0,1,0,18,0.125,1,1,130,1002,1040,8016
+Anagallis arvensis,28/06/2012,10:30,pill allotments,allotments,single flower,2012,5,390,60,325,0,1,0,11,0.076388889,1,1,60,775,785.4545455,10145.45455
+Anagallis arvensis,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,1,51,28,8,0,1,0,6,0.041666667,1,1,28,87,672,2088
+Anagallis arvensis,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,2,43,19,11,0,1,0,3,0.020833333,1,1,19,73,912,3504
+Anagallis arvensis,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,3,49,21,14,0,1,0,5,0.034722222,1,1,21,84,604.8,2419.2
+Anagallis arvensis,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,4,48,11,9,0,1,0,5,0.034722222,1,1,11,68,316.8,1958.4
+Anagallis arvensis,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,5,28,10,7,0,1,0,3,0.020833333,1,1,10,45,480,2160
+Anemone nemorosa,02/05/2012,NA,clifton-old cemetery,grassland,single flower,2012,1,0,0,2,0,1,0,35,0.243055556,1,1,0,2,0,8.228571429
+Anemone nemorosa,02/05/2012,NA,clifton-old cemetery,grassland,single flower,2012,2,0,1,4,0,1,0,30,0.208333333,1,1,1,5,4.8,24
+Anemone nemorosa,02/05/2012,NA,clifton-old cemetery,grassland,single flower,2012,3,0,0,7,0,1,0,33,0.229166667,1,1,0,7,0,30.54545455
+Anemone nemorosa,15/04/2012,15:00,river frome,wetland,single flower,2012,1,0,7,3,0,1,0,18,0.125,1,1,7,10,56,80
+Anemone nemorosa,15/04/2012,15:00,river frome,wetland,single flower,2012,2,1,3,1,0,1,0,14,0.097222222,1,1,3,5,30.85714286,51.42857143
+Anemone nemorosa,15/04/2012,15:00,river frome,wetland,single flower,2012,3,0,9,1,0,1,0,22,0.152777778,1,1,9,10,58.90909091,65.45454545
+Anemone nemorosa,15/04/2012,15:00,river frome,wetland,single flower,2012,3,0,6,1,0,1,0,20,0.138888889,1,1,6,7,43.2,50.4
+Anemone nemorosa,15/04/2012,15:00,river frome,wetland,single flower,2012,4,0,3,0,0,1,0,5,0.034722222,1,1,3,3,86.4,86.4
+Angelica sylvestris,15/08/2011,12:00,river frome,wetland,secondary umbel,2011,1,192,32,0,45,23,0,17,0.118055556,23,68,736,15232,6234.352941,129024
+Angelica sylvestris,15/08/2011,12:00,river frome,wetland,secondary umbel,2011,2,128,128,0,20,32,0,9,0.0625,32,52,4096,13312,65536,212992
+Angelica sylvestris,15/08/2011,12:00,river frome,wetland,secondary umbel,2011,3,110,22,0,14,31,0,4,0.027777778,31,45,682,5940,24552,213840
+Angelica sylvestris,15/08/2011,12:00,river frome,wetland,secondary umbel,2011,4,561,198,33,40,7,0,23,0.159722222,7,47,1386,37224,8677.565217,233054.6087
+Angelica sylvestris,15/08/2011,12:00,river frome,wetland,secondary umbel,2011,5,90,18,0,0,42,0,7,0.048611111,42,42,756,4536,15552,93312
+Angelica sylvestris,08/08/2012,15:20,ashton court-nature reserve,grassland,secondary umbel,2012,1,648,26,0,50,0,0,6,0.041666667,0,50,0,33700,0,808800
+Angelica sylvestris,08/08/2012,15:20,ashton court-nature reserve,grassland,secondary umbel,2012,2,312,118,26,30,0,0,18,0.125,0,30,0,13680,0,109440
+Angelica sylvestris,08/08/2012,15:20,ashton court-nature reserve,grassland,secondary umbel,2012,3,144,42,0,13,38,0,24,0.166666667,38,51,1596,9486,9576,56916
+Angelica sylvestris,08/08/2012,15:20,ashton court-nature reserve,grassland,secondary umbel,2012,4,187,41,12,37,0,0,26,0.180555556,0,37,0,8880,0,49181.53846
+Angelica sylvestris,08/08/2012,15:20,ashton court-nature reserve,grassland,secondary umbel,2012,5,264,0,28,48,0,0,22,0.152777778,0,48,0,14016,0,91741.09091
+Anthriscus sylvestris,21/05/2012,15:00,troopers hill,grassland,secondary umbel,2012,1,185,128,18,8,5,0,11,0.076388889,5,13,640,4303,8378.181818,56330.18182
+Anthriscus sylvestris,21/05/2012,15:00,troopers hill,grassland,secondary umbel,2012,2,56,84,24,4,10,0,8,0.055555556,10,14,840,2296,15120,41328
+Anthriscus sylvestris,21/05/2012,15:00,troopers hill,grassland,secondary umbel,2012,3,81,77,0,4,10,0,4,0.027777778,10,14,770,2212,27720,79632
+Anthriscus sylvestris,21/05/2012,15:00,troopers hill,grassland,secondary umbel,2012,4,105,120,0,0,13,0,3,0.020833333,13,13,1560,2925,74880,140400
+Anthriscus sylvestris,21/05/2012,15:00,troopers hill,grassland,secondary umbel,2012,5,170,98,14,10,4,0,11,0.076388889,4,14,392,3948,5131.636364,51682.90909
+Arctium agg.,16/08/2011,NA,river frome,wetland,single capitulum,2011,1,4,2,28,0,30,0,21,0.145833333,30,30,60,1020,411.4285714,6994.285714
+Arctium agg.,16/08/2011,NA,river frome,wetland,single capitulum,2011,2,2,8,30,0,24,0,20,0.138888889,24,24,192,960,1382.4,6912
+Arctium agg.,16/08/2011,NA,river frome,wetland,single capitulum,2011,3,5,10,39,0,32,0,20,0.138888889,32,32,320,1728,2304,12441.6
+Arctium agg.,16/08/2011,NA,river frome,wetland,single capitulum,2011,4,4,7,91,0,34,0,14,0.097222222,34,34,238,3468,2448,35670.85714
+Arctium agg.,16/08/2011,NA,river frome,wetland,single capitulum,2011,5,4,10,60,0,24,0,22,0.152777778,24,24,240,1776,1570.909091,11624.72727
+Arctium agg.,09/08/2011,NA,troopers hill,grassland park,single capitulum,2011,1,6,4,39,30,38,0,13,0.090277778,38,68,152,3332,1683.692308,36908.30769
+Arctium agg.,09/08/2011,NA,troopers hill,grassland park,single capitulum,2011,2,2,1,40,0,0,80,10,0.069444444,0,80,0,3440,0,49536
+Arctium agg.,09/08/2011,NA,troopers hill,grassland park,single capitulum,2011,3,3,1,40,32,24,0,8,0.055555556,24,56,24,2464,432,44352
+Arctium agg.,09/08/2011,NA,troopers hill,grassland park,single capitulum,2011,4,8,6,25,48,30,0,8,0.055555556,30,78,180,3042,3240,54756
+Armeria maritima,18/06/2012,12:10,sand point,coastline-grassland,single capitulum,2012,1,0,10,5,5,7,62,5,0.034722222,7,74,70,1110,2016,31968
+Armeria maritima,18/06/2012,12:10,sand point,coastline-grassland,single capitulum,2012,2,0,8,14,6,7,30,4,0.027777778,7,43,56,946,2016,34056
+Armeria maritima,18/06/2012,12:10,sand point,coastline-grassland,single capitulum,2012,3,0,7,26,8,9,36,6,0.041666667,9,53,63,1749,1512,41976
+Armeria maritima,18/06/2012,12:10,sand point,coastline-grassland,single capitulum,2012,4,0,3,10,5,5,20,2,0.013888889,5,30,15,390,1080,28080
+Armeria maritima,18/06/2012,12:10,sand point,coastline-grassland,single capitulum,2012,5,0,5,19,3,5,10,7,0.048611111,5,18,25,432,514.2857143,8886.857143
+Aster tripolium,25/09/2012,10:20,st werberghs1,allotments,single capitulum,2012,1,272,21,9,29,0,0,34,0.236111111,0,29,0,8758,0,37092.70588
+Aster tripolium,25/09/2012,10:20,st werberghs1,allotments,single capitulum,2012,2,120,28,4,34,0,0,25,0.173611111,0,34,0,5168,0,29767.68
+Aster tripolium,25/09/2012,10:20,st werberghs1,allotments,single capitulum,2012,3,150,130,50,6,21,2,30,0.208333333,21,29,2730,9570,13104,45936
+Aster tripolium,25/09/2012,10:20,st werberghs1,allotments,single capitulum,2012,4,350,140,154,4,27,0,36,0.25,27,31,3780,19964,15120,79856
+Aster tripolium,25/09/2012,10:20,st werberghs1,allotments,single capitulum,2012,5,170,51,153,0,0,25,31,0.215277778,0,25,0,9350,0,43432.25806
+Atriplex patula,03/09/2012,11:30,pill allotments1,allotments,single capitulum,2012,1,0,174,1044,0,1,10,11,0.076388889,1,11,174,13398,2277.818182,175392
+Atriplex patula,03/09/2012,11:30,pill allotments1,allotments,single capitulum,2012,2,0,120,720,0,1,12,6,0.041666667,1,13,120,10920,2880,262080
+Atriplex patula,03/09/2012,11:30,pill allotments1,allotments,single capitulum,2012,3,0,190,1140,0,0,14,9,0.0625,0,14,0,18620,0,297920
+Atriplex patula,03/09/2012,11:30,pill allotments1,allotments,single capitulum,2012,4,0,180,1080,0,0,14,11,0.076388889,0,14,0,17640,0,230923.6364
+Atriplex patula,03/09/2012,11:30,pill allotments1,allotments,single capitulum,2012,5,0,298,1788,0,0,15,17,0.118055556,0,15,0,31290,0,265044.7059
+Atriplex patula,03/09/2012,11:30,pill allotments2,allotments,single capitulum,2012,1,0,84,504,0,1,12,4,0.027777778,1,13,84,7644,3024,275184
+Atriplex patula,03/09/2012,11:30,pill allotments2,allotments,single capitulum,2012,2,0,122,732,0,0,10,6,0.041666667,0,10,0,8540,0,204960
+Atriplex patula,03/09/2012,11:30,pill allotments2,allotments,single capitulum,2012,3,0,100,600,0,0,12,3,0.020833333,0,12,0,8400,0,403200
+Atriplex patula,03/09/2012,11:30,pill allotments2,allotments,single capitulum,2012,4,0,180,1080,0,1,13,11,0.076388889,1,14,180,17640,2356.363636,230923.6364
+Atriplex patula,03/09/2012,11:30,pill allotments2,allotments,single capitulum,2012,5,0,220,1320,0,0,14,10,0.069444444,0,14,0,21560,0,310464
+Bellis perennis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,1,0,3,0,0,114,0,1,0.006944444,114,114,342,342,49248,49248
+Bellis perennis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,2,0,4,1,0,92,0,3,0.020833333,92,92,368,460,17664,22080
+Bellis perennis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,3,0,2,1,0,144,0,1,0.006944444,144,144,288,432,41472,62208
+Bellis perennis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,4,0,2,3,0,120,0,1,0.006944444,120,120,240,600,34560,86400
+Bellis perennis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,5,0,4,1,0,184,0,1,0.006944444,184,184,736,920,105984,132480
+Bellis perennis,19/09/2011,NA,royal fort garden,garden,single capitulum,2011,1,1,12,2,128,48,0,4,0.027777778,48,176,576,2640,20736,95040
+Bellis perennis,19/09/2011,NA,royal fort garden,garden,single capitulum,2011,2,1,5,2,12,32,0,8,0.055555556,32,44,160,352,2880,6336
+Bellis perennis,19/09/2011,NA,royal fort garden,garden,single capitulum,2011,3,0,2,0,52,52,8,6,0.041666667,52,112,104,224,2496,5376
+Bellis perennis,19/09/2011,NA,royal fort garden,garden,single capitulum,2011,4,3,5,1,42,76,0,5,0.034722222,76,118,380,1062,10944,30585.6
+Bellis perennis,19/09/2011,NA,royal fort garden,garden,single capitulum,2011,5,2,1,1,84,88,0,5,0.034722222,88,172,88,688,2534.4,19814.4
+Brassica napus,24/05/2012,11:00,clifton,pavement,single flower,2012,1,65,9,133,0,1,0,5,0.034722222,1,1,9,207,259.2,5961.6
+Brassica napus,24/05/2012,11:00,clifton,pavement,single flower,2012,1,310,6,47,0,1,0,6,0.041666667,1,1,6,363,144,8712
+Brassica napus,24/05/2012,11:00,clifton,pavement,single flower,2012,2,74,17,42,0,1,0,3,0.020833333,1,1,17,133,816,6384
+Brassica napus,24/05/2012,11:00,clifton,pavement,single flower,2012,3,238,2,40,0,1,0,4,0.027777778,1,1,2,280,72,10080
+Brassica napus,24/05/2012,11:00,clifton,pavement,single flower,2012,3,65,15,68,0,1,0,4,0.027777778,1,1,15,148,540,5328
+Brassica napus,24/05/2012,14:00,lowesmoore farm1,cropfield,single flower,2012,1,1118,225,609,0,1,0,35,0.243055556,1,1,225,1952,925.7142857,8031.085714
+Brassica napus,24/05/2012,14:00,lowesmoore farm1,cropfield,single flower,2012,2,1170,198,483,0,1,0,36,0.25,1,1,198,1851,792,7404
+Brassica napus,24/05/2012,14:00,lowesmoore farm1,cropfield,single flower,2012,3,856,244,816,0,1,0,36,0.25,1,1,244,1916,976,7664
+Brassica napus,24/05/2012,14:00,lowesmoore farm1,cropfield,single flower,2012,4,918,250,1428,0,1,0,36,0.25,1,1,250,2596,1000,10384
+Brassica napus,24/05/2012,14:00,lowesmoore farm1,cropfield,single flower,2012,5,792,605,896,0,1,0,36,0.25,1,1,605,2293,2420,9172
+Brassica napus,24/05/2012,14:00,lowesmoore farm2,cropfield,single flower,2012,1,220,500,532,0,1,0,35,0.243055556,1,1,500,1252,2057.142857,5151.085714
+Brassica napus,24/05/2012,14:00,lowesmoore farm2,cropfield,single flower,2012,2,31,376,850,0,1,0,33,0.229166667,1,1,376,1257,1640.727273,5485.090909
+Brassica napus,24/05/2012,14:00,lowesmoore farm2,cropfield,single flower,2012,3,40,330,825,0,1,0,36,0.25,1,1,330,1195,1320,4780
+Brassica napus,24/05/2012,14:00,lowesmoore farm2,cropfield,single flower,2012,4,160,690,812,0,1,0,34,0.236111111,1,1,690,1662,2922.352941,7039.058824
+Brassica napus,24/05/2012,14:00,lowesmoore farm2,cropfield,single flower,2012,5,77,663,950,0,1,0,35,0.243055556,1,1,663,1690,2727.771429,6953.142857
+Brassica rapa,23/05/2012,NA,north road-leigh woods,hedgerow,single raceme,2012,1,9,1,0,74,4,0,11,0.076388889,4,78,4,780,52.36363636,10210.90909
+Brassica rapa,23/05/2012,NA,north road-leigh woods,hedgerow,single raceme,2012,1,11,2,0,194,0,0,7,0.048611111,0,194,0,2522,0,51881.14286
+Brassica rapa,23/05/2012,NA,north road-leigh woods,hedgerow,single raceme,2012,1,11,0,0,142,0,0,10,0.069444444,0,142,0,1562,0,22492.8
+Brassica rapa,21/05/2012,15:20,troopers hill,grassland-woodland,single raceme,2012,1,30,12,0,24,14,15,13,0.090277778,14,53,168,2226,1860.923077,24657.23077
+Brassica rapa,21/05/2012,15:20,troopers hill,grassland-woodland,single raceme,2012,2,24,13,0,28,7,0,11,0.076388889,7,35,91,1295,1191.272727,16952.72727
+Buddleja davidii,12/07/2011,14:00,ashton court,woodland carpark,single panicle,2011,1,1,4,3,0,212,36,6,0.041666667,212,248,848,1984,20352,47616
+Buddleja davidii,12/07/2011,14:00,ashton court,woodland carpark,single panicle,2011,2,3,6,1,274,202,0,11,0.076388889,202,476,1212,4760,15866.18182,62312.72727
+Buddleja davidii,12/07/2011,14:00,ashton court,woodland carpark,single panicle,2011,3,4,2,3,0,198,220,14,0.097222222,198,418,396,3762,4073.142857,38694.85714
+Buddleja davidii,12/07/2011,14:00,ashton court,woodland carpark,single panicle,2011,4,0,4,2,0,130,116,9,0.0625,130,246,520,1476,8320,23616
+Buddleja davidii,12/07/2011,14:00,ashton court,woodland carpark,single panicle,2011,5,1,8,1,8,320,52,8,0.055555556,320,380,2560,3800,46080,68400
+Buddleja davidii,25/07/2011,09:30,troopers hill,grassland park,single panicle,2011,1,0,5,6,200,380,0,30,0.208333333,380,580,1900,6380,9120,30624
+Buddleja davidii,25/07/2011,09:30,troopers hill,grassland park,single panicle,2011,2,2,9,12,480,196,0,22,0.152777778,196,676,1764,15548,11546.18182,101768.7273
+Buddleja davidii,25/07/2011,09:30,troopers hill,grassland park,single panicle,2011,3,5,19,24,54,280,134,35,0.243055556,280,468,5320,22464,21888,92423.31429
+Buddleja davidii,25/07/2011,09:30,troopers hill,grassland park,single panicle,2011,4,2,17,18,30,350,194,31,0.215277778,350,574,5950,21238,27638.70968,98653.93548
+Buddleja davidii,25/07/2011,09:30,troopers hill,grassland park,single panicle,2011,5,2,15,8,144,160,30,27,0.1875,160,334,2400,8350,12800,44533.33333
+Calluna vulgaris,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,1,3150,15,0,0,1,0,10,0.069444444,1,1,15,3165,216,45576
+Calluna vulgaris,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,2,1890,465,0,0,1,0,22,0.152777778,1,1,465,2355,3043.636364,15414.54545
+Calluna vulgaris,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,3,780,5430,30,0,1,0,34,0.236111111,1,1,5430,6240,22997.64706,26428.23529
+Calluna vulgaris,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,4,8820,240,0,0,1,0,32,0.222222222,1,1,240,9060,1080,40770
+Calluna vulgaris,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,5,600,3180,15,0,1,0,24,0.166666667,1,1,3180,3795,19080,22770
+Calluna vulgaris,25/07/2012,NA,troopers hill,heathland,single flower,2012,1,6150,410,0,0,1,0,36,0.25,1,1,410,6560,1640,26240
+Calluna vulgaris,25/07/2012,NA,troopers hill,heathland,single flower,2012,2,6840,180,0,0,1,0,31,0.215277778,1,1,180,7020,836.1290323,32609.03226
+Calluna vulgaris,25/07/2012,NA,troopers hill,heathland,single flower,2012,3,5670,630,0,0,1,0,30,0.208333333,1,1,630,6300,3024,30240
+Calluna vulgaris,25/07/2012,NA,troopers hill,heathland,single flower,2012,4,7252,888,0,0,1,0,28,0.194444444,1,1,888,8140,4566.857143,41862.85714
+Calluna vulgaris,25/07/2012,NA,troopers hill,heathland,single flower,2012,5,7614,324,0,0,1,0,28,0.194444444,1,1,324,7938,1666.285714,40824
+Caltha palustris,25/04/2012,15:00,brandon hill,grassland,single flower,2012,1,32,21,5,0,1,0,25,0.173611111,1,1,21,58,120.96,334.08
+Caltha palustris,21/05/2012,NA,greenhouse-university,pot,single flower,2012,1,4,9,3,0,1,0,10,0.069444444,1,1,9,16,129.6,230.4
+Calystegia sepium,12/07/2011,14:00,ashton court,woodland carpark,single flower,2011,1,8,1,9,0,1,0,11,0.076388889,1,1,1,18,13.09090909,235.6363636
+Calystegia sepium,12/07/2011,14:00,ashton court,woodland carpark,single flower,2011,2,16,4,1,0,1,0,10,0.069444444,1,1,4,21,57.6,302.4
+Calystegia sepium,12/07/2011,14:00,ashton court,woodland carpark,single flower,2011,3,10,2,0,0,1,0,6,0.041666667,1,1,2,12,48,288
+Calystegia sepium,14/06/2011,10:30,brandon hill,grassland park,single flower,2011,1,8,2,1,0,1,0,22,0.152777778,1,1,2,11,13.09090909,72
+Calystegia sepium,14/06/2011,10:30,brandon hill,grassland park,single flower,2011,2,23,3,0,0,1,0,24,0.166666667,1,1,3,26,18,156
+Calystegia sepium,14/06/2011,10:30,brandon hill,grassland park,single flower,2011,3,100,14,6,0,1,0,27,0.1875,1,1,14,120,74.66666667,640
+Calystegia sepium,14/06/2011,10:30,brandon hill,grassland park,single flower,2011,4,55,4,6,0,1,0,20,0.138888889,1,1,4,65,28.8,468
+Calystegia sepium,14/06/2011,10:30,brandon hill,grassland park,single flower,2011,5,14,3,4,0,1,0,33,0.229166667,1,1,3,21,13.09090909,91.63636364
+Campanula rotundifolia,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,1,1,4,0,0,1,0,1,0.006944444,1,1,4,5,576,720
+Campanula rotundifolia,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,2,0,1,0,0,1,0,1,0.006944444,1,1,1,1,144,144
+Campanula rotundifolia,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,3,0,2,0,0,1,0,1,0.006944444,1,1,2,2,288,288
+Campanula rotundifolia,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,4,0,2,0,0,1,0,1,0.006944444,1,1,2,2,288,288
+Campanula rotundifolia,01/09/2011,NA,dolebury warren,grassland nature reserve,single flower,2011,5,0,1,0,0,1,0,1,0.006944444,1,1,1,1,144,144
+Campanula rotundifolia,08/09/2011,12:00,leigh woods,garden,single flower,2011,1,3,4,0,0,1,0,1,0.006944444,1,1,4,7,576,1008
+Campanula rotundifolia,08/09/2011,12:00,leigh woods,garden,single flower,2011,2,4,2,2,0,1,0,1,0.006944444,1,1,2,8,288,1152
+Capsella bursa-pastoris,13/09/2012,15:00,failand farm,grassland,single flower,2012,1,16,9,63,0,1,0,1,0.006944444,1,1,9,88,1296,12672
+Capsella bursa-pastoris,13/09/2012,15:00,failand farm,grassland,single flower,2012,2,35,14,63,0,1,0,1,0.006944444,1,1,14,112,2016,16128
+Capsella bursa-pastoris,13/09/2012,15:00,failand farm,grassland,single flower,2012,3,11,1,34,0,1,0,1,0.006944444,1,1,1,46,144,6624
+Capsella bursa-pastoris,13/09/2012,15:00,failand farm,grassland,single flower,2012,4,8,2,53,0,1,0,1,0.006944444,1,1,2,63,288,9072
+Capsella bursa-pastoris,13/09/2012,15:00,failand farm,grassland,single flower,2012,5,18,7,41,0,1,0,1,0.006944444,1,1,7,66,1008,9504
+Capsella bursa-pastoris,28/06/2012,10:45,pill allotments,allotments,single flower,2012,1,60,35,100,0,1,0,4,0.027777778,1,1,35,195,1260,7020
+Capsella bursa-pastoris,28/06/2012,10:45,pill allotments,allotments,single flower,2012,2,112,32,46,0,1,0,2,0.013888889,1,1,32,190,2304,13680
+Capsella bursa-pastoris,28/06/2012,10:45,pill allotments,allotments,single flower,2012,3,66,30,78,0,1,0,2,0.013888889,1,1,30,174,2160,12528
+Capsella bursa-pastoris,28/06/2012,10:45,pill allotments,allotments,single flower,2012,4,160,92,120,0,1,0,4,0.027777778,1,1,92,372,3312,13392
+Capsella bursa-pastoris,28/06/2012,10:45,pill allotments,allotments,single flower,2012,5,140,42,112,0,1,0,2,0.013888889,1,1,42,294,3024,21168
+Cardamine hirsuta/flexuosa,02/05/2012,NA,clifton-old cemetery,grassland,single flower,2012,1,27,17,1,0,1,0,2,0.013888889,1,1,17,45,1224,3240
+Cardamine hirsuta/flexuosa,02/05/2012,NA,clifton-old cemetery,grassland,single flower,2012,2,43,13,0,0,1,0,1,0.006944444,1,1,13,56,1872,8064
+Cardamine hirsuta/flexuosa,02/05/2012,NA,clifton-old cemetery,grassland,single flower,2012,3,42,22,0,0,1,0,7,0.048611111,1,1,22,64,452.5714286,1316.571429
+Cardamine hirsuta/flexuosa,02/05/2012,NA,clifton-old cemetery,grassland,single flower,2012,4,48,18,0,0,1,0,1,0.006944444,1,1,18,66,2592,9504
+Cardamine hirsuta/flexuosa,02/05/2012,NA,clifton-old cemetery,grassland,single flower,2012,5,120,65,3,0,1,0,3,0.020833333,1,1,65,188,3120,9024
+Cardamine hirsuta/flexuosa,08/05/2012,14:15,woodland road,grassland,single flower,2012,1,14,13,27,0,1,0,1,0.006944444,1,1,13,54,1872,7776
+Cardamine hirsuta/flexuosa,08/05/2012,14:15,woodland road,grassland,single flower,2012,2,42,27,39,0,1,0,2,0.013888889,1,1,27,108,1944,7776
+Cardamine hirsuta/flexuosa,08/05/2012,14:15,woodland road,grassland,single flower,2012,3,20,12,31,0,1,0,1,0.006944444,1,1,12,63,1728,9072
+Cardamine pratensis,14/05/2012,NA,brandon hill,grassland,single flower,2012,1,11,8,0,0,1,0,1,0.006944444,1,1,8,19,1152,2736
+Cardamine pratensis,14/05/2012,NA,brandon hill,grassland,single flower,2012,2,12,14,7,0,1,0,1,0.006944444,1,1,14,33,2016,4752
+Cardamine pratensis,14/05/2012,NA,brandon hill,grassland,single flower,2012,3,6,5,3,0,1,0,2,0.013888889,1,1,5,14,360,1008
+Cardamine pratensis,14/05/2012,NA,brandon hill,grassland,single flower,2012,4,3,6,6,0,1,0,1,0.006944444,1,1,6,15,864,2160
+Cardamine pratensis,14/05/2012,NA,brandon hill,grassland,single flower,2012,5,0,4,1,0,1,0,1,0.006944444,1,1,4,5,576,720
+Cardamine pratensis,08/05/2012,11:45,north road-leigh woods,grassland,single flower,2012,1,7,11,2,0,1,0,1,0.006944444,1,1,11,20,1584,2880
+Cardamine pratensis,08/05/2012,11:45,north road-leigh woods,grassland,single flower,2012,2,21,10,2,0,1,0,2,0.013888889,1,1,10,33,720,2376
+Cardamine pratensis,08/05/2012,11:45,north road-leigh woods,grassland,single flower,2012,3,3,5,3,0,1,0,1,0.006944444,1,1,5,11,720,1584
+Cardamine pratensis,08/05/2012,11:45,north road-leigh woods,grassland,single flower,2012,4,4,7,0,0,1,0,1,0.006944444,1,1,7,11,1008,1584
+Cardamine pratensis,08/05/2012,11:45,north road-leigh woods,grassland,single flower,2012,5,7,4,0,0,1,0,1,0.006944444,1,1,4,11,576,1584
+Centaurea nigra,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,1,7,4,1,30,60,0,13,0.090277778,60,90,240,1080,2658.461538,11963.07692
+Centaurea nigra,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,2,22,14,8,38,74,16,30,0.208333333,74,128,1036,5632,4972.8,27033.6
+Centaurea nigra,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,3,1,1,0,22,64,0,2,0.013888889,64,86,64,172,4608,12384
+Centaurea nigra,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,4,4,2,6,12,76,0,2,0.013888889,76,88,152,1056,10944,76032
+Centaurea nigra,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,5,2,3,2,20,48,0,3,0.020833333,48,68,144,476,6912,22848
+Centaurea nigra,08/06/2011,10:45,brandon hill,grassland nature reserve,single capitulum,2011,1,10,4,0,8,54,0,5,0.034722222,54,62,216,868,6220.8,24998.4
+Centaurea nigra,08/06/2011,10:45,brandon hill,grassland nature reserve,single capitulum,2011,2,9,4,4,0,42,4,15,0.104166667,42,46,168,782,1612.8,7507.2
+Centaurea nigra,08/06/2011,10:45,brandon hill,grassland nature reserve,single capitulum,2011,3,9,3,0,0,36,0,9,0.0625,36,36,108,432,1728,6912
+Centaurea nigra,08/06/2011,10:45,brandon hill,grassland nature reserve,single capitulum,2011,4,15,4,0,40,34,0,8,0.055555556,34,74,136,1406,2448,25308
+Centaurea nigra,08/06/2011,10:45,brandon hill,grassland nature reserve,single capitulum,2011,5,13,5,0,6,50,0,20,0.138888889,50,56,250,1008,1800,7257.6
+Cerastium fontanum,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single flower,2011,1,5,5,92,0,1,0,2,0.013888889,1,1,5,102,360,7344
+Cerastium fontanum,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single flower,2011,2,4,2,53,0,1,0,1,0.006944444,1,1,2,59,288,8496
+Cerastium fontanum,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single flower,2011,3,5,10,38,0,1,0,1,0.006944444,1,1,10,53,1440,7632
+Cerastium fontanum,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single flower,2011,4,44,14,95,0,1,0,5,0.034722222,1,1,14,153,403.2,4406.4
+Cerastium fontanum,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single flower,2011,5,11,8,84,0,1,0,1,0.006944444,1,1,8,103,1152,14832
+Cerastium fontanum,27/07/2011,12:00,brandon hill,grassland nature reserve,single flower,2011,1,11,3,28,0,1,0,2,0.013888889,1,1,3,42,216,3024
+Cerastium fontanum,27/07/2011,12:00,brandon hill,grassland nature reserve,single flower,2011,2,1,1,55,0,1,0,1,0.006944444,1,1,1,57,144,8208
+Cerastium fontanum,27/07/2011,12:00,brandon hill,grassland nature reserve,single flower,2011,3,3,1,50,0,1,0,1,0.006944444,1,1,1,54,144,7776
+Cerastium fontanum,27/07/2011,12:00,brandon hill,grassland nature reserve,single flower,2011,4,5,4,48,0,1,0,1,0.006944444,1,1,4,57,576,8208
+Cerastium fontanum,27/07/2011,12:00,brandon hill,grassland nature reserve,single flower,2011,5,4,5,55,0,1,0,5,0.034722222,1,1,5,64,144,1843.2
+Cerastium fontanum,25/07/2011,11:30,troopers hill,grassland park,single flower,2011,1,5,4,12,0,1,0,2,0.013888889,1,1,4,21,288,1512
+Cerastium fontanum,25/07/2011,11:30,troopers hill,grassland park,single flower,2011,2,2,7,17,0,1,0,1,0.006944444,1,1,7,26,1008,3744
+Cerastium fontanum,25/07/2011,11:30,troopers hill,grassland park,single flower,2011,3,4,8,22,0,1,0,1,0.006944444,1,1,8,34,1152,4896
+Cerastium fontanum,25/07/2011,11:30,troopers hill,grassland park,single flower,2011,4,3,6,19,0,1,0,1,0.006944444,1,1,6,28,864,4032
+Cerastium fontanum,25/07/2011,11:30,troopers hill,grassland park,single flower,2011,5,3,12,27,0,1,0,1,0.006944444,1,1,12,42,1728,6048
+Chamerion angustifolium,27/06/2011,14:00,ashton court,woodland carpark,single flower,2011,1,235,248,60,0,1,0,30,0.208333333,1,1,248,543,1190.4,2606.4
+Chamerion angustifolium,27/06/2011,14:00,ashton court,woodland carpark,single flower,2011,2,110,66,20,0,1,0,15,0.104166667,1,1,66,196,633.6,1881.6
+Chamerion angustifolium,27/06/2011,14:00,ashton court,woodland carpark,single flower,2011,3,80,165,15,0,1,0,20,0.138888889,1,1,165,260,1188,1872
+Chamerion angustifolium,27/06/2011,14:00,ashton court,woodland carpark,single flower,2011,4,68,240,55,0,1,0,8,0.055555556,1,1,240,363,4320,6534
+Chamerion angustifolium,27/06/2011,14:00,ashton court,woodland carpark,single flower,2011,5,130,180,48,0,1,0,28,0.194444444,1,1,180,358,925.7142857,1841.142857
+Chamerion angustifolium,18/07/2011,13:00,troopers hill,grassland park,single flower,2011,1,220,28,8,0,1,0,27,0.1875,1,1,28,256,149.3333333,1365.333333
+Chamerion angustifolium,18/07/2011,13:00,troopers hill,grassland park,single flower,2011,2,165,25,3,0,1,0,13,0.090277778,1,1,25,193,276.9230769,2137.846154
+Chamerion angustifolium,18/07/2011,13:00,troopers hill,grassland park,single flower,2011,3,50,21,160,0,1,0,6,0.041666667,1,1,21,231,504,5544
+Chamerion angustifolium,18/07/2011,13:00,troopers hill,grassland park,single flower,2011,4,180,35,200,0,1,0,15,0.104166667,1,1,35,415,336,3984
+Chamerion angustifolium,18/07/2011,13:00,troopers hill,grassland park,single flower,2011,5,250,41,300,0,1,0,28,0.194444444,1,1,41,591,210.8571429,3039.428571
+Circaea lutetiana,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,1,117,67,34,0,1,0,7,0.048611111,1,1,67,218,1378.285714,4484.571429
+Circaea lutetiana,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,2,33,38,15,0,1,0,9,0.0625,1,1,38,86,608,1376
+Circaea lutetiana,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,3,39,35,18,0,1,0,17,0.118055556,1,1,35,92,296.4705882,779.2941176
+Circaea lutetiana,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,4,87,30,4,0,1,0,8,0.055555556,1,1,30,121,540,2178
+Circaea lutetiana,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,5,39,27,12,0,1,0,9,0.0625,1,1,27,78,432,1248
+Circaea lutetiana,07/07/2011,16:00,brandon hill,woodland nature reserve,single flower,2011,1,293,89,45,0,1,0,10,0.069444444,1,1,89,427,1281.6,6148.8
+Circaea lutetiana,07/07/2011,16:00,brandon hill,woodland nature reserve,single flower,2011,2,152,41,15,0,1,0,7,0.048611111,1,1,41,208,843.4285714,4278.857143
+Circaea lutetiana,07/07/2011,16:00,brandon hill,woodland nature reserve,single flower,2011,3,190,90,82,0,1,0,16,0.111111111,1,1,90,362,810,3258
+Circaea lutetiana,07/07/2011,16:00,brandon hill,woodland nature reserve,single flower,2011,4,51,40,62,0,1,0,6,0.041666667,1,1,40,153,960,3672
+Circaea lutetiana,07/07/2011,16:00,brandon hill,woodland nature reserve,single flower,2011,5,85,106,87,0,1,0,17,0.118055556,1,1,106,278,897.8823529,2354.823529
+Cirsium acaule,05/09/2012,11:00,doleburry warren,heath-grassland,single capitulum,2012,1,0,1,7,0,146,0,2,0.013888889,146,146,146,1168,10512,84096
+Cirsium acaule,05/09/2012,11:00,doleburry warren,heath-grassland,single capitulum,2012,2,0,1,3,0,138,10,4,0.027777778,138,148,138,592,4968,21312
+Cirsium acaule,05/09/2012,11:00,doleburry warren,heath-grassland,single capitulum,2012,3,0,1,0,0,158,0,2,0.013888889,158,158,158,158,11376,11376
+Cirsium acaule,05/09/2012,11:00,doleburry warren,heath-grassland,single capitulum,2012,4,0,0,8,0,20,100,7,0.048611111,20,120,0,960,0,19748.57143
+Cirsium acaule,05/09/2012,11:00,doleburry warren,heath-grassland,single capitulum,2012,5,1,3,17,0,0,56,11,0.076388889,0,56,0,1176,0,15394.90909
+Cirsium arvense,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,1,77,9,10,0,126,0,18,0.125,126,126,1134,12096,9072,96768
+Cirsium arvense,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,2,68,9,21,6,88,0,27,0.1875,88,94,792,9212,4224,49130.66667
+Cirsium arvense,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,3,106,6,14,0,84,0,26,0.180555556,84,84,504,10584,2791.384615,58619.07692
+Cirsium arvense,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,4,38,11,5,0,128,0,14,0.097222222,128,128,1408,6912,14482.28571,71094.85714
+Cirsium arvense,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,5,33,3,6,0,88,0,10,0.069444444,88,88,264,3696,3801.6,53222.4
+Cirsium arvense,14/06/2011,15:00,brandon hill,grassland nature reserve,single capitulum,2011,1,37,1,0,0,130,0,35,0.243055556,130,130,130,4940,534.8571429,20324.57143
+Cirsium arvense,14/06/2011,15:00,brandon hill,grassland nature reserve,single capitulum,2011,2,47,3,0,0,140,0,32,0.222222222,140,140,420,7000,1890,31500
+Cirsium arvense,14/06/2011,15:00,brandon hill,grassland nature reserve,single capitulum,2011,3,75,25,0,0,150,30,36,0.25,150,180,3750,18000,15000,72000
+Cirsium arvense,14/06/2011,15:00,brandon hill,grassland nature reserve,single capitulum,2011,4,60,16,4,0,120,52,26,0.180555556,120,172,1920,13760,10633.84615,76209.23077
+Cirsium arvense,14/06/2011,15:00,brandon hill,grassland nature reserve,single capitulum,2011,5,82,38,7,0,80,74,36,0.25,80,154,3040,19558,12160,78232
+Cirsium arvense,08/08/2012,10:40,brandon hill,grassland,single capitulum,2012,1,35,13,18,0,64,0,27,0.1875,64,64,832,4224,4437.333333,22528
+Cirsium arvense,08/08/2012,10:40,brandon hill,grassland,single capitulum,2012,2,4,0,36,0,0,86,8,0.055555556,0,86,0,3440,0,61920
+Cirsium arvense,08/08/2012,10:40,brandon hill,grassland,single capitulum,2012,3,28,4,65,0,0,69,17,0.118055556,0,69,0,6693,0,56693.64706
+Cirsium arvense,08/08/2012,10:40,brandon hill,grassland,single capitulum,2012,4,35,9,75,0,0,75,25,0.173611111,0,75,0,8925,0,51408
+Cirsium arvense,08/08/2012,10:40,brandon hill,grassland,single capitulum,2012,5,38,12,13,0,89,0,29,0.201388889,89,89,1068,5607,5303.172414,27841.65517
+Cirsium palustre,08/07/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,1,29,5,6,0,68,0,2,0.013888889,68,68,340,2720,24480,195840
+Cirsium palustre,08/07/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,2,27,7,6,0,56,0,3,0.020833333,56,56,392,2240,18816,107520
+Cirsium palustre,08/07/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,3,65,14,4,18,40,0,10,0.069444444,40,58,560,4814,8064,69321.6
+Cirsium palustre,08/07/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,4,51,7,4,12,70,0,2,0.013888889,70,82,490,5084,35280,366048
+Cirsium palustre,08/07/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,5,47,13,7,0,64,0,3,0.020833333,64,64,832,4288,39936,205824
+Cirsium palustre,10/07/2012,12:00,westay nature reserve,wetland-grassland,single capitulum,2012,1,13,5,13,10,42,0,3,0.020833333,42,52,210,1612,10080,77376
+Cirsium palustre,10/07/2012,12:00,westay nature reserve,wetland-grassland,single capitulum,2012,2,116,7,33,6,42,0,5,0.034722222,42,48,294,7488,8467.2,215654.4
+Cirsium palustre,10/07/2012,12:00,westay nature reserve,wetland-grassland,single capitulum,2012,3,41,7,27,14,70,8,3,0.020833333,70,92,490,6900,23520,331200
+Cirsium palustre,10/07/2012,12:00,westay nature reserve,wetland-grassland,single capitulum,2012,4,29,3,6,0,62,0,1,0.006944444,62,62,186,2356,26784,339264
+Cirsium palustre,10/07/2012,12:00,westay nature reserve,wetland-grassland,single capitulum,2012,5,21,10,10,0,54,0,1,0.006944444,54,54,540,2214,77760,318816
+Cirsium vulgare,25/07/2011,09:30,troopers hill,grassland park,single capitulum,2011,1,75,9,12,60,150,0,25,0.173611111,150,210,1350,20160,7776,116121.6
+Cirsium vulgare,25/07/2011,09:30,troopers hill,grassland park,single capitulum,2011,2,120,21,37,140,56,0,35,0.243055556,56,196,1176,34888,4838.4,143539.2
+Cirsium vulgare,25/07/2011,09:30,troopers hill,grassland park,single capitulum,2011,3,100,14,28,40,320,0,31,0.215277778,320,360,4480,51120,20810.32258,237460.6452
+Cirsium vulgare,25/07/2011,09:30,troopers hill,grassland park,single capitulum,2011,4,110,22,41,0,60,400,26,0.180555556,60,460,1320,79580,7310.769231,440750.7692
+Cirsium vulgare,25/07/2011,09:30,troopers hill,grassland park,single capitulum,2011,5,80,21,32,80,350,0,20,0.138888889,350,430,7350,57190,52920,411768
+Cirsium vulgare,25/07/2012,13:00,ashton court,woodland,single capitulum,2012,1,15,1,1,0,208,0,4,0.027777778,208,208,208,3536,7488,127296
+Cirsium vulgare,25/07/2012,13:00,ashton court,woodland,single capitulum,2012,2,16,2,2,10,208,40,7,0.048611111,208,258,416,5160,8557.714286,106148.5714
+Cirsium vulgare,25/07/2012,13:00,ashton court,woodland,single capitulum,2012,3,11,2,0,10,194,40,4,0.027777778,194,244,388,3172,13968,114192
+Cirsium vulgare,25/07/2012,13:00,ashton court,woodland,single capitulum,2012,4,14,4,0,20,178,100,6,0.041666667,178,298,712,5364,17088,128736
+Cirsium vulgare,25/07/2012,13:00,ashton court,woodland,single capitulum,2012,5,10,3,1,0,228,20,4,0.027777778,228,248,684,3472,24624,124992
+Clematis vitalba,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,1,260,32,0,0,1,0,25,0.173611111,1,1,32,292,184.32,1681.92
+Clematis vitalba,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,2,180,14,6,0,1,0,15,0.104166667,1,1,14,200,134.4,1920
+Clematis vitalba,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,3,225,47,12,0,1,0,21,0.145833333,1,1,47,284,322.2857143,1947.428571
+Clematis vitalba,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,4,165,8,0,0,1,0,8,0.055555556,1,1,8,173,144,3114
+Clematis vitalba,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,5,155,35,3,0,1,0,14,0.097222222,1,1,35,193,360,1985.142857
+Clematis vitalba,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,1,210,38,10,0,1,0,30,0.208333333,1,1,38,258,182.4,1238.4
+Clematis vitalba,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,2,180,47,21,0,1,0,21,0.145833333,1,1,47,248,322.2857143,1700.571429
+Clematis vitalba,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,3,190,61,42,0,1,0,20,0.138888889,1,1,61,293,439.2,2109.6
+Clematis vitalba,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,4,82,41,9,0,1,0,12,0.083333333,1,1,41,132,492,1584
+Clematis vitalba,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,5,110,72,21,0,1,0,15,0.104166667,1,1,72,203,691.2,1948.8
+Convolvulus arvensis,01/08/2011,11:45,ashton court nature reserve,grassland nature reserve,single flower,2011,1,0,1,1,0,1,0,1,0.006944444,1,1,1,2,144,288
+Convolvulus arvensis,01/08/2011,11:45,ashton court nature reserve,grassland nature reserve,single flower,2011,2,0,1,0,0,1,0,1,0.006944444,1,1,1,1,144,144
+Convolvulus arvensis,01/08/2011,11:45,ashton court nature reserve,grassland nature reserve,single flower,2011,3,0,2,0,0,1,0,1,0.006944444,1,1,2,2,288,288
+Convolvulus arvensis,01/08/2011,11:45,ashton court nature reserve,grassland nature reserve,single flower,2011,4,1,1,1,0,1,0,1,0.006944444,1,1,1,3,144,432
+Convolvulus arvensis,01/08/2011,11:45,ashton court nature reserve,grassland nature reserve,single flower,2011,5,0,1,0,0,1,0,1,0.006944444,1,1,1,1,144,144
+Convolvulus arvensis,19/08/2011,09:30,monpelier narroways,street,single flower,2011,1,42,10,2,0,1,0,12,0.083333333,1,1,10,54,120,648
+Convolvulus arvensis,19/08/2011,09:30,monpelier narroways,street,single flower,2011,2,84,32,9,0,1,0,28,0.194444444,1,1,32,125,164.5714286,642.8571429
+Convolvulus arvensis,19/08/2011,09:30,monpelier narroways,street,single flower,2011,3,36,30,8,0,1,0,8,0.055555556,1,1,30,74,540,1332
+Convolvulus arvensis,19/08/2011,09:30,monpelier narroways,street,single flower,2011,4,6,9,0,0,1,0,3,0.020833333,1,1,9,15,432,720
+Convolvulus arvensis,19/08/2011,09:30,monpelier narroways,street,single flower,2011,5,41,34,12,0,1,0,12,0.083333333,1,1,34,87,408,1044
+Cornus sanguinea,25/06/2012,11:20,downs,grassland,single flower,2012,1,1,16,108,0,1,0,12,0.083333333,1,1,16,125,192,1500
+Cornus sanguinea,25/06/2012,11:20,downs,grassland,single flower,2012,2,2,0,56,0,1,0,23,0.159722222,1,1,0,58,0,363.1304348
+Cornus sanguinea,25/06/2012,11:20,downs,grassland,single flower,2012,3,3,12,118,0,1,0,2,0.013888889,1,1,12,133,864,9576
+Cornus sanguinea,25/06/2012,11:20,downs,grassland,single flower,2012,4,9,2,11,0,1,0,18,0.125,1,1,2,22,16,176
+Cornus sanguinea,25/06/2012,11:20,downs,grassland,single flower,2012,5,1,4,255,0,1,0,26,0.180555556,1,1,4,260,22.15384615,1440
+Crepis capillaris,05/08/2011,NA,brandon hill,grassland park,single capitulum,2011,1,41,24,14,8,36,0,6,0.041666667,36,44,864,3476,20736,83424
+Crepis capillaris,05/08/2011,NA,brandon hill,grassland park,single capitulum,2011,2,64,28,11,22,18,0,8,0.055555556,18,40,504,4120,9072,74160
+Crepis capillaris,05/08/2011,NA,brandon hill,grassland park,single capitulum,2011,3,8,4,3,0,28,0,2,0.013888889,28,28,112,420,8064,30240
+Crepis capillaris,05/08/2011,NA,brandon hill,grassland park,single capitulum,2011,4,30,17,8,6,18,0,5,0.034722222,18,24,306,1320,8812.8,38016
+Crepis capillaris,05/08/2011,NA,brandon hill,grassland park,single capitulum,2011,5,60,32,20,12,32,0,9,0.0625,32,44,1024,4928,16384,78848
+Crepis capillaris,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,1,12,21,44,0,18,0,3,0.020833333,18,18,378,1386,18144,66528
+Crepis capillaris,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,2,6,3,6,0,6,18,2,0.013888889,6,24,18,360,1296,25920
+Crepis capillaris,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,3,14,6,21,12,22,4,4,0.027777778,22,38,132,1558,4752,56088
+Crepis capillaris,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,4,10,7,26,0,12,0,3,0.020833333,12,12,84,516,4032,24768
+Crepis capillaris,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,5,10,3,9,0,34,12,2,0.013888889,34,46,102,1012,7344,72864
+Cultivated bean,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,1,54,38,6,0,1,0,3,0.020833333,1,1,38,98,1824,4704
+Cultivated bean,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,2,165,31,20,0,1,0,9,0.0625,1,1,31,216,496,3456
+Cultivated bean,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,3,245,83,19,0,1,0,21,0.145833333,1,1,83,347,569.1428571,2379.428571
+Cultivated bean,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,4,196,70,16,0,1,0,17,0.118055556,1,1,70,282,592.9411765,2388.705882
+Cultivated bean,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,5,220,45,41,0,1,0,14,0.097222222,1,1,45,306,462.8571429,3147.428571
+Cultivated bean,04/07/2012,10:30,pill allotments2,allotments,single flower,2012,1,49,61,96,0,1,0,29,0.201388889,1,1,61,206,302.8965517,1022.896552
+Cultivated bean,04/07/2012,10:30,pill allotments2,allotments,single flower,2012,2,39,74,80,0,1,0,26,0.180555556,1,1,74,193,409.8461538,1068.923077
+Cultivated bean,04/07/2012,10:30,pill allotments2,allotments,single flower,2012,3,68,82,59,0,1,0,32,0.222222222,1,1,82,209,369,940.5
+Cultivated bean,04/07/2012,10:30,pill allotments2,allotments,single flower,2012,4,15,13,72,0,1,0,22,0.152777778,1,1,13,100,85.09090909,654.5454545
+Cultivated bean,04/07/2012,10:30,pill allotments2,allotments,single flower,2012,5,10,15,65,0,1,0,29,0.201388889,1,1,15,90,74.48275862,446.8965517
+Cytisus scoparius,17/05/2012,NA,troopers hill,heathland-woodland-grassland,single flower,2012,1,728,546,390,0,1,0,31,0.215277778,1,1,546,1664,2536.258065,7729.548387
+Cytisus scoparius,17/05/2012,NA,troopers hill,heathland-woodland-grassland,single flower,2012,2,440,1320,275,0,1,0,21,0.145833333,1,1,1320,2035,9051.428571,13954.28571
+Cytisus scoparius,17/05/2012,NA,troopers hill,heathland-woodland-grassland,single flower,2012,3,196,308,0,0,1,0,17,0.118055556,1,1,308,504,2608.941176,4269.176471
+Cytisus scoparius,17/05/2012,NA,troopers hill,heathland-woodland-grassland,single flower,2012,4,280,322,56,0,1,0,26,0.180555556,1,1,322,658,1783.384615,3644.307692
+Cytisus scoparius,17/05/2012,NA,troopers hill,heathland-woodland-grassland,single flower,2012,5,210,525,375,0,1,0,22,0.152777778,1,1,525,1110,3436.363636,7265.454545
+Daucus carota,27/07/2011,12:00,brandon hill,grassland nature reserve,secondary umbel,2011,1,288,144,24,52,18,0,10,0.069444444,18,70,2592,31920,37324.8,459648
+Daucus carota,27/07/2011,12:00,brandon hill,grassland nature reserve,secondary umbel,2011,2,224,112,16,18,40,0,9,0.0625,40,58,4480,20416,71680,326656
+Daucus carota,27/07/2011,12:00,brandon hill,grassland nature reserve,secondary umbel,2011,3,115,46,23,0,54,0,7,0.048611111,54,54,2484,9936,51099.42857,204397.7143
+Daucus carota,27/07/2011,12:00,brandon hill,grassland nature reserve,secondary umbel,2011,4,250,50,25,0,52,0,10,0.069444444,52,52,2600,16900,37440,243360
+Daucus carota,27/07/2011,12:00,brandon hill,grassland nature reserve,secondary umbel,2011,5,276,23,0,0,50,0,8,0.055555556,50,50,1150,14950,20700,269100
+Daucus carota,18/07/2011,NA,troopers hill,grassland park,PB,2011,1,234,429,0,24,40,0,21,0.145833333,40,64,17160,42432,117668.5714,290962.2857
+Daucus carota,18/07/2011,NA,troopers hill,grassland park,PB,2011,2,690,483,23,44,16,0,13,0.090277778,16,60,7728,71760,85602.46154,794880
+Daucus carota,18/07/2011,NA,troopers hill,grassland park,PB,2011,3,84,60,24,28,12,0,7,0.048611111,12,40,720,6720,14811.42857,138240
+Daucus carota,18/07/2011,NA,troopers hill,grassland park,PB,2011,4,532,168,28,34,34,0,13,0.090277778,34,68,5712,49504,63271.38462,548352
+Daucus carota,18/07/2011,NA,troopers hill,grassland park,PB,2011,5,96,160,0,32,12,0,7,0.048611111,12,44,1920,11264,39497.14286,231716.5714
+Daucus carota,25/07/2012,NA,troopers hill,heathland,secondary umbel,2012,1,325,90,6,0,25,3,5,0.034722222,25,28,2250,11788,64800,339494.4
+Daucus carota,25/07/2012,NA,troopers hill,heathland,secondary umbel,2012,2,180,60,0,9,32,0,5,0.034722222,32,41,1920,9840,55296,283392
+Daucus carota,25/07/2012,NA,troopers hill,heathland,secondary umbel,2012,3,245,40,0,0,35,0,4,0.027777778,35,35,1400,9975,50400,359100
+Daucus carota,25/07/2012,NA,troopers hill,heathland,secondary umbel,2012,4,456,80,0,15,23,0,12,0.083333333,23,38,1840,20368,22080,244416
+Daucus carota,25/07/2012,NA,troopers hill,heathland,secondary umbel,2012,5,672,111,0,7,48,0,10,0.069444444,48,55,5328,43065,76723.2,620136
+Digitalis purpurea,12/07/2011,14:00,ashton court,woodland carpark,single flower,2011,1,14,5,28,0,1,0,5,0.034722222,1,1,5,47,144,1353.6
+Digitalis purpurea,12/07/2011,14:00,ashton court,woodland carpark,single flower,2011,2,8,2,36,0,1,0,5,0.034722222,1,1,2,46,57.6,1324.8
+Digitalis purpurea,12/07/2011,14:00,ashton court,woodland carpark,single flower,2011,3,2,4,8,0,1,0,1,0.006944444,1,1,4,14,576,2016
+Digitalis purpurea,12/07/2011,14:00,ashton court,woodland carpark,single flower,2011,4,3,1,4,0,1,0,1,0.006944444,1,1,1,8,144,1152
+Digitalis purpurea,12/07/2011,14:00,ashton court,woodland carpark,single flower,2011,5,3,3,120,0,1,0,5,0.034722222,1,1,3,126,86.4,3628.8
+Digitalis purpurea,04/07/2011,09:00,brandon hill,grassland park,single flower,2011,1,40,10,222,0,1,0,25,0.173611111,1,1,10,272,57.6,1566.72
+Digitalis purpurea,04/07/2011,09:00,brandon hill,grassland park,single flower,2011,2,74,39,165,0,1,0,22,0.152777778,1,1,39,278,255.2727273,1819.636364
+Digitalis purpurea,04/07/2011,09:00,brandon hill,grassland park,single flower,2011,3,12,13,312,0,1,0,17,0.118055556,1,1,13,337,110.1176471,2854.588235
+Digitalis purpurea,04/07/2011,09:00,brandon hill,grassland park,single flower,2011,4,2,18,282,0,1,0,30,0.208333333,1,1,18,302,86.4,1449.6
+Digitalis purpurea,04/07/2011,09:00,brandon hill,grassland park,single flower,2011,5,20,18,22,0,1,0,6,0.041666667,1,1,18,60,432,1440
+Epilobium hirsutum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,1,150,6,2,0,1,0,8,0.055555556,1,1,6,158,108,2844
+Epilobium hirsutum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,2,45,5,0,0,1,0,6,0.041666667,1,1,5,50,120,1200
+Epilobium hirsutum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,3,36,1,0,0,1,0,3,0.020833333,1,1,1,37,48,1776
+Epilobium hirsutum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,4,62,2,0,0,1,0,15,0.104166667,1,1,2,64,19.2,614.4
+Epilobium hirsutum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,5,120,11,2,0,1,0,28,0.194444444,1,1,11,133,56.57142857,684
+Epilobium hirsutum,14/07/2011,10:30,troopers hill,grassland park,single flower,2011,1,40,6,10,0,1,0,4,0.027777778,1,1,6,56,216,2016
+Epilobium hirsutum,18/07/2011,10:30,troopers hill,grassland park,single flower,2011,1,29,4,7,0,1,0,13,0.090277778,1,1,4,40,44.30769231,443.0769231
+Epilobium hirsutum,14/07/2011,10:30,troopers hill,grassland park,single flower,2011,2,74,29,13,0,1,0,8,0.055555556,1,1,29,116,522,2088
+Epilobium hirsutum,18/07/2011,10:30,troopers hill,grassland park,single flower,2011,2,38,6,3,0,1,0,8,0.055555556,1,1,6,47,108,846
+Epilobium montanum,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,1,36,10,2,0,1,0,6,0.041666667,1,1,10,48,240,1152
+Epilobium montanum,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,2,12,6,8,0,1,0,2,0.013888889,1,1,6,26,432,1872
+Epilobium montanum,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,3,18,10,2,0,1,0,3,0.020833333,1,1,10,30,480,1440
+Epilobium montanum,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,4,8,3,0,0,1,0,1,0.006944444,1,1,3,11,432,1584
+Epilobium montanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,1,6,2,0,0,1,0,2,0.013888889,1,1,2,8,144,576
+Epilobium montanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,2,8,4,1,0,1,0,4,0.027777778,1,1,4,13,144,468
+Epilobium montanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,3,12,4,2,0,1,0,7,0.048611111,1,1,4,18,82.28571429,370.2857143
+Epilobium montanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,4,21,11,4,0,1,0,10,0.069444444,1,1,11,36,158.4,518.4
+Epilobium montanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,5,15,7,3,0,1,0,7,0.048611111,1,1,7,25,144,514.2857143
+Epilobium parviflorum,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,1,24,9,19,0,1,0,2,0.013888889,1,1,9,52,648,3744
+Epilobium parviflorum,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,2,5,1,0,0,1,0,1,0.006944444,1,1,1,6,144,864
+Epilobium tetragonum,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,1,22,10,18,0,1,0,1,0.006944444,1,1,10,50,1440,7200
+Epilobium tetragonum,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,2,33,44,69,0,1,0,5,0.034722222,1,1,44,146,1267.2,4204.8
+Epilobium tetragonum,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,3,36,24,31,0,1,0,4,0.027777778,1,1,24,91,864,3276
+Epilobium tetragonum,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,4,24,8,6,0,1,0,2,0.013888889,1,1,8,38,576,2736
+Epilobium tetragonum,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,5,100,21,7,0,1,0,8,0.055555556,1,1,21,128,378,2304
+Erica cinerea,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,1,11,4560,0,0,1,0,20,0.138888889,1,1,4560,4571,32832,32911.2
+Erica cinerea,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,2,13,1428,0,0,1,0,10,0.069444444,1,1,1428,1441,20563.2,20750.4
+Erica cinerea,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,3,4,8690,0,0,1,0,17,0.118055556,1,1,8690,8694,73609.41176,73643.29412
+Erica cinerea,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,4,19,4602,0,0,1,0,22,0.152777778,1,1,4602,4621,30122.18182,30246.54545
+Erica cinerea,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,5,150,5454,0,0,1,0,21,0.145833333,1,1,5454,5604,37398.85714,38427.42857
+Erica cinerea,25/07/2012,NA,troopers hill,heathland,single flower,2012,1,11470,1850,740,0,1,0,28,0.194444444,1,1,1850,14060,9514.285714,72308.57143
+Erica cinerea,25/07/2012,NA,troopers hill,heathland,single flower,2012,2,6156,1296,324,0,1,0,32,0.222222222,1,1,1296,7776,5832,34992
+Erica cinerea,25/07/2012,NA,troopers hill,heathland,single flower,2012,3,9030,2940,210,0,1,0,31,0.215277778,1,1,2940,12180,13656.77419,56578.06452
+Erica cinerea,25/07/2012,NA,troopers hill,heathland,single flower,2012,4,16320,1044,136,0,1,0,32,0.222222222,1,1,1044,17500,4698,78750
+Erica cinerea,25/07/2012,NA,troopers hill,heathland,single flower,2012,5,13640,7700,0,0,1,0,35,0.243055556,1,1,7700,21340,31680,87798.85714
+Erica tetralix,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,1,120,35,56,0,1,0,10,0.069444444,1,1,35,211,504,3038.4
+Erica tetralix,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,2,154,121,80,0,1,0,19,0.131944444,1,1,121,355,917.0526316,2690.526316
+Erica tetralix,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,3,120,80,143,0,1,0,4,0.027777778,1,1,80,343,2880,12348
+Erica tetralix,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,4,72,108,312,0,1,0,4,0.027777778,1,1,108,492,3888,17712
+Erica tetralix,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,5,117,180,280,0,1,0,22,0.152777778,1,1,180,577,1178.181818,3776.727273
+Erica tetralix,01/08/2012,11:40,westhay nature reserve,moorland,single flower,2012,1,103,280,36,0,1,0,11,0.076388889,1,1,280,419,3665.454545,5485.090909
+Erica tetralix,01/08/2012,11:40,westhay nature reserve,moorland,single flower,2012,2,45,70,120,0,1,0,5,0.034722222,1,1,70,235,2016,6768
+Erica tetralix,01/08/2012,11:40,westhay nature reserve,moorland,single flower,2012,3,45,120,20,0,1,0,4,0.027777778,1,1,120,185,4320,6660
+Erica tetralix,01/08/2012,11:40,westhay nature reserve,moorland,single flower,2012,4,37,216,27,0,1,0,3,0.020833333,1,1,216,280,10368,13440
+Erica tetralix,01/08/2012,11:40,westhay nature reserve,moorland,single flower,2012,5,109,351,507,0,1,0,8,0.055555556,1,1,351,967,6318,17406
+Eupatorium cannabinum,25/07/2011,11:30,troopers hill,grassland park,single corymb,2011,1,6,24,2,130,6,0,15,0.104166667,6,136,144,4352,1382.4,41779.2
+Eupatorium cannabinum,25/07/2011,11:30,troopers hill,grassland park,single corymb,2011,2,8,31,4,240,41,0,12,0.083333333,41,281,1271,12083,15252,144996
+Eupatorium cannabinum,25/07/2011,11:30,troopers hill,grassland park,single corymb,2011,3,24,69,12,70,275,90,32,0.222222222,275,435,18975,45675,85387.5,205537.5
+Eupatorium cannabinum,25/07/2011,11:30,troopers hill,grassland park,single corymb,2011,4,14,72,4,120,160,0,18,0.125,160,280,11520,25200,92160,201600
+Eupatorium cannabinum,25/07/2011,11:30,troopers hill,grassland park,single corymb,2011,5,30,110,21,40,310,110,28,0.194444444,310,460,34100,74060,175371.4286,380880
+Eupatorium cannabinum,08/08/2012,15:00,ashton court-nature reserve,grassland,single corymb,2012,1,96,38,15,222,54,0,36,0.25,54,276,2052,41124,8208,164496
+Eupatorium cannabinum,08/08/2012,15:00,ashton court-nature reserve,grassland,single corymb,2012,2,99,14,2,120,48,0,36,0.25,48,168,672,19320,2688,77280
+Eupatorium cannabinum,08/08/2012,15:00,ashton court-nature reserve,grassland,single corymb,2012,3,110,11,0,168,48,0,36,0.25,48,216,528,26136,2112,104544
+Eupatorium cannabinum,08/08/2012,15:00,ashton court-nature reserve,grassland,single corymb,2012,4,85,51,21,234,126,0,36,0.25,126,360,6426,56520,25704,226080
+Eupatorium cannabinum,08/08/2012,15:00,ashton court-nature reserve,grassland,single corymb,2012,5,94,30,12,318,0,0,36,0.25,0,318,0,43248,0,172992
+Euphrasia officinalis agg.,01/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,1,24,33,0,0,1,0,1,0.006944444,1,1,33,57,4752,8208
+Euphrasia officinalis agg.,01/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,2,13,24,10,0,1,0,1,0.006944444,1,1,24,47,3456,6768
+Euphrasia officinalis agg.,01/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,3,6,13,4,0,1,0,1,0.006944444,1,1,13,23,1872,3312
+Euphrasia officinalis agg.,01/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,4,19,31,12,0,1,0,1,0.006944444,1,1,31,62,4464,8928
+Euphrasia officinalis agg.,01/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,5,14,29,62,0,1,0,2,0.013888889,1,1,29,105,2088,7560
+Euphrasia officinalis agg.,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,1,4,11,4,0,1,0,1,0.006944444,1,1,11,19,1584,2736
+Euphrasia officinalis agg.,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,2,8,20,10,0,1,0,3,0.020833333,1,1,20,38,960,1824
+Euphrasia officinalis agg.,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,3,9,14,1,0,1,0,1,0.006944444,1,1,14,24,2016,3456
+Euphrasia officinalis agg.,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,4,4,10,6,0,1,0,1,0.006944444,1,1,10,20,1440,2880
+Euphrasia officinalis agg.,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,5,4,7,2,0,1,0,1,0.006944444,1,1,7,13,1008,1872
+Fallopia convolvulus,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,1,1144,748,88,0,1,0,36,0.25,1,1,748,1980,2992,7920
+Fallopia convolvulus,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,2,1248,816,96,0,1,0,36,0.25,1,1,816,2160,3264,8640
+Fallopia convolvulus,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,3,1170,765,90,0,1,0,36,0.25,1,1,765,2025,3060,8100
+Fallopia convolvulus,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,4,676,442,52,0,1,0,36,0.25,1,1,442,1170,1768,4680
+Fallopia convolvulus,19/06/2012,13:30,sand point,coastline-grassland,single flower,2012,5,1326,867,102,0,1,0,36,0.25,1,1,867,2295,3468,9180
+Fallopia japonica,19/08/2011,09:30,monptelier narroways,street,single flower,2011,1,82,1100,40,0,1,0,33,0.229166667,1,1,1100,1222,4800,5332.363636
+Fallopia japonica,19/08/2011,09:30,monptelier narroways,street,single flower,2011,2,61,1100,55,0,1,0,35,0.243055556,1,1,1100,1216,4525.714286,5002.971429
+Fallopia japonica,19/08/2011,09:30,monptelier narroways,street,single flower,2011,3,75,1210,35,0,1,0,35,0.243055556,1,1,1210,1320,4978.285714,5430.857143
+Fallopia japonica,19/08/2011,09:30,monptelier narroways,street,single flower,2011,4,110,1430,20,0,1,0,29,0.201388889,1,1,1430,1560,7100.689655,7746.206897
+Fallopia japonica,19/08/2011,09:30,monptelier narroways,street,single flower,2011,5,94,1540,35,0,1,0,34,0.236111111,1,1,1540,1669,6522.352941,7068.705882
+Filipendula ulmaria,16/08/2011,NA,river frome,wetland,terminal skype,2011,1,0,1,7,0,107,0,32,0.222222222,107,107,107,856,481.5,3852
+Filipendula ulmaria,16/08/2011,NA,river frome,wetland,terminal skype,2011,2,0,1,2,0,21,76,36,0.25,21,97,21,291,84,1164
+Filipendula ulmaria,16/08/2011,NA,river frome,wetland,terminal skype,2011,3,0,1,4,0,39,0,35,0.243055556,39,39,39,195,160.4571429,802.2857143
+Filipendula ulmaria,16/08/2011,NA,river frome,wetland,terminal skype,2011,4,1,2,15,0,41,80,36,0.25,41,121,82,2178,328,8712
+Filipendula ulmaria,16/08/2011,NA,river frome,wetland,terminal skype,2011,5,0,2,4,17,77,0,30,0.208333333,77,94,154,564,739.2,2707.2
+Filipendula ulmaria,13/08/2012,12:40,clapton nature reserve,moorland,terminal skype,2012,1,11,8,7,13,31,0,18,0.125,31,44,248,1144,1984,9152
+Filipendula ulmaria,13/08/2012,12:40,clapton nature reserve,moorland,terminal skype,2012,2,39,20,14,2,54,0,29,0.201388889,54,56,1080,4088,5362.758621,20299.03448
+Filipendula ulmaria,13/08/2012,12:40,clapton nature reserve,moorland,terminal skype,2012,3,70,25,5,0,49,0,31,0.215277778,49,49,1225,4900,5690.322581,22761.29032
+Filipendula ulmaria,13/08/2012,12:40,clapton nature reserve,moorland,terminal skype,2012,4,8,12,4,0,29,11,10,0.069444444,29,40,348,960,5011.2,13824
+Filipendula ulmaria,13/08/2012,12:40,clapton nature reserve,moorland,terminal skype,2012,5,3,12,19,0,45,0,15,0.104166667,45,45,540,1530,5184,14688
+Galium aparine,08/06/2011,10:45,brandon hill,woodland nature reserve,single flower,2011,1,10,11,19,0,1,0,8,0.055555556,1,1,11,40,198,720
+Galium aparine,08/06/2011,10:45,brandon hill,woodland nature reserve,single flower,2011,2,6,18,47,0,1,0,10,0.069444444,1,1,18,71,259.2,1022.4
+Galium aparine,08/06/2011,10:45,brandon hill,woodland nature reserve,single flower,2011,3,11,20,38,0,1,0,14,0.097222222,1,1,20,69,205.7142857,709.7142857
+Galium aparine,08/06/2011,10:45,brandon hill,woodland nature reserve,single flower,2011,4,9,9,45,0,1,0,8,0.055555556,1,1,9,63,162,1134
+Galium aparine,08/06/2011,10:45,brandon hill,woodland nature reserve,single flower,2011,5,4,6,107,0,1,0,15,0.104166667,1,1,6,117,57.6,1123.2
+Galium mollugo,27/07/2011,12:00,brandon hill,grassland nature reserve,single flower,2011,1,15,13,1,0,1,0,19,0.131944444,1,1,13,29,98.52631579,219.7894737
+Galium mollugo,27/07/2011,12:00,brandon hill,grassland nature reserve,single flower,2011,2,5,7,0,0,1,0,4,0.027777778,1,1,7,12,252,432
+Galium mollugo,27/07/2011,12:00,brandon hill,grassland nature reserve,single flower,2011,3,9,13,2,0,1,0,20,0.138888889,1,1,13,24,93.6,172.8
+Galium saxatile,18/07/2011,13:00,troopers hill,dwarf shrub heath,single flower,2011,1,120,85,30,0,1,0,2,0.013888889,1,1,85,235,6120,16920
+Galium saxatile,18/07/2011,13:00,troopers hill,dwarf shrub heath,single flower,2011,2,36,20,200,0,1,0,7,0.048611111,1,1,20,256,411.4285714,5266.285714
+Galium saxatile,18/07/2011,13:00,troopers hill,dwarf shrub heath,single flower,2011,3,20,15,85,0,1,0,3,0.020833333,1,1,15,120,720,5760
+Galium saxatile,18/07/2011,13:00,troopers hill,dwarf shrub heath,single flower,2011,4,62,24,190,0,1,0,8,0.055555556,1,1,24,276,432,4968
+Galium saxatile,18/07/2011,13:00,troopers hill,dwarf shrub heath,single flower,2011,5,10,7,47,0,1,0,2,0.013888889,1,1,7,64,504,4608
+Galium verum,08/07/2011,11:00,ashton court,grassland nature reserve,terminal skype,2011,1,9,235,10,9,10,0,10,0.069444444,10,19,2350,4826,33840,69494.4
+Galium verum,08/07/2011,11:00,ashton court,grassland nature reserve,terminal skype,2011,2,7,127,24,7,15,0,7,0.048611111,15,22,1905,3476,39188.57143,71506.28571
+Galium verum,08/07/2011,11:00,ashton court,grassland nature reserve,terminal skype,2011,3,70,151,0,16,52,0,5,0.034722222,52,68,7852,15028,226137.6,432806.4
+Galium verum,08/07/2011,11:00,ashton court,grassland nature reserve,terminal skype,2011,4,36,91,0,12,37,0,2,0.013888889,37,49,3367,6223,242424,448056
+Galium verum,08/07/2011,11:00,ashton court,grassland nature reserve,terminal skype,2011,5,71,97,0,16,46,0,8,0.055555556,46,62,4462,10416,80316,187488
+Galium verum,05/07/2011,09:00,brandon hill,grassland nature reserve,terminal skype,2011,1,8,224,0,23,38,0,8,0.055555556,38,61,8512,14152,153216,254736
+Galium verum,05/07/2011,09:00,brandon hill,grassland nature reserve,terminal skype,2011,2,10,220,0,26,56,0,10,0.069444444,56,82,12320,18860,177408,271584
+Galium verum,05/07/2011,09:00,brandon hill,grassland nature reserve,terminal skype,2011,3,33,66,0,9,20,0,23,0.159722222,20,29,1320,2871,8264.347826,17974.95652
+Galium verum,05/07/2011,09:00,brandon hill,grassland nature reserve,terminal skype,2011,4,92,160,0,30,26,0,19,0.131944444,26,56,4160,14112,31528.42105,106954.1053
+Galium verum,05/07/2011,09:00,brandon hill,grassland nature reserve,terminal skype,2011,5,249,120,0,46,30,0,13,0.090277778,30,76,3600,28044,39876.92308,310641.2308
+Geranium dissectum,13/06/2011,12:30,brandon hill,grassland park,single flower,2011,1,3,5,3,0,1,0,4,0.027777778,1,1,5,11,180,396
+Geranium dissectum,13/06/2011,12:30,brandon hill,grassland park,single flower,2011,2,6,3,2,0,1,0,1,0.006944444,1,1,3,11,432,1584
+Geranium dissectum,13/06/2011,12:30,brandon hill,grassland park,single flower,2011,3,8,7,28,0,1,0,12,0.083333333,1,1,7,43,84,516
+Geranium dissectum,13/06/2011,12:30,brandon hill,grassland park,single flower,2011,4,6,9,18,0,1,0,4,0.027777778,1,1,9,33,324,1188
+Geranium dissectum,13/06/2011,12:30,brandon hill,grassland park,single flower,2011,5,0,6,42,0,1,0,4,0.027777778,1,1,6,48,216,1728
+Geranium dissectum,13/06/2012,14:15,ashton court,grassland,single flower,2012,1,10,3,16,0,1,0,1,0.006944444,1,1,3,29,432,4176
+Geranium dissectum,13/06/2012,14:15,ashton court,grassland,single flower,2012,2,3,1,0,0,1,0,1,0.006944444,1,1,1,4,144,576
+Geranium dissectum,08/06/2012,16:15,brandon hill,grassland,single flower,2012,1,23,7,50,0,1,0,2,0.013888889,1,1,7,80,504,5760
+Geranium dissectum,08/06/2012,16:15,brandon hill,grassland,single flower,2012,2,7,2,12,0,1,0,1,0.006944444,1,1,2,21,288,3024
+Geranium dissectum,08/06/2012,16:15,brandon hill,grassland,single flower,2012,3,10,2,11,0,1,0,3,0.020833333,1,1,2,23,96,1104
+Geranium dissectum,08/06/2012,16:15,brandon hill,grassland,single flower,2012,4,9,3,10,0,1,0,1,0.006944444,1,1,3,22,432,3168
+Geranium dissectum,08/06/2012,16:15,brandon hill,grassland,single flower,2012,5,10,3,10,0,1,0,2,0.013888889,1,1,3,23,216,1656
+Geranium dissectum,14/06/2012,10:10,royate fort garden,grassland,single flower,2012,1,18,4,76,0,1,0,10,0.069444444,1,1,4,98,57.6,1411.2
+Geranium dissectum,14/06/2012,10:10,royate fort garden,grassland,single flower,2012,2,16,1,24,0,1,0,4,0.027777778,1,1,1,41,36,1476
+Geranium dissectum,14/06/2012,10:10,royate fort garden,grassland,single flower,2012,3,17,4,120,0,1,0,12,0.083333333,1,1,4,141,48,1692
+Geranium dissectum,14/06/2012,10:10,royate fort garden,grassland,single flower,2012,4,20,6,48,0,1,0,6,0.041666667,1,1,6,74,144,1776
+Geranium dissectum,14/06/2012,10:10,royate fort garden,grassland,single flower,2012,5,12,3,45,0,1,0,2,0.013888889,1,1,3,60,216,4320
+Geranium molle,24/05/2012,13:30,brandon hill,grassland-park,single flower,2012,1,14,5,21,0,1,0,1,0.006944444,1,1,5,40,720,5760
+Geranium molle,24/05/2012,13:30,brandon hill,grassland-park,single flower,2012,2,102,16,108,0,1,0,2,0.013888889,1,1,16,226,1152,16272
+Geranium molle,24/05/2012,13:30,brandon hill,grassland-park,single flower,2012,3,57,10,41,0,1,0,3,0.020833333,1,1,10,108,480,5184
+Geranium molle,24/05/2012,13:30,brandon hill,grassland-park,single flower,2012,4,144,15,144,0,1,0,5,0.034722222,1,1,15,303,432,8726.4
+Geranium molle,24/05/2012,13:30,brandon hill,grassland-park,single flower,2012,5,108,25,324,0,1,0,6,0.041666667,1,1,25,457,600,10968
+Geranium molle,21/05/2012,15:20,troopers hill,grassland-woodland,single flower,2012,1,94,57,28,0,1,0,9,0.0625,1,1,57,179,912,2864
+Geranium molle,21/05/2012,15:20,troopers hill,grassland-woodland,single flower,2012,2,210,94,61,0,1,0,20,0.138888889,1,1,94,365,676.8,2628
+Geranium molle,21/05/2012,15:20,troopers hill,grassland-woodland,single flower,2012,3,190,90,82,0,1,0,16,0.111111111,1,1,90,362,810,3258
+Geranium molle,21/05/2012,15:20,troopers hill,grassland-woodland,single flower,2012,4,100,41,41,0,1,0,12,0.083333333,1,1,41,182,492,2184
+Geranium molle,21/05/2012,15:20,troopers hill,grassland-woodland,single flower,2012,5,120,39,21,0,1,0,21,0.145833333,1,1,39,180,267.4285714,1234.285714
+Geranium pratense,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,1,4,12,55,0,1,0,16,0.111111111,1,1,12,71,108,639
+Geranium pratense,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,2,6,25,75,0,1,0,12,0.083333333,1,1,25,106,300,1272
+Geranium pratense,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,3,0,4,26,0,1,0,3,0.020833333,1,1,4,30,192,1440
+Geranium pratense,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,4,14,9,15,0,1,0,27,0.1875,1,1,9,38,48,202.6666667
+Geranium pratense,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,5,3,16,65,0,1,0,14,0.097222222,1,1,16,84,164.5714286,864
+Geranium robertianum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,1,4,4,8,0,1,0,10,0.069444444,1,1,4,16,57.6,230.4
+Geranium robertianum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,2,6,6,12,0,1,0,8,0.055555556,1,1,6,24,108,432
+Geranium robertianum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,3,10,12,35,0,1,0,14,0.097222222,1,1,12,57,123.4285714,586.2857143
+Geranium robertianum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,4,4,6,15,0,1,0,7,0.048611111,1,1,6,25,123.4285714,514.2857143
+Geranium robertianum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,5,0,1,6,0,1,0,2,0.013888889,1,1,1,7,72,504
+Geranium robertianum,08/06/2011,10:30,brandon hill,grassland park,single flower,2011,1,0,7,78,0,1,0,10,0.069444444,1,1,7,85,100.8,1224
+Geranium robertianum,08/06/2011,10:30,brandon hill,grassland park,single flower,2011,2,4,16,159,0,1,0,20,0.138888889,1,1,16,179,115.2,1288.8
+Geranium robertianum,08/06/2011,10:30,brandon hill,grassland park,single flower,2011,3,0,5,29,0,1,0,14,0.097222222,1,1,5,34,51.42857143,349.7142857
+Geranium robertianum,08/06/2011,10:30,brandon hill,grassland park,single flower,2011,4,0,7,52,0,1,0,8,0.055555556,1,1,7,59,126,1062
+Geranium robertianum,08/06/2011,10:30,brandon hill,grassland park,single flower,2011,5,2,8,118,0,1,0,12,0.083333333,1,1,8,128,96,1536
+Geum urbanum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,1,0,1,1,0,1,0,2,0.013888889,1,1,1,2,72,144
+Geum urbanum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,2,0,1,2,0,1,0,4,0.027777778,1,1,1,3,36,108
+Geum urbanum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,3,0,1,5,0,1,0,8,0.055555556,1,1,1,6,18,108
+Geum urbanum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,4,0,2,4,0,1,0,2,0.013888889,1,1,2,6,144,432
+Geum urbanum,28/06/2011,14:00,ashton court,woodland carpark,single flower,2011,5,2,4,7,0,1,0,6,0.041666667,1,1,4,13,96,312
+Geum urbanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,1,6,6,33,0,1,0,10,0.069444444,1,1,6,45,86.4,648
+Geum urbanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,2,1,1,21,0,1,0,10,0.069444444,1,1,1,23,14.4,331.2
+Geum urbanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,3,2,4,66,0,1,0,15,0.104166667,1,1,4,72,38.4,691.2
+Geum urbanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,4,0,5,27,0,1,0,11,0.076388889,1,1,5,32,65.45454545,418.9090909
+Geum urbanum,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,5,3,2,29,0,1,0,22,0.152777778,1,1,2,34,13.09090909,222.5454545
+Gladiolus sp.,13/09/2012,10:05,jane's garden,pot,single flower,2012,1,0,3,19,0,1,0,4,0.027777778,1,1,3,22,108,792
+Gladiolus sp.,18/09/2012,NA,jane's garden,grassland-garden,single flower,2012,1,2,6,125,0,1,0,18,0.125,1,1,6,133,48,1064
+Gladiolus sp.,13/09/2012,10:05,jane's garden,pot,single flower,2012,2,1,4,54,0,1,0,14,0.097222222,1,1,4,59,41.14285714,606.8571429
+Gladiolus sp.,18/09/2012,NA,jane's garden,grassland-garden,single flower,2012,2,1,5,90,0,1,0,16,0.111111111,1,1,5,96,45,864
+Gladiolus sp.,18/09/2012,NA,jane's garden,grassland-garden,single flower,2012,3,0,3,100,0,1,0,14,0.097222222,1,1,3,103,30.85714286,1059.428571
+Gladiolus sp.,18/09/2012,NA,jane's garden,grassland-garden,single flower,2012,4,0,1,100,0,1,0,14,0.097222222,1,1,1,101,10.28571429,1038.857143
+Gladiolus sp.,18/09/2012,NA,jane's garden,grassland-garden,single flower,2012,5,0,1,80,0,1,0,12,0.083333333,1,1,1,81,12,972
+Glechoma hederacea,20/04/2012,11:30,ashton court,grassland,single flower,2012,1,8,8,3,0,1,0,1,0.006944444,1,1,8,19,1152,2736
+Glechoma hederacea,20/04/2012,11:30,ashton court,grassland,single flower,2012,2,44,4,2,0,1,0,2,0.013888889,1,1,4,50,288,3600
+Glechoma hederacea,20/04/2012,11:30,ashton court,grassland,single flower,2012,3,23,5,1,0,1,0,1,0.006944444,1,1,5,29,720,4176
+Glechoma hederacea,20/04/2012,11:30,ashton court,grassland,single flower,2012,4,48,21,6,0,1,0,2,0.013888889,1,1,21,75,1512,5400
+Glechoma hederacea,20/04/2012,11:30,ashton court,grassland,single flower,2012,5,53,18,12,0,1,0,3,0.020833333,1,1,18,83,864,3984
+Glechoma hederacea,08/05/2012,16:45,downs,woodland,single flower,2012,1,110,33,22,0,1,0,8,0.055555556,1,1,33,165,594,2970
+Glechoma hederacea,08/05/2012,16:45,downs,woodland,single flower,2012,2,60,13,15,0,1,0,8,0.055555556,1,1,13,88,234,1584
+Glechoma hederacea,08/05/2012,16:45,downs,woodland,single flower,2012,3,88,42,6,0,1,0,6,0.041666667,1,1,42,136,1008,3264
+Glechoma hederacea,08/05/2012,16:45,downs,woodland,single flower,2012,4,64,24,16,0,1,0,5,0.034722222,1,1,24,104,691.2,2995.2
+Glechoma hederacea,08/05/2012,16:45,downs,woodland,single flower,2012,5,159,37,53,0,1,0,24,0.166666667,1,1,37,249,222,1494
+Glechoma hederacea,25/04/2012,NA,woodland road,grassland,single flower,2012,1,18,18,9,0,1,0,3,0.020833333,1,1,18,45,864,2160
+Glechoma hederacea,25/04/2012,NA,woodland road,grassland,single flower,2012,2,32,10,1,0,1,0,6,0.041666667,1,1,10,43,240,1032
+Glechoma hederacea,25/04/2012,NA,woodland road,grassland,single flower,2012,3,20,8,4,0,1,0,4,0.027777778,1,1,8,32,288,1152
+Glechoma hederacea,25/04/2012,NA,woodland road,grassland,single flower,2012,4,90,45,30,0,1,0,6,0.041666667,1,1,45,165,1080,3960
+Glechoma hederacea,25/04/2012,NA,woodland road,grassland,single flower,2012,5,144,96,24,0,1,0,11,0.076388889,1,1,96,264,1256.727273,3456
+Hedera helix,19/10/2011,16:30,brandon hill,grassland park,single head,2011,1,25,20,8,21,15,1,27,0.1875,15,37,300,1961,1600,10458.66667
+Hedera helix,19/10/2011,16:30,brandon hill,grassland park,single head,2011,2,24,12,4,3,39,0,31,0.215277778,39,42,468,1680,2173.935484,7803.870968
+Hedera helix,19/10/2011,16:30,brandon hill,grassland park,single head,2011,3,38,52,11,13,9,0,34,0.236111111,9,22,468,2222,1982.117647,9410.823529
+Hedera helix,19/10/2011,16:30,brandon hill,grassland park,single head,2011,4,5,25,9,1,15,42,32,0.222222222,15,58,375,2262,1687.5,10179
+Hedera helix,19/10/2011,16:30,brandon hill,grassland park,single head,2011,5,16,5,15,10,25,0,25,0.173611111,25,35,125,1260,720,7257.6
+Hedera helix,20/10/2011,15:00,royal fort garden,street,single head,2011,1,2,9,3,0,11,3,13,0.090277778,11,14,99,196,1096.615385,2171.076923
+Hedera helix,20/10/2011,15:00,royal fort garden,street,single head,2011,2,11,22,10,4,7,0,24,0.166666667,7,11,154,473,924,2838
+Hedera helix,20/10/2011,15:00,royal fort garden,street,single head,2011,3,20,1,6,20,1,0,19,0.131944444,1,21,1,567,7.578947368,4297.263158
+Hedera helix,20/10/2011,15:00,royal fort garden,street,single head,2011,4,18,1,7,11,12,7,31,0.215277778,12,30,12,780,55.74193548,3623.225806
+Hedera helix,20/10/2011,15:00,royal fort garden,street,single head,2011,5,6,16,2,1,17,5,13,0.090277778,17,23,272,552,3012.923077,6114.461538
+Helianthemum nummularium,19/09/2011,11:00,downs,rock,single flower,2011,1,7,1,96,0,1,0,20,0.138888889,1,1,1,104,7.2,748.8
+Helianthemum nummularium,19/09/2011,11:00,downs,rock,single flower,2011,2,46,6,45,0,1,0,10,0.069444444,1,1,6,97,86.4,1396.8
+Helianthemum nummularium,19/09/2011,11:00,downs,rock,single flower,2011,3,8,3,41,0,1,0,7,0.048611111,1,1,3,52,61.71428571,1069.714286
+Helianthemum nummularium,19/09/2011,11:00,downs,rock,single flower,2011,4,10,4,24,0,1,0,12,0.083333333,1,1,4,38,48,456
+Helianthemum nummularium,19/09/2011,11:00,downs,rock,single flower,2011,5,8,1,104,0,1,0,17,0.118055556,1,1,1,113,8.470588235,957.1764706
+Heracleum sphondylium,27/06/2011,10:00,ashton court,woodland carpark,PB,2011,1,0,45,15,0,27,3,7,0.048611111,27,30,1215,1800,24994.28571,37028.57143
+Heracleum sphondylium,27/06/2011,10:00,ashton court,woodland carpark,PB,2011,2,0,15,0,0,0,17,2,0.013888889,0,17,0,255,0,18360
+Heracleum sphondylium,27/06/2011,10:00,ashton court,woodland carpark,PB,2011,3,0,120,60,1,23,5,30,0.208333333,23,29,2760,5220,13248,25056
+Heracleum sphondylium,27/06/2011,10:00,ashton court,woodland carpark,PB,2011,4,0,30,15,0,20,7,3,0.020833333,20,27,600,1215,28800,58320
+Heracleum sphondylium,27/06/2011,10:00,ashton court,woodland carpark,PB,2011,5,0,90,45,0,23,4,25,0.173611111,23,27,2070,3645,11923.2,20995.2
+Heracleum sphondylium,24/05/2011,15:15,brandon hill,woodland nature reserve,PB,2011,1,56,98,14,17,12,0,32,0.222222222,12,29,1176,4872,5292,21924
+Heracleum sphondylium,24/05/2011,15:15,brandon hill,woodland nature reserve,PB,2011,2,13,91,26,5,35,0,29,0.201388889,35,40,3185,5200,15815.17241,25820.68966
+Heracleum sphondylium,24/05/2011,15:15,brandon hill,woodland nature reserve,PB,2011,3,70,182,28,4,16,0,36,0.25,16,20,2912,5600,11648,22400
+Heracleum sphondylium,24/05/2011,15:15,brandon hill,woodland nature reserve,PB,2011,4,16,64,16,13,5,0,7,0.048611111,5,18,320,1728,6582.857143,35547.42857
+Heracleum sphondylium,24/05/2011,15:15,brandon hill,woodland nature reserve,PB,2011,5,100,180,20,8,16,0,36,0.25,16,24,2880,7200,11520,28800
+Heracleum sphondylium,22/06/2012,10:40,brandon hill,grassland,secondary umbel,2012,1,79,0,16,30,0,0,12,0.083333333,0,30,0,2850,0,34200
+Heracleum sphondylium,22/06/2012,10:40,brandon hill,grassland,secondary umbel,2012,2,49,36,33,0,36,0,11,0.076388889,36,36,1296,4248,16965.81818,55610.18182
+Heracleum sphondylium,22/06/2012,10:40,brandon hill,grassland,secondary umbel,2012,3,0,0,73,0,0,26,6,0.041666667,0,26,0,1898,0,45552
+Heracleum sphondylium,22/06/2012,10:40,brandon hill,grassland,secondary umbel,2012,4,0,88,113,0,7,25,11,0.076388889,7,32,616,6432,8064,84200.72727
+Heracleum sphondylium,22/06/2012,10:40,brandon hill,grassland,secondary umbel,2012,5,0,69,237,0,0,26,10,0.069444444,0,26,0,7956,0,114566.4
+Hyacinthoides non-scripta,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,1,66,44,0,0,1,0,36,0.25,1,1,44,110,176,440
+Hyacinthoides non-scripta,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,2,102,68,5,0,1,0,36,0.25,1,1,68,175,272,700
+Hyacinthoides non-scripta,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,3,108,216,4,0,1,0,35,0.243055556,1,1,216,328,888.6857143,1349.485714
+Hyacinthoides non-scripta,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,4,31,36,5,0,1,0,36,0.25,1,1,36,72,144,288
+Hyacinthoides non-scripta,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,5,145,82,1,0,1,0,36,0.25,1,1,82,228,328,912
+Hyacinthoides non-scripta,11/04/2012,10:00,brandon hill,grassland,single flower,2012,1,29,22,0,0,1,0,14,0.097222222,1,1,22,51,226.2857143,524.5714286
+Hyacinthoides non-scripta,11/04/2012,10:00,brandon hill,grassland,single flower,2012,2,10,14,3,0,1,0,9,0.0625,1,1,14,27,224,432
+Hyacinthoides non-scripta,11/04/2012,10:00,brandon hill,grassland,single flower,2012,3,13,35,4,0,1,0,24,0.166666667,1,1,35,52,210,312
+Hyacinthoides non-scripta,11/04/2012,10:00,brandon hill,grassland,single flower,2012,4,64,27,0,0,1,0,19,0.131944444,1,1,27,91,204.6315789,689.6842105
+Hyacinthoides non-scripta,11/04/2012,10:00,brandon hill,grassland,single flower,2012,5,31,24,2,0,1,0,11,0.076388889,1,1,24,57,314.1818182,746.1818182
+Hyacinthoides non-scripta,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,1,20,36,14,0,1,0,17,0.118055556,1,1,36,70,304.9411765,592.9411765
+Hyacinthoides non-scripta,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,2,11,12,19,0,1,0,13,0.090277778,1,1,12,42,132.9230769,465.2307692
+Hyacinthoides non-scripta,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,3,41,17,21,0,1,0,12,0.083333333,1,1,17,79,204,948
+Hyacinthoides non-scripta,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,4,51,24,22,0,1,0,14,0.097222222,1,1,24,97,246.8571429,997.7142857
+Hyacinthoides non-scripta,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,5,24,39,21,0,1,0,16,0.111111111,1,1,39,84,351,756
+Hypericum pulchrum,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,1,52,25,6,0,1,0,2,0.013888889,1,1,25,83,1800,5976
+Hypericum pulchrum,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,2,41,30,16,0,1,0,1,0.006944444,1,1,30,87,4320,12528
+Hypericum pulchrum,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,3,170,120,75,0,1,0,4,0.027777778,1,1,120,365,4320,13140
+Hypericum pulchrum,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,4,200,145,100,0,1,0,2,0.013888889,1,1,145,445,10440,32040
+Hypericum pulchrum,25/07/2011,09:30,troopers hill,grassland park,single flower,2011,5,67,41,15,0,1,0,1,0.006944444,1,1,41,123,5904,17712
+Hypochaeris radicata,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,1,2,9,19,30,54,0,5,0.034722222,54,84,486,2520,13996.8,72576
+Hypochaeris radicata,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,2,0,10,5,4,78,0,6,0.041666667,78,82,780,1230,18720,29520
+Hypochaeris radicata,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,3,4,6,3,12,86,0,5,0.034722222,86,98,516,1274,14860.8,36691.2
+Hypochaeris radicata,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,4,2,10,6,26,60,0,8,0.055555556,60,86,600,1548,10800,27864
+Hypochaeris radicata,20/06/2011,11:30,ashton court,grassland nature reserve,single capitulum,2011,5,4,12,17,10,56,0,9,0.0625,56,66,672,2178,10752,34848
+Hypochaeris radicata,06/06/2011,11:20,brandon hill,grassland nature reserve,single capitulum,2011,1,14,21,18,42,34,0,24,0.166666667,34,76,714,4028,4284,24168
+Hypochaeris radicata,06/06/2011,11:20,brandon hill,grassland nature reserve,single capitulum,2011,2,4,3,6,22,58,0,5,0.034722222,58,80,174,1040,5011.2,29952
+Hypochaeris radicata,06/06/2011,11:20,brandon hill,grassland nature reserve,single capitulum,2011,3,2,5,2,24,60,0,6,0.041666667,60,84,300,756,7200,18144
+Hypochaeris radicata,06/06/2011,11:20,brandon hill,grassland nature reserve,single capitulum,2011,4,11,10,12,20,62,0,9,0.0625,62,82,620,2706,9920,43296
+Hypochaeris radicata,06/06/2011,11:20,brandon hill,grassland nature reserve,single capitulum,2011,5,4,4,5,14,30,0,8,0.055555556,30,44,120,572,2160,10296
+Impatiens glandulifera,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,1,39,3,5,0,1,0,28,0.194444444,1,1,3,47,15.42857143,241.7142857
+Impatiens glandulifera,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,2,37,4,5,0,1,0,21,0.145833333,1,1,4,46,27.42857143,315.4285714
+Impatiens glandulifera,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,3,64,1,0,0,1,0,25,0.173611111,1,1,1,65,5.76,374.4
+Impatiens glandulifera,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,4,17,1,0,0,1,0,22,0.152777778,1,1,1,18,6.545454545,117.8181818
+Impatiens glandulifera,30/06/2011,14:00,ashton court,woodland carpark,single flower,2011,5,82,10,4,0,1,0,30,0.208333333,1,1,10,96,48,460.8
+Impatiens glandulifera,15/08/2011,12:00,river frome,wetland,single flower,2011,1,18,4,11,0,1,0,5,0.034722222,1,1,4,33,115.2,950.4
+Impatiens glandulifera,15/08/2011,12:00,river frome,wetland,single flower,2011,2,51,5,4,0,1,0,13,0.090277778,1,1,5,60,55.38461538,664.6153846
+Impatiens glandulifera,15/08/2011,12:00,river frome,wetland,single flower,2011,3,38,7,16,0,1,0,20,0.138888889,1,1,7,61,50.4,439.2
+Impatiens glandulifera,15/08/2011,12:00,river frome,wetland,single flower,2011,4,22,4,4,0,1,0,6,0.041666667,1,1,4,30,96,720
+Impatiens glandulifera,15/08/2011,12:00,river frome,wetland,single flower,2011,5,76,18,30,0,1,0,16,0.111111111,1,1,18,124,162,1116
+Iris pseudacorus,11/06/2012,16:15,brandon hill,wetland-pond,single flower,2012,1,5,0,2,0,1,0,26,0.180555556,1,1,0,7,0,38.76923077
+Iris pseudacorus,11/06/2012,16:15,brandon hill,wetland-pond,single flower,2012,2,1,1,6,0,1,0,13,0.090277778,1,1,1,8,11.07692308,88.61538462
+Iris pseudacorus,11/06/2012,16:15,brandon hill,wetland-pond,single flower,2012,3,2,0,11,0,1,0,15,0.104166667,1,1,0,13,0,124.8
+Iris pseudacorus,11/06/2012,16:15,brandon hill,wetland-pond,single flower,2012,4,2,2,15,0,1,0,18,0.125,1,1,2,19,16,152
+Iris pseudacorus,11/06/2012,16:15,brandon hill,wetland-pond,single flower,2012,5,2,2,14,0,1,0,28,0.194444444,1,1,2,18,10.28571429,92.57142857
+Iris pseudacorus,06/06/2012,NA,leigh woods,wetland-pond,single flower,2012,1,2,4,4,0,1,0,25,0.173611111,1,1,4,10,23.04,57.6
+Iris pseudacorus,06/06/2012,NA,leigh woods,wetland-pond,single flower,2012,2,5,2,2,0,1,0,13,0.090277778,1,1,2,9,22.15384615,99.69230769
+Iris pseudacorus,06/06/2012,NA,leigh woods,wetland-pond,single flower,2012,3,5,0,10,0,1,0,24,0.166666667,1,1,0,15,0,90
+Iris pseudacorus,06/06/2012,NA,leigh woods,wetland-pond,single flower,2012,4,7,1,1,0,1,0,10,0.069444444,1,1,1,9,14.4,129.6
+Iris pseudacorus,06/06/2012,NA,leigh woods,wetland-pond,single flower,2012,5,5,3,7,0,1,0,18,0.125,1,1,3,15,24,120
+Knautia arvensis,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single capitulum,2011,1,1,2,4,0,44,0,3,0.020833333,44,44,88,308,4224,14784
+Knautia arvensis,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single capitulum,2011,2,5,1,3,0,90,0,5,0.034722222,90,90,90,810,2592,23328
+Knautia arvensis,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single capitulum,2011,3,4,3,7,0,52,0,4,0.027777778,52,52,156,728,5616,26208
+Knautia arvensis,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single capitulum,2011,4,1,3,4,0,44,0,3,0.020833333,44,44,132,352,6336,16896
+Knautia arvensis,01/08/2011,10:48,ashton court nature reserve,grassland nature reserve,single capitulum,2011,5,3,5,2,0,44,0,2,0.013888889,44,44,220,440,15840,31680
+Knautia arvensis,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,1,4,3,2,8,68,0,2,0.013888889,68,76,204,684,14688,49248
+Knautia arvensis,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,2,17,11,5,0,82,0,10,0.069444444,82,82,902,2706,12988.8,38966.4
+Knautia arvensis,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,3,1,2,2,0,80,0,6,0.041666667,80,80,160,400,3840,9600
+Knautia arvensis,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,4,1,2,1,0,110,0,3,0.020833333,110,110,220,440,10560,21120
+Knautia arvensis,27/07/2011,12:00,brandon hill,grassland park,single capitulum,2011,5,22,3,1,0,60,0,11,0.076388889,60,60,180,1560,2356.363636,20421.81818
+Lamiastrum galeobdolon,23/05/2012,NA,paradise bottom,woodland,single flower,2012,1,18,14,472,0,1,0,17,0.118055556,1,1,14,504,118.5882353,4269.176471
+Lamiastrum galeobdolon,23/05/2012,NA,paradise bottom,woodland,single flower,2012,2,34,12,61,0,1,0,13,0.090277778,1,1,12,107,132.9230769,1185.230769
+Lamiastrum galeobdolon,23/05/2012,NA,paradise bottom,woodland,single flower,2012,3,17,7,114,0,1,0,2,0.013888889,1,1,7,138,504,9936
+Lamiastrum galeobdolon,23/05/2012,NA,paradise bottom,woodland,single flower,2012,4,70,26,120,0,1,0,10,0.069444444,1,1,26,216,374.4,3110.4
+Lamiastrum galeobdolon,23/05/2012,NA,paradise bottom,woodland,single flower,2012,5,26,19,59,0,1,0,7,0.048611111,1,1,19,104,390.8571429,2139.428571
+Lamiastrum galeobdolon,01/06/2012,10:30,river frome,woodland,single flower,2012,1,0,1,252,0,1,0,28,0.194444444,1,1,1,253,5.142857143,1301.142857
+Lamiastrum galeobdolon,01/06/2012,10:30,river frome,woodland,single flower,2012,2,0,7,468,0,1,0,24,0.166666667,1,1,7,475,42,2850
+Lamiastrum galeobdolon,01/06/2012,10:30,river frome,woodland,single flower,2012,3,0,4,54,0,1,0,16,0.111111111,1,1,4,58,36,522
+Lamiastrum galeobdolon,01/06/2012,10:30,river frome,woodland,single flower,2012,4,2,15,91,0,1,0,18,0.125,1,1,15,108,120,864
+Lamiastrum galeobdolon,01/06/2012,10:30,river frome,woodland,single flower,2012,5,0,6,69,0,1,0,8,0.055555556,1,1,6,75,108,1350
+Lamium album,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,1,84,27,0,0,1,0,7,0.048611111,1,1,27,111,555.4285714,2283.428571
+Lamium album,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,2,112,45,0,0,1,0,8,0.055555556,1,1,45,157,810,2826
+Lamium album,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,3,28,9,0,0,1,0,2,0.013888889,1,1,9,37,648,2664
+Lamium album,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,4,238,72,0,0,1,0,18,0.125,1,1,72,310,576,2480
+Lamium album,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,5,154,36,0,0,1,0,9,0.0625,1,1,36,190,576,3040
+Lamium album,10/08/2011,NA,brandon hill,grassland park,single flower,2011,1,45,27,45,0,1,0,13,0.090277778,1,1,27,117,299.0769231,1296
+Lamium album,10/08/2011,NA,brandon hill,grassland park,single flower,2011,2,13,22,50,0,1,0,5,0.034722222,1,1,22,85,633.6,2448
+Lamium album,10/08/2011,NA,brandon hill,grassland park,single flower,2011,3,92,21,40,0,1,0,7,0.048611111,1,1,21,153,432,3147.428571
+Lamium album,10/08/2011,NA,brandon hill,grassland park,single flower,2011,4,78,29,117,0,1,0,6,0.041666667,1,1,29,224,696,5376
+Lamium album,10/08/2011,NA,brandon hill,grassland park,single flower,2011,5,39,16,16,0,1,0,3,0.020833333,1,1,16,71,768,3408
+Lamium purpureum,09/05/2012,11:00,greenhouse-university,pot,single flower,2012,1,48,71,5,0,1,0,10,0.069444444,1,1,71,124,1022.4,1785.6
+Lamium purpureum,09/05/2012,11:00,greenhouse-university,pot,single flower,2012,2,38,49,78,0,1,0,7,0.048611111,1,1,49,165,1008,3394.285714
+Lamium purpureum,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,1,9,5,22,0,1,0,1,0.006944444,1,1,5,36,720,5184
+Lamium purpureum,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,2,17,8,69,0,1,0,1,0.006944444,1,1,8,94,1152,13536
+Lamium purpureum,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,3,17,13,84,0,1,0,1,0.006944444,1,1,13,114,1872,16416
+Lamium purpureum,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,4,8,4,49,0,1,0,1,0.006944444,1,1,4,61,576,8784
+Lamium purpureum,26/04/2012,NA,north road-leigh woods,wood-grassland,single flower,2012,5,0,1,12,0,1,0,1,0.006944444,1,1,1,13,144,1872
+Lapsana communis,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,1,25,32,20,0,20,0,12,0.083333333,20,20,640,1540,7680,18480
+Lapsana communis,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,2,15,22,28,0,26,0,6,0.041666667,26,26,572,1690,13728,40560
+Lapsana communis,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,3,12,10,30,0,22,0,2,0.013888889,22,22,220,1144,15840,82368
+Lapsana communis,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,4,37,22,65,0,30,0,15,0.104166667,30,30,660,3720,6336,35712
+Lapsana communis,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,5,8,20,42,0,20,0,7,0.048611111,20,20,400,1400,8228.571429,28800
+Lapsana communis,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,1,32,52,63,4,10,0,19,0.131944444,10,14,520,2058,3941.052632,15597.47368
+Lapsana communis,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,2,22,28,52,6,10,0,26,0.180555556,10,16,280,1632,1550.769231,9038.769231
+Lapsana communis,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,3,9,21,32,6,8,0,5,0.034722222,8,14,168,868,4838.4,24998.4
+Lapsana communis,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,4,4,8,41,4,12,0,3,0.020833333,12,16,96,848,4608,40704
+Lapsana communis,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,5,6,5,37,4,10,4,2,0.013888889,10,18,50,864,3600,62208
+Lathyrus latifolius,19/08/2011,11:30,monpelier narroways,grassland nature reserve,single flower,2011,1,34,49,9,0,1,0,15,0.104166667,1,1,49,92,470.4,883.2
+Lathyrus latifolius,19/08/2011,11:30,monpelier narroways,grassland nature reserve,single flower,2011,2,12,28,8,0,1,0,6,0.041666667,1,1,28,48,672,1152
+Lathyrus latifolius,19/08/2011,11:30,monpelier narroways,grassland nature reserve,single flower,2011,3,14,52,16,0,1,0,10,0.069444444,1,1,52,82,748.8,1180.8
+Lathyrus latifolius,19/08/2011,11:30,monpelier narroways,grassland nature reserve,single flower,2011,4,48,71,21,0,1,0,20,0.138888889,1,1,71,140,511.2,1008
+Lathyrus latifolius,19/08/2011,11:30,monpelier narroways,grassland nature reserve,single flower,2011,5,30,52,6,0,1,0,14,0.097222222,1,1,52,88,534.8571429,905.1428571
+Lathyrus pratensis,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,1,31,9,0,0,1,0,22,0.152777778,1,1,9,40,58.90909091,261.8181818
+Lathyrus pratensis,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,2,19,36,8,0,1,0,23,0.159722222,1,1,36,63,225.3913043,394.4347826
+Lathyrus pratensis,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,3,3,8,0,0,1,0,5,0.034722222,1,1,8,11,230.4,316.8
+Lathyrus pratensis,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,4,11,9,0,0,1,0,12,0.083333333,1,1,9,20,108,240
+Lathyrus pratensis,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,5,22,8,2,0,1,0,13,0.090277778,1,1,8,32,88.61538462,354.4615385
+Lathyrus pratensis,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,1,10,15,0,0,1,0,9,0.0625,1,1,15,25,240,400
+Lathyrus pratensis,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,2,15,4,12,0,1,0,12,0.083333333,1,1,4,31,48,372
+Lathyrus pratensis,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,3,12,25,5,0,1,0,7,0.048611111,1,1,25,42,514.2857143,864
+Lathyrus pratensis,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,4,11,21,10,0,1,0,13,0.090277778,1,1,21,42,232.6153846,465.2307692
+Lathyrus pratensis,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,5,7,48,7,0,1,0,12,0.083333333,1,1,48,62,576,744
+Leontodon autumnalis,07/09/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,1,26,24,24,0,42,0,2,0.013888889,42,42,1008,3108,72576,223776
+Leontodon autumnalis,07/09/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,2,32,24,30,6,30,0,2,0.013888889,30,36,720,3096,51840,222912
+Leontodon autumnalis,07/09/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,3,18,18,37,12,34,0,4,0.027777778,34,46,612,3358,22032,120888
+Leontodon autumnalis,07/09/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,4,23,19,47,8,18,0,2,0.013888889,18,26,342,2314,24624,166608
+Leontodon autumnalis,07/09/2011,11:00,ashton court,grassland nature reserve,single capitulum,2011,5,21,19,30,4,32,0,5,0.034722222,32,36,608,2520,17510.4,72576
+Leontodon autumnalis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,1,13,9,15,0,60,0,5,0.034722222,60,60,540,2220,15552,63936
+Leontodon autumnalis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,2,30,22,50,4,42,0,13,0.090277778,42,46,924,4692,10235.07692,51972.92308
+Leontodon autumnalis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,3,28,11,41,10,34,0,8,0.055555556,34,44,374,3520,6732,63360
+Leontodon autumnalis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,4,28,26,43,2,34,0,7,0.048611111,34,36,884,3492,18185.14286,71835.42857
+Leontodon autumnalis,12/09/2011,16:30,brandon hill,grassland park,single capitulum,2011,5,30,34,36,6,46,0,11,0.076388889,46,52,1564,5200,20474.18182,68072.72727
+Leontodon hispidus,22/06/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,1,0,2,3,6,130,30,4,0.027777778,130,166,260,830,9360,29880
+Leontodon hispidus,22/06/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,2,3,4,13,68,44,0,32,0.222222222,44,112,176,2240,792,10080
+Leontodon hispidus,22/06/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,3,3,12,15,0,64,0,35,0.243055556,64,64,768,1920,3159.771429,7899.428571
+Leontodon hispidus,22/06/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,4,3,7,18,36,64,4,30,0.208333333,64,104,448,2912,2150.4,13977.6
+Leontodon hispidus,22/06/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,5,4,7,5,20,68,0,27,0.1875,68,88,476,1408,2538.666667,7509.333333
+Leucanthemum vulgare,20/06/2011,10:30,ashton court,grassland nature reserve,single capitulum,2011,1,0,10,0,36,172,0,3,0.020833333,172,208,1720,2080,82560,99840
+Leucanthemum vulgare,20/06/2011,10:30,ashton court,grassland nature reserve,single capitulum,2011,2,0,12,2,30,452,0,6,0.041666667,452,482,5424,6748,130176,161952
+Leucanthemum vulgare,20/06/2011,10:30,ashton court,grassland nature reserve,single capitulum,2011,3,0,5,0,38,80,0,2,0.013888889,80,118,400,590,28800,42480
+Leucanthemum vulgare,20/06/2011,10:30,ashton court,grassland nature reserve,single capitulum,2011,4,1,33,4,0,54,0,10,0.069444444,54,54,1782,2052,25660.8,29548.8
+Leucanthemum vulgare,20/06/2011,10:30,ashton court,grassland nature reserve,single capitulum,2011,5,0,16,0,52,138,0,4,0.027777778,138,190,2208,3040,79488,109440
+Leucanthemum vulgare,24/05/2011,15:15,brandon hill,grassland nature reserve,single capitulum,2011,1,2,12,0,130,90,0,2,0.013888889,90,220,1080,3080,77760,221760
+Leucanthemum vulgare,24/05/2011,15:15,brandon hill,grassland nature reserve,single capitulum,2011,2,2,5,0,142,50,0,5,0.034722222,50,192,250,1344,7200,38707.2
+Leucanthemum vulgare,24/05/2011,15:15,brandon hill,grassland nature reserve,single capitulum,2011,3,1,37,0,220,86,0,10,0.069444444,86,306,3182,11628,45820.8,167443.2
+Leucanthemum vulgare,24/05/2011,15:15,brandon hill,grassland nature reserve,single capitulum,2011,4,0,24,0,102,98,0,5,0.034722222,98,200,2352,4800,67737.6,138240
+Leucanthemum vulgare,24/05/2011,15:15,brandon hill,grassland nature reserve,single capitulum,2011,5,0,19,0,32,132,0,3,0.020833333,132,164,2508,3116,120384,149568
+Ligustrum vulgare,07/07/2011,16:00,brandon hill,hedge park,single panicle,2011,1,4,13,10,180,210,0,21,0.145833333,210,390,2730,10530,18720,72205.71429
+Ligustrum vulgare,07/07/2011,16:00,brandon hill,hedge park,single panicle,2011,2,2,4,8,200,60,0,12,0.083333333,60,260,240,3640,2880,43680
+Ligustrum vulgare,07/07/2011,16:00,brandon hill,hedge park,single panicle,2011,3,6,17,11,24,80,0,24,0.166666667,80,104,1360,3536,8160,21216
+Ligustrum vulgare,07/07/2011,16:00,brandon hill,hedge park,single panicle,2011,4,4,18,10,70,160,0,36,0.25,160,230,2880,7360,11520,29440
+Ligustrum vulgare,07/07/2011,16:00,brandon hill,hedge park,single panicle,2011,5,18,44,20,32,56,80,26,0.180555556,56,168,2464,13776,13646.76923,76297.84615
+Linaria vulgaris,08/08/2011,11:50,troopers hill,grassland park,single flower,2011,1,37,58,41,0,1,0,6,0.041666667,1,1,58,136,1392,3264
+Linaria vulgaris,08/08/2011,11:50,troopers hill,grassland park,single flower,2011,2,22,18,39,0,1,0,4,0.027777778,1,1,18,79,648,2844
+Linaria vulgaris,08/08/2011,11:50,troopers hill,grassland park,single flower,2011,3,23,22,41,0,1,0,6,0.041666667,1,1,22,86,528,2064
+Linaria vulgaris,08/08/2011,11:50,troopers hill,grassland park,single flower,2011,4,31,52,37,0,1,0,3,0.020833333,1,1,52,120,2496,5760
+Linaria vulgaris,08/08/2011,11:50,troopers hill,grassland park,single flower,2011,5,28,22,31,0,1,0,3,0.020833333,1,1,22,81,1056,3888
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,1,13,17,4,0,1,0,28,0.194444444,1,1,17,34,87.42857143,174.8571429
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,1,16,2,12,0,1,0,35,0.243055556,1,1,2,30,8.228571429,123.4285714
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,2,19,15,2,0,1,0,25,0.173611111,1,1,15,36,86.4,207.36
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,2,28,6,9,0,1,0,28,0.194444444,1,1,6,43,30.85714286,221.1428571
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,3,14,17,7,0,1,0,19,0.131944444,1,1,17,38,128.8421053,288
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,3,46,2,11,0,1,0,21,0.145833333,1,1,2,59,13.71428571,404.5714286
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,4,9,14,11,0,1,0,15,0.104166667,1,1,14,34,134.4,326.4
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,4,11,3,14,0,1,0,34,0.236111111,1,1,3,28,12.70588235,118.5882353
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,5,20,26,14,0,1,0,29,0.201388889,1,1,26,60,129.1034483,297.9310345
+Lonicera periclymenum,19/08/2011,09:30,monpelier narroways,street,single flower,2011,5,39,4,12,0,1,0,20,0.138888889,1,1,4,55,28.8,396
+Lonicera periclymenum,04/07/2011,11:00,troopers hill,dwarf shrub heath,single flower,2011,1,16,5,72,0,1,0,25,0.173611111,1,1,5,93,28.8,535.68
+Lonicera periclymenum,04/07/2011,11:00,troopers hill,dwarf shrub heath,single flower,2011,2,5,7,360,0,1,0,32,0.222222222,1,1,7,372,31.5,1674
+Lonicera periclymenum,04/07/2011,11:00,troopers hill,dwarf shrub heath,single flower,2011,3,8,4,130,0,1,0,30,0.208333333,1,1,4,142,19.2,681.6
+Lonicera periclymenum,04/07/2011,11:00,troopers hill,dwarf shrub heath,single flower,2011,4,4,13,80,0,1,0,35,0.243055556,1,1,13,97,53.48571429,399.0857143
+Lonicera periclymenum,04/07/2011,11:00,troopers hill,dwarf shrub heath,single flower,2011,5,9,12,156,0,1,0,23,0.159722222,1,1,12,177,75.13043478,1108.173913
+Lotus corniculatus,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,1,6,16,102,0,1,0,15,0.104166667,1,1,16,124,153.6,1190.4
+Lotus corniculatus,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,2,21,44,45,0,1,0,10,0.069444444,1,1,44,110,633.6,1584
+Lotus corniculatus,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,3,25,56,18,0,1,0,8,0.055555556,1,1,56,99,1008,1782
+Lotus corniculatus,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,4,2,18,6,0,1,0,14,0.097222222,1,1,18,26,185.1428571,267.4285714
+Lotus corniculatus,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,5,1,13,25,0,1,0,6,0.041666667,1,1,13,39,312,936
+Lotus corniculatus,24/05/2011,15:15,brandon hill,grassland nature reserve,single flower,2011,1,10,3,3,0,1,0,7,0.048611111,1,1,3,16,61.71428571,329.1428571
+Lotus corniculatus,24/05/2011,15:15,brandon hill,grassland nature reserve,single flower,2011,2,3,21,45,0,1,0,23,0.159722222,1,1,21,69,131.4782609,432
+Lotus corniculatus,24/05/2011,15:15,brandon hill,grassland nature reserve,single flower,2011,3,1,10,4,0,1,0,12,0.083333333,1,1,10,15,120,180
+Lotus corniculatus,24/05/2011,15:15,brandon hill,grassland nature reserve,single flower,2011,4,4,7,5,0,1,0,3,0.020833333,1,1,7,16,336,768
+Lotus corniculatus,24/05/2011,15:15,brandon hill,grassland nature reserve,single flower,2011,5,9,13,13,0,1,0,5,0.034722222,1,1,13,35,374.4,1008
+Lotus pedunculatus,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,1,45,52,61,0,1,0,21,0.145833333,1,1,52,158,356.5714286,1083.428571
+Lotus pedunculatus,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,2,4,21,4,0,1,0,8,0.055555556,1,1,21,29,378,522
+Lotus pedunculatus,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,3,8,38,42,0,1,0,16,0.111111111,1,1,38,88,342,792
+Lotus pedunculatus,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,4,11,62,70,0,1,0,12,0.083333333,1,1,62,143,744,1716
+Lotus pedunculatus,29/07/2011,10:00,ashton court,woodland carpark,single flower,2011,5,25,13,41,0,1,0,30,0.208333333,1,1,13,79,62.4,379.2
+Lysimachia nemorum,22/08/2012,15:30,southlakes,grass-wetland,single flower,2012,1,0,3,0,0,1,0,10,0.069444444,1,1,3,3,43.2,43.2
+Lysimachia nemorum,22/08/2012,15:30,southlakes,grass-wetland,single flower,2012,2,0,1,1,0,1,0,10,0.069444444,1,1,1,2,14.4,28.8
+Lysimachia nemorum,22/08/2012,15:30,southlakes,grass-wetland,single flower,2012,3,1,3,2,0,1,0,10,0.069444444,1,1,3,6,43.2,86.4
+Lysimachia nemorum,22/08/2012,15:30,southlakes,grass-wetland,single flower,2012,4,1,3,0,0,1,0,8,0.055555556,1,1,3,4,54,72
+Lysimachia nemorum,22/08/2012,15:30,southlakes,grass-wetland,single flower,2012,5,5,17,3,0,1,0,16,0.111111111,1,1,17,25,153,225
+Lythrum salicaria,08/09/2011,12:00,leigh woods,garden,single flower,2011,1,281,67,48,0,1,0,4,0.027777778,1,1,67,396,2412,14256
+Lythrum salicaria,08/09/2011,12:00,leigh woods,garden,single flower,2011,2,123,90,342,0,1,0,10,0.069444444,1,1,90,555,1296,7992
+Lythrum salicaria,08/09/2011,12:00,leigh woods,garden,single flower,2011,3,62,18,351,0,1,0,1,0.006944444,1,1,18,431,2592,62064
+Lythrum salicaria,08/09/2011,12:00,leigh woods,garden,single flower,2011,4,86,86,796,0,1,0,7,0.048611111,1,1,86,968,1769.142857,19913.14286
+Lythrum salicaria,16/08/2011,10:00,river frome,wetland,single flower,2011,1,24,65,31,0,1,0,9,0.0625,1,1,65,120,1040,1920
+Lythrum salicaria,16/08/2011,10:00,river frome,wetland,single flower,2011,2,90,80,54,0,1,0,12,0.083333333,1,1,80,224,960,2688
+Matricaria discoidea,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,1,61,190,13,0,224,0,10,0.069444444,224,224,42560,59136,612864,851558.4
+Matricaria discoidea,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,2,24,56,3,0,174,0,8,0.055555556,174,174,9744,14442,175392,259956
+Matricaria discoidea,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,3,15,19,1,100,140,0,5,0.034722222,140,240,2660,8400,76608,241920
+Matricaria discoidea,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,4,35,97,3,0,130,112,5,0.034722222,130,242,12610,32670,363168,940896
+Matricaria discoidea,30/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,5,10,137,1,0,172,0,2,0.013888889,172,172,23564,25456,1696608,1832832
+Matricaria discoidea,16/08/2011,10:00,river frome,wetland,single capitulum,2011,1,23,21,16,0,330,0,6,0.041666667,330,330,6930,19800,166320,475200
+Matricaria discoidea,16/08/2011,10:00,river frome,wetland,single capitulum,2011,2,7,5,18,0,564,0,2,0.013888889,564,564,2820,16920,203040,1218240
+Matricaria discoidea,16/08/2011,10:00,river frome,wetland,single capitulum,2011,3,15,12,6,0,380,0,3,0.020833333,380,380,4560,12540,218880,601920
+Matricaria discoidea,16/08/2011,10:00,river frome,wetland,single capitulum,2011,4,12,9,17,0,484,0,4,0.027777778,484,484,4356,18392,156816,662112
+Matricaria discoidea,16/08/2011,10:00,river frome,wetland,single capitulum,2011,5,3,14,11,0,320,0,2,0.013888889,320,320,4480,8960,322560,645120
+Matricaria recutita,05/07/2012,14:30,pill allotments,allotments,single capitulum,2012,1,15,18,12,200,240,0,2,0.013888889,240,440,4320,19800,311040,1425600
+Matricaria recutita,05/07/2012,14:30,pill allotments,allotments,single capitulum,2012,2,31,40,14,300,120,0,7,0.048611111,120,420,4800,35700,98742.85714,734400
+Matricaria recutita,05/07/2012,14:30,pill allotments,allotments,single capitulum,2012,3,16,12,2,0,208,0,2,0.013888889,208,208,2496,6240,179712,449280
+Matricaria recutita,05/07/2012,14:30,pill allotments,allotments,single capitulum,2012,4,9,15,7,220,72,0,1,0.006944444,72,292,1080,9052,155520,1303488
+Matricaria recutita,05/07/2012,14:30,pill allotments,allotments,single capitulum,2012,5,44,47,14,312,64,0,7,0.048611111,64,376,3008,39480,61878.85714,812160
+Medicago lupulina,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,1,14,17,7,3,27,0,7,0.048611111,27,30,459,1140,9442.285714,23451.42857
+Medicago lupulina,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,2,6,10,1,2,23,0,1,0.006944444,23,25,230,425,33120,61200
+Medicago lupulina,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,3,9,24,11,8,19,0,3,0.020833333,19,27,456,1188,21888,57024
+Medicago lupulina,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,4,12,14,0,4,11,0,3,0.020833333,11,15,154,390,7392,18720
+Medicago lupulina,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,5,3,23,2,13,11,0,4,0.027777778,11,24,253,672,9108,24192
+Medicago sativa,05/07/2012,13:15,pill allotments,allotments,single flower,2012,1,3672,576,1440,0,1,0,36,0.25,1,1,576,5688,2304,22752
+Medicago sativa,05/07/2012,13:15,pill allotments,allotments,single flower,2012,2,4080,640,1600,0,1,0,35,0.243055556,1,1,640,6320,2633.142857,26002.28571
+Medicago sativa,05/07/2012,13:15,pill allotments,allotments,single flower,2012,3,1734,272,680,0,1,0,27,0.1875,1,1,272,2686,1450.666667,14325.33333
+Medicago sativa,05/07/2012,13:15,pill allotments,allotments,single flower,2012,4,510,80,200,0,1,0,4,0.027777778,1,1,80,790,2880,28440
+Medicago sativa,05/07/2012,13:15,pill allotments,allotments,single flower,2012,5,714,112,280,0,1,0,5,0.034722222,1,1,112,1106,3225.6,31852.8
+Melilotus officinalis,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,1,180,2100,3000,0,1,0,35,0.243055556,1,1,2100,5280,8640,21723.42857
+Melilotus officinalis,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,2,108,2975,4200,0,1,0,35,0.243055556,1,1,2975,7283,12240,29964.34286
+Melilotus officinalis,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,3,72,1645,5000,0,1,0,32,0.222222222,1,1,1645,6717,7402.5,30226.5
+Melilotus officinalis,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,4,144,910,3000,0,1,0,31,0.215277778,1,1,910,4054,4227.096774,18831.48387
+Melilotus officinalis,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,5,192,2520,4680,0,1,0,35,0.243055556,1,1,2520,7392,10368,30412.8
+Mercurialis perennis,20/04/2012,07:12,ashton court,grassland,single flower,2012,1,15,130,7,0,1,0,12,0.083333333,1,1,130,152,1560,1824
+Mercurialis perennis,20/04/2012,07:12,ashton court,grassland,single flower,2012,2,270,47,5,0,1,0,13,0.090277778,1,1,47,322,520.6153846,3566.769231
+Mercurialis perennis,20/04/2012,07:12,ashton court,grassland,single flower,2012,3,325,20,4,0,1,0,3,0.020833333,1,1,20,349,960,16752
+Mercurialis perennis,20/04/2012,07:12,ashton court,grassland,single flower,2012,4,504,68,12,0,1,0,6,0.041666667,1,1,68,584,1632,14016
+Mercurialis perennis,20/04/2012,07:12,ashton court,grassland,single flower,2012,5,45,8,2,0,1,0,13,0.090277778,1,1,8,55,88.61538462,609.2307692
+Mercurialis perennis,13/04/2012,NA,leigh woods,woodland,single flower,2012,1,352,60,6,0,1,0,25,0.173611111,1,1,60,418,345.6,2407.68
+Mercurialis perennis,13/04/2012,NA,leigh woods,woodland,single flower,2012,2,418,72,9,0,1,0,18,0.125,1,1,72,499,576,3992
+Mercurialis perennis,13/04/2012,NA,leigh woods,woodland,single flower,2012,3,374,60,8,0,1,0,26,0.180555556,1,1,60,442,332.3076923,2448
+Mercurialis perennis,13/04/2012,NA,leigh woods,woodland,single flower,2012,4,319,44,4,0,1,0,20,0.138888889,1,1,44,367,316.8,2642.4
+Mercurialis perennis,13/04/2012,NA,leigh woods,woodland,single flower,2012,5,220,24,4,0,1,0,12,0.083333333,1,1,24,248,288,2976
+Myosotis arvensis,11/04/2012,10:00,brandon hill,grassland,single flower,2012,1,70,300,55,0,1,0,14,0.097222222,1,1,300,425,3085.714286,4371.428571
+Myosotis arvensis,11/04/2012,10:00,brandon hill,grassland,single flower,2012,2,518,860,275,0,1,0,30,0.208333333,1,1,860,1653,4128,7934.4
+Myosotis arvensis,11/04/2012,10:00,brandon hill,grassland,single flower,2012,3,224,240,100,0,1,0,28,0.194444444,1,1,240,564,1234.285714,2900.571429
+Myosotis arvensis,11/04/2012,10:00,brandon hill,grassland,single flower,2012,4,126,190,80,0,1,0,14,0.097222222,1,1,190,396,1954.285714,4073.142857
+Myosotis arvensis,11/04/2012,10:00,brandon hill,grassland,single flower,2012,5,332,240,55,0,1,0,10,0.069444444,1,1,240,627,3456,9028.8
+Myosotis arvensis,17/04/2012,NA,leigh woods,woodland,single flower,2012,1,711,415,144,0,1,0,21,0.145833333,1,1,415,1270,2845.714286,8708.571429
+Myosotis arvensis,17/04/2012,NA,leigh woods,woodland,single flower,2012,2,738,500,240,0,1,0,23,0.159722222,1,1,500,1478,3130.434783,9253.565217
+Myosotis arvensis,17/04/2012,NA,leigh woods,woodland,single flower,2012,3,639,455,192,0,1,0,19,0.131944444,1,1,455,1286,3448.421053,9746.526316
+Myosotis arvensis,17/04/2012,NA,leigh woods,woodland,single flower,2012,4,1890,1300,840,0,1,0,34,0.236111111,1,1,1300,4030,5505.882353,17068.23529
+Myosotis arvensis,17/04/2012,NA,leigh woods,woodland,single flower,2012,5,900,460,312,0,1,0,23,0.159722222,1,1,460,1672,2880,10468.17391
+Narthecium ossifragum,29/08/2012,12:05,cleddon bog,bog,single flower,2012,1,0,4,247,0,1,0,1,0.006944444,1,1,4,251,576,36144
+Narthecium ossifragum,29/08/2012,12:05,cleddon bog,bog,single flower,2012,2,0,3,468,0,1,0,3,0.020833333,1,1,3,471,144,22608
+Narthecium ossifragum,29/08/2012,12:05,cleddon bog,bog,single flower,2012,3,11,8,162,0,1,0,1,0.006944444,1,1,8,181,1152,26064
+Narthecium ossifragum,29/08/2012,12:05,cleddon bog,bog,single flower,2012,4,0,7,306,0,1,0,3,0.020833333,1,1,7,313,336,15024
+Narthecium ossifragum,29/08/2012,12:05,cleddon bog,bog,single flower,2012,5,0,11,170,0,1,0,2,0.013888889,1,1,11,181,792,13032
+Odontites vernus,06/09/2011,14:00,ashton court,grassland nature reserve,single flower,2011,1,15,10,306,0,1,0,4,0.027777778,1,1,10,331,360,11916
+Odontites vernus,06/09/2011,14:00,ashton court,grassland nature reserve,single flower,2011,2,28,46,131,0,1,0,2,0.013888889,1,1,46,205,3312,14760
+Odontites vernus,06/09/2011,14:00,ashton court,grassland nature reserve,single flower,2011,3,9,27,84,0,1,0,1,0.006944444,1,1,27,120,3888,17280
+Odontites vernus,06/09/2011,14:00,ashton court,grassland nature reserve,single flower,2011,4,3,13,243,0,1,0,3,0.020833333,1,1,13,259,624,12432
+Odontites vernus,06/09/2011,14:00,ashton court,grassland nature reserve,single flower,2011,5,51,33,443,0,1,0,6,0.041666667,1,1,33,527,792,12648
+Origanum vulgare,05/09/2012,11:00,doleburry warren,grassland,single flower,2012,1,272,296,4,0,1,0,15,0.104166667,1,1,296,572,2841.6,5491.2
+Origanum vulgare,05/09/2012,11:00,doleburry warren,grassland,single flower,2012,2,1856,550,7,0,1,0,16,0.111111111,1,1,550,2413,4950,21717
+Origanum vulgare,05/09/2012,11:00,doleburry warren,grassland,single flower,2012,3,1287,840,2,0,1,0,10,0.069444444,1,1,840,2129,12096,30657.6
+Origanum vulgare,05/09/2012,11:00,doleburry warren,grassland,single flower,2012,4,798,270,2,0,1,0,6,0.041666667,1,1,270,1070,6480,25680
+Origanum vulgare,05/09/2012,11:00,doleburry warren,grassland,single flower,2012,5,4560,243,6,0,1,0,4,0.027777778,1,1,243,4809,8748,173124
+Origanum vulgare,03/09/2012,11:30,pill allotments,allotments,single flower,2012,1,14,1105,5,0,1,0,7,0.048611111,1,1,1105,1124,22731.42857,23122.28571
+Origanum vulgare,03/09/2012,11:30,pill allotments,allotments,single flower,2012,2,19,3080,5,0,1,0,8,0.055555556,1,1,3080,3104,55440,55872
+Oxalis acetosella,23/04/2012,16:00,paradise bottom,wetland,single flower,2012,1,7,7,0,0,1,0,3,0.020833333,1,1,7,14,336,672
+Oxalis acetosella,23/04/2012,16:00,paradise bottom,wetland,single flower,2012,2,2,1,2,0,1,0,2,0.013888889,1,1,1,5,72,360
+Oxalis acetosella,23/04/2012,16:00,paradise bottom,wetland,single flower,2012,3,2,0,0,0,1,0,1,0.006944444,1,1,0,2,0,288
+Oxalis acetosella,23/04/2012,16:00,paradise bottom,wetland,single flower,2012,4,0,2,1,0,1,0,3,0.020833333,1,1,2,3,96,144
+Oxalis acetosella,23/04/2012,16:00,paradise bottom,wetland,single flower,2012,5,1,1,0,0,1,0,1,0.006944444,1,1,1,2,144,288
+Oxalis acetosella,15/04/2012,15:00,river frome,wetland,single flower,2012,1,3,1,0,0,1,0,11,0.076388889,1,1,1,4,13.09090909,52.36363636
+Oxalis acetosella,15/04/2012,15:00,river frome,wetland,single flower,2012,2,2,13,1,0,1,0,20,0.138888889,1,1,13,16,93.6,115.2
+Oxalis acetosella,15/04/2012,15:00,river frome,wetland,single flower,2012,3,2,3,2,0,1,0,24,0.166666667,1,1,3,7,18,42
+Oxalis acetosella,15/04/2012,15:00,river frome,wetland,single flower,2012,4,0,2,3,0,1,0,20,0.138888889,1,1,2,5,14.4,36
+Papaver rhoeas,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,1,11,3,3,0,1,0,7,0.048611111,1,1,3,17,61.71428571,349.7142857
+Papaver rhoeas,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,2,10,2,0,0,1,0,3,0.020833333,1,1,2,12,96,576
+Papaver rhoeas,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,3,23,2,4,0,1,0,6,0.041666667,1,1,2,29,48,696
+Papaver rhoeas,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,4,16,3,13,0,1,0,12,0.083333333,1,1,3,32,36,384
+Papaver rhoeas,23/09/2011,11:00,abbots leigh,wasteland,single flower,2011,5,26,5,3,0,1,0,19,0.131944444,1,1,5,34,37.89473684,257.6842105
+Papaver rhoeas,05/07/2012,13:15,pill allotments,allotments,single flower,2012,1,16,1,6,0,1,0,6,0.041666667,1,1,1,23,24,552
+Papaver rhoeas,05/07/2012,13:15,pill allotments,allotments,single flower,2012,2,4,2,3,0,1,0,3,0.020833333,1,1,2,9,96,432
+Papaver rhoeas,05/07/2012,13:15,pill allotments,allotments,single flower,2012,3,69,13,14,0,1,0,27,0.1875,1,1,13,96,69.33333333,512
+Papaver rhoeas,05/07/2012,13:15,pill allotments,allotments,single flower,2012,4,77,12,37,0,1,0,32,0.222222222,1,1,12,126,54,567
+Papaver rhoeas,31/07/2012,14:50,weston super mare,coastal grassland,single flower,2012,1,3,1,16,0,1,0,2,0.013888889,1,1,1,20,72,1440
+Papaver rhoeas,31/07/2012,14:50,weston super mare,coastal grassland,single flower,2012,2,11,0,33,0,1,0,6,0.041666667,1,1,0,44,0,1056
+Papaver rhoeas,31/07/2012,14:50,weston super mare,coastal grassland,single flower,2012,3,9,1,27,0,1,0,2,0.013888889,1,1,1,37,72,2664
+Papaver rhoeas,31/07/2012,14:50,weston super mare,coastal grassland,single flower,2012,4,23,3,62,0,1,0,11,0.076388889,1,1,3,88,39.27272727,1152
+Papaver rhoeas,31/07/2012,14:50,weston super mare,coastal grassland,single flower,2012,5,28,2,15,0,1,0,6,0.041666667,1,1,2,45,48,1080
+Pastinaca sativa,25/09/2012,NA,st werberghs1,allotments,secondary umbel,2012,1,31,21,26,0,6,0,21,0.145833333,6,6,126,468,864,3209.142857
+Pastinaca sativa,25/09/2012,NA,st werberghs1,allotments,secondary umbel,2012,2,0,13,54,0,3,4,7,0.048611111,3,7,39,469,802.2857143,9648
+Pastinaca sativa,25/09/2012,NA,st werberghs1,allotments,secondary umbel,2012,3,22,3,2,2,5,0,6,0.041666667,5,7,15,189,360,4536
+Pastinaca sativa,25/09/2012,NA,st werberghs1,allotments,secondary umbel,2012,4,17,38,78,4,3,0,22,0.152777778,3,7,114,931,746.1818182,6093.818182
+Pastinaca sativa,25/09/2012,NA,st werberghs2,allotments,secondary umbel,2012,1,56,54,97,5,2,10,24,0.166666667,2,17,108,3519,648,21114
+Pastinaca sativa,25/09/2012,NA,st werberghs2,allotments,secondary umbel,2012,2,27,21,117,11,5,4,17,0.118055556,5,20,105,3300,889.4117647,27952.94118
+Pastinaca sativa,25/09/2012,NA,st werberghs2,allotments,secondary umbel,2012,3,67,12,145,3,2,13,19,0.131944444,2,18,24,4032,181.8947368,30558.31579
+Pastinaca sativa,25/09/2012,NA,st werberghs2,allotments,secondary umbel,2012,4,60,6,110,14,0,0,11,0.076388889,0,14,0,2464,0,32256
+Persicaria maculosa,13/08/2012,12:40,clapton nature reserve,moorland,single spike,2012,1,0,2,0,73,37,0,10,0.069444444,37,110,74,220,1065.6,3168
+Persicaria maculosa,13/08/2012,12:40,clapton nature reserve,moorland,single spike,2012,2,0,2,0,59,12,0,13,0.090277778,12,71,24,142,265.8461538,1572.923077
+Persicaria maculosa,13/08/2012,12:40,clapton nature reserve,moorland,single spike,2012,3,1,3,0,31,25,0,6,0.041666667,25,56,75,224,1800,5376
+Persicaria maculosa,13/08/2012,12:40,clapton nature reserve,moorland,single spike,2012,4,4,3,0,69,0,0,8,0.055555556,0,69,0,483,0,8694
+Persicaria maculosa,13/08/2012,12:40,clapton nature reserve,moorland,single spike,2012,5,1,5,0,65,20,0,17,0.118055556,20,85,100,510,847.0588235,4320
+Picris echioides,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,1,8,5,90,0,84,0,4,0.027777778,84,84,420,8652,15120,311472
+Picris echioides,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,2,12,16,28,0,76,20,3,0.020833333,76,96,1216,5376,58368,258048
+Picris echioides,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,3,14,7,34,14,70,40,6,0.041666667,70,124,490,6820,11760,163680
+Picris echioides,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,4,10,20,32,12,72,20,3,0.020833333,72,104,1440,6448,69120,309504
+Picris echioides,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,5,20,7,42,0,80,10,2,0.013888889,80,90,560,6210,40320,447120
+Picris echioides,09/08/2011,NA,troopers hill,grassland park,single capitulum,2011,1,12,2,73,18,44,0,6,0.041666667,44,62,88,5394,2112,129456
+Picris echioides,09/08/2011,NA,troopers hill,grassland park,single capitulum,2011,2,8,1,68,0,64,0,7,0.048611111,64,64,64,4928,1316.571429,101376
+Pilosella officinarum,14/07/2011,10:30,troopers hill,dwarf shrub heath,single capitulum,2011,1,0,1,1,38,18,0,23,0.159722222,18,56,18,112,112.6956522,701.2173913
+Pilosella officinarum,14/07/2011,10:30,troopers hill,dwarf shrub heath,single capitulum,2011,2,3,1,6,0,66,0,18,0.125,66,66,66,660,528,5280
+Pilosella officinarum,14/07/2011,10:30,troopers hill,dwarf shrub heath,single capitulum,2011,3,0,1,0,0,78,0,6,0.041666667,78,78,78,78,1872,1872
+Pilosella officinarum,14/07/2011,10:30,troopers hill,dwarf shrub heath,single capitulum,2011,4,0,1,0,0,72,0,6,0.041666667,72,72,72,72,1728,1728
+Pilosella officinarum,14/07/2011,10:30,troopers hill,dwarf shrub heath,single capitulum,2011,5,4,3,15,12,28,6,30,0.208333333,28,46,84,1012,403.2,4857.6
+Pisum sativum,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,1,9,2,49,0,1,0,31,0.215277778,1,1,2,60,9.290322581,278.7096774
+Pisum sativum,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,2,14,7,53,0,1,0,13,0.090277778,1,1,7,74,77.53846154,819.6923077
+Pisum sativum,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,3,5,5,51,0,1,0,16,0.111111111,1,1,5,61,45,549
+Pisum sativum,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,4,7,7,63,0,1,0,20,0.138888889,1,1,7,77,50.4,554.4
+Pisum sativum,28/06/2012,10:45,pill allotments1,allotments,single flower,2012,5,7,3,43,0,1,0,15,0.104166667,1,1,3,53,28.8,508.8
+Pisum sativum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,1,36,10,11,0,1,0,12,0.083333333,1,1,10,57,120,684
+Pisum sativum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,2,68,11,12,0,1,0,15,0.104166667,1,1,11,91,105.6,873.6
+Pisum sativum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,3,33,7,7,0,1,0,13,0.090277778,1,1,7,47,77.53846154,520.6153846
+Pisum sativum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,4,25,12,8,0,1,0,15,0.104166667,1,1,12,45,115.2,432
+Pisum sativum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,5,66,14,19,0,1,0,18,0.125,1,1,14,99,112,792
+Plantago coronopus,31/07/2012,14:50,weston super mare,coastal grassland,single spyke,2012,1,14,36,52,0,0,28,8,0.055555556,0,28,0,2856,0,51408
+Plantago coronopus,31/07/2012,14:50,weston super mare,coastal grassland,single spyke,2012,2,9,30,56,0,0,41,5,0.034722222,0,41,0,3895,0,112176
+Plantago coronopus,31/07/2012,14:50,weston super mare,coastal grassland,single spyke,2012,3,16,73,88,0,32,0,22,0.152777778,32,32,2336,5664,15290.18182,37073.45455
+Plantago coronopus,31/07/2012,14:50,weston super mare,coastal grassland,single spyke,2012,4,3,11,61,0,0,41,4,0.027777778,0,41,0,3075,0,110700
+Plantago coronopus,31/07/2012,14:50,weston super mare,coastal grassland,single spyke,2012,5,5,52,96,0,0,29,8,0.055555556,0,29,0,4437,0,79866
+Plantago lanceolata,20/06/2011,10:30,ashton court,grassland nature reserve,single spyke,2011,1,0,10,18,0,82,0,12,0.083333333,82,82,820,2296,9840,27552
+Plantago lanceolata,20/06/2011,10:30,ashton court,grassland nature reserve,single spyke,2011,2,0,4,13,0,32,16,7,0.048611111,32,48,128,816,2633.142857,16786.28571
+Plantago lanceolata,20/06/2011,10:30,ashton court,grassland nature reserve,single spyke,2011,3,0,10,20,0,30,22,13,0.090277778,30,52,300,1560,3323.076923,17280
+Plantago lanceolata,20/06/2011,10:30,ashton court,grassland nature reserve,single spyke,2011,4,1,4,48,0,34,4,13,0.090277778,34,38,136,2014,1506.461538,22308.92308
+Plantago lanceolata,20/06/2011,10:30,ashton court,grassland nature reserve,single spyke,2011,5,6,5,6,0,18,20,4,0.027777778,18,38,90,646,3240,23256
+Plantago lanceolata,08/06/2011,10:30,brandon hill,grassland nature reserve,single spyke,2011,1,0,6,11,0,76,56,13,0.090277778,76,132,456,2244,5051.076923,24856.61538
+Plantago lanceolata,08/06/2011,10:30,brandon hill,grassland nature reserve,single spyke,2011,2,0,5,26,0,48,26,18,0.125,48,74,240,2294,1920,18352
+Plantago lanceolata,08/06/2011,10:30,brandon hill,grassland nature reserve,single spyke,2011,3,3,4,17,0,70,62,17,0.118055556,70,132,280,3168,2371.764706,26834.82353
+Plantago lanceolata,08/06/2011,10:30,brandon hill,grassland nature reserve,single spyke,2011,4,0,2,26,0,60,22,13,0.090277778,60,82,120,2296,1329.230769,25432.61538
+Plantago lanceolata,08/06/2011,10:30,brandon hill,grassland nature reserve,single spyke,2011,5,2,2,22,0,90,26,8,0.055555556,90,116,180,3016,3240,54288
+Plantago major,12/07/2011,14:00,ashton court,woodland carpark,single spyke,2011,1,4,12,0,12,86,160,9,0.0625,86,258,1032,4128,16512,66048
+Plantago major,12/07/2011,14:00,ashton court,woodland carpark,single spyke,2011,2,3,7,0,16,144,28,24,0.166666667,144,188,1008,1880,6048,11280
+Plantago major,12/07/2011,14:00,ashton court,woodland carpark,single spyke,2011,3,8,2,0,12,122,90,24,0.166666667,122,224,244,2240,1464,13440
+Plantago major,12/07/2011,14:00,ashton court,woodland carpark,single spyke,2011,4,4,4,10,38,214,140,13,0.090277778,214,392,856,7056,9481.846154,78158.76923
+Plantago major,12/07/2011,14:00,ashton court,woodland carpark,single spyke,2011,5,3,6,0,26,166,98,23,0.159722222,166,290,996,2610,6235.826087,16340.86957
+Plantago major,08/08/2011,13:00,troopers hill,grassland park,single spyke,2011,1,121,20,20,0,106,62,28,0.194444444,106,168,2120,27048,10902.85714,139104
+Plantago major,08/08/2011,13:00,troopers hill,grassland park,single spyke,2011,2,84,11,30,0,62,80,15,0.104166667,62,142,682,17750,6547.2,170400
+Plantago major,08/08/2011,13:00,troopers hill,grassland park,single spyke,2011,3,20,1,12,0,0,130,5,0.034722222,0,130,0,4290,0,123552
+Plantago major,08/08/2011,13:00,troopers hill,grassland park,single spyke,2011,4,12,2,22,0,56,14,9,0.0625,56,70,112,2520,1792,40320
+Plantago major,08/08/2011,13:00,troopers hill,grassland park,single spyke,2011,5,27,3,32,0,0,160,9,0.0625,0,160,0,9920,0,158720
+Polygonum aviculare agg.,16/08/2011,NA,river frome,wetland,single flower,2011,1,226,27,0,0,1,0,2,0.013888889,1,1,27,253,1944,18216
+Polygonum aviculare agg.,16/08/2011,NA,river frome,wetland,single flower,2011,2,186,26,0,0,1,0,4,0.027777778,1,1,26,212,936,7632
+Polygonum aviculare agg.,16/08/2011,NA,river frome,wetland,single flower,2011,3,570,19,0,0,1,0,7,0.048611111,1,1,19,589,390.8571429,12116.57143
+Polygonum aviculare agg.,16/08/2011,NA,river frome,wetland,single flower,2011,4,223,8,0,0,1,0,2,0.013888889,1,1,8,231,576,16632
+Polygonum aviculare agg.,16/08/2011,NA,river frome,wetland,single flower,2011,5,133,6,0,0,1,0,2,0.013888889,1,1,6,139,432,10008
+Potentilla anserina,16/08/2012,13:15,southlakes,grassland,single flower,2012,1,1,1,0,0,1,0,4,0.027777778,1,1,1,2,36,72
+Potentilla anserina,16/08/2012,13:15,southlakes,grassland,single flower,2012,2,0,1,0,0,1,0,15,0.104166667,1,1,1,1,9.6,9.6
+Potentilla anserina,16/08/2012,13:15,southlakes,grassland,single flower,2012,3,0,1,0,0,1,0,8,0.055555556,1,1,1,1,18,18
+Potentilla anserina,16/08/2012,13:15,southlakes,grassland,single flower,2012,4,0,1,0,0,1,0,12,0.083333333,1,1,1,1,12,12
+Potentilla anserina,16/08/2012,13:15,southlakes,grassland,single flower,2012,5,0,1,0,0,1,0,9,0.0625,1,1,1,1,16,16
+Potentilla anserina,10/07/2012,12:00,westay nature reserve,wetland-grassland,single flower,2012,1,0,1,1,0,1,0,18,0.125,1,1,1,2,8,16
+Potentilla anserina,10/07/2012,12:00,westay nature reserve,wetland-grassland,single flower,2012,2,0,1,0,0,1,0,8,0.055555556,1,1,1,1,18,18
+Potentilla anserina,10/07/2012,12:00,westay nature reserve,wetland-grassland,single flower,2012,3,0,1,0,0,1,0,23,0.159722222,1,1,1,1,6.260869565,6.260869565
+Potentilla anserina,10/07/2012,12:00,westay nature reserve,wetland-grassland,single flower,2012,4,0,1,0,0,1,0,19,0.131944444,1,1,1,1,7.578947368,7.578947368
+Potentilla anserina,10/07/2012,12:00,westay nature reserve,wetland-grassland,single flower,2012,5,0,1,0,0,1,0,12,0.083333333,1,1,1,1,12,12
+Potentilla erecta,21/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,1,5,6,14,0,1,0,1,0.006944444,1,1,6,25,864,3600
+Potentilla erecta,21/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,2,8,5,46,0,1,0,1,0.006944444,1,1,5,59,720,8496
+Potentilla erecta,21/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,3,0,3,12,0,1,0,1,0.006944444,1,1,3,15,432,2160
+Potentilla erecta,21/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,4,3,3,27,0,1,0,1,0.006944444,1,1,3,33,432,4752
+Potentilla erecta,21/09/2011,NA,dolebury warren,dwarf shrub heath,single flower,2011,5,3,5,26,0,1,0,1,0.006944444,1,1,5,34,720,4896
+Potentilla erecta,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,1,44,11,34,0,1,0,5,0.034722222,1,1,11,89,316.8,2563.2
+Potentilla erecta,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,2,44,17,67,0,1,0,6,0.041666667,1,1,17,128,408,3072
+Potentilla erecta,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,3,34,4,19,0,1,0,3,0.020833333,1,1,4,57,192,2736
+Potentilla erecta,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,4,42,11,36,0,1,0,5,0.034722222,1,1,11,89,316.8,2563.2
+Potentilla erecta,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,5,16,4,17,0,1,0,2,0.013888889,1,1,4,37,288,2664
+Potentilla reptans,18/06/2012,13:20,sand point,coastline-grassland,single flower,2012,1,8,6,4,0,1,0,3,0.020833333,1,1,6,18,288,864
+Potentilla reptans,18/06/2012,13:20,sand point,coastline-grassland,single flower,2012,2,2,2,5,0,1,0,1,0.006944444,1,1,2,9,288,1296
+Primula vulgaris,11/04/2012,10:00,brandon hill,grassland,single flower,2012,1,4,16,4,0,1,0,9,0.0625,1,1,16,24,256,384
+Primula vulgaris,11/04/2012,10:00,brandon hill,grassland,single flower,2012,2,2,8,3,0,1,0,8,0.055555556,1,1,8,13,144,234
+Primula vulgaris,11/04/2012,10:00,brandon hill,grassland,single flower,2012,3,2,11,2,0,1,0,7,0.048611111,1,1,11,15,226.2857143,308.5714286
+Primula vulgaris,11/04/2012,10:00,brandon hill,grassland,single flower,2012,4,4,40,4,0,1,0,9,0.0625,1,1,40,48,640,768
+Primula vulgaris,11/04/2012,10:00,brandon hill,grassland,single flower,2012,5,2,14,4,0,1,0,7,0.048611111,1,1,14,20,288,411.4285714
+Primula vulgaris,17/04/2012,NA,leigh woods,woodland,single flower,2012,1,6,17,9,0,1,0,17,0.118055556,1,1,17,32,144,271.0588235
+Primula vulgaris,17/04/2012,NA,leigh woods,woodland,single flower,2012,2,11,34,24,0,1,0,25,0.173611111,1,1,34,69,195.84,397.44
+Primula vulgaris,17/04/2012,NA,leigh woods,woodland,single flower,2012,3,5,13,12,0,1,0,14,0.097222222,1,1,13,30,133.7142857,308.5714286
+Primula vulgaris,17/04/2012,NA,leigh woods,woodland,single flower,2012,4,4,13,6,0,1,0,9,0.0625,1,1,13,23,208,368
+Primula vulgaris,17/04/2012,NA,leigh woods,woodland,single flower,2012,5,1,26,28,0,1,0,16,0.111111111,1,1,26,55,234,495
+Prunella vulgaris,22/06/2011,14:00,ashton court,grassland nature reserve,single flower,2011,1,2,6,49,0,1,0,2,0.013888889,1,1,6,57,432,4104
+Prunella vulgaris,22/06/2011,14:00,ashton court,grassland nature reserve,single flower,2011,2,15,12,70,0,1,0,1,0.006944444,1,1,12,97,1728,13968
+Prunella vulgaris,22/06/2011,14:00,ashton court,grassland nature reserve,single flower,2011,3,0,18,115,0,1,0,1,0.006944444,1,1,18,133,2592,19152
+Prunella vulgaris,22/06/2011,14:00,ashton court,grassland nature reserve,single flower,2011,4,0,35,135,0,1,0,1,0.006944444,1,1,35,170,5040,24480
+Prunella vulgaris,22/06/2011,14:00,ashton court,grassland nature reserve,single flower,2011,5,2,16,33,0,1,0,1,0.006944444,1,1,16,51,2304,7344
+Prunella vulgaris,21/07/2011,15:00,brandon hill,grassland park,single flower,2011,1,9,32,1170,0,1,0,5,0.034722222,1,1,32,1211,921.6,34876.8
+Prunella vulgaris,21/07/2011,15:00,brandon hill,grassland park,single flower,2011,2,15,14,216,0,1,0,4,0.027777778,1,1,14,245,504,8820
+Prunella vulgaris,21/07/2011,15:00,brandon hill,grassland park,single flower,2011,3,9,6,144,0,1,0,2,0.013888889,1,1,6,159,432,11448
+Prunella vulgaris,21/07/2011,15:00,brandon hill,grassland park,single flower,2011,4,14,14,361,0,1,0,2,0.013888889,1,1,14,389,1008,28008
+Prunella vulgaris,21/07/2011,15:00,brandon hill,grassland park,single flower,2011,5,9,27,459,0,1,0,7,0.048611111,1,1,27,495,555.4285714,10182.85714
+Prunus spinosa,29/03/2012,10:00,ashton court,grassland,single flower,2012,1,162,324,66,0,1,0,32,0.222222222,1,1,324,552,1458,2484
+Prunus spinosa,29/03/2012,10:00,ashton court,grassland,single flower,2012,2,135,288,60,0,1,0,24,0.166666667,1,1,288,483,1728,2898
+Prunus spinosa,29/03/2012,10:00,ashton court,grassland,single flower,2012,3,99,252,60,0,1,0,16,0.111111111,1,1,252,411,2268,3699
+Prunus spinosa,29/03/2012,10:00,ashton court,grassland,single flower,2012,4,108,270,48,0,1,0,26,0.180555556,1,1,270,426,1495.384615,2359.384615
+Prunus spinosa,29/03/2012,10:00,ashton court,grassland,single flower,2012,5,126,270,36,0,1,0,28,0.194444444,1,1,270,432,1388.571429,2221.714286
+Prunus spinosa,29/03/2012,10:00,north road-leigh woods,woodland-hedgerow,single flower,2012,1,108,216,15,0,1,0,26,0.180555556,1,1,216,339,1196.307692,1877.538462
+Prunus spinosa,29/03/2012,10:00,north road-leigh woods,woodland-hedgerow,single flower,2012,2,135,450,60,0,1,0,30,0.208333333,1,1,450,645,2160,3096
+Prunus spinosa,29/03/2012,10:00,north road-leigh woods,woodland-hedgerow,single flower,2012,3,99,72,33,0,1,0,21,0.145833333,1,1,72,204,493.7142857,1398.857143
+Prunus spinosa,29/03/2012,10:00,north road-leigh woods,woodland-hedgerow,single flower,2012,4,126,108,12,0,1,0,32,0.222222222,1,1,108,246,486,1107
+Prunus spinosa,29/03/2012,10:00,north road-leigh woods,woodland-hedgerow,single flower,2012,5,81,126,18,0,1,0,30,0.208333333,1,1,126,225,604.8,1080
+Pulicaria dysenterica,06/09/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,1,2,10,20,82,40,194,11,0.076388889,40,316,400,10112,5236.363636,132375.2727
+Pulicaria dysenterica,06/09/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,2,1,2,6,0,30,278,5,0.034722222,30,308,60,2772,1728,79833.6
+Pulicaria dysenterica,06/09/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,3,0,5,12,110,82,174,6,0.041666667,82,366,410,6222,9840,149328
+Pulicaria dysenterica,06/09/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,4,1,7,15,150,50,190,8,0.055555556,50,390,350,8970,6300,161460
+Pulicaria dysenterica,06/09/2011,14:00,ashton court,grassland nature reserve,single capitulum,2011,5,0,7,16,22,52,330,4,0.027777778,52,404,364,9292,13104,334512
+Pulicaria dysenterica,17/08/2012,10:30,clapton nature reserve,moorland,single capitulum,2012,1,14,17,1,118,430,0,9,0.0625,430,548,7310,17536,116960,280576
+Pulicaria dysenterica,17/08/2012,10:30,clapton nature reserve,moorland,single capitulum,2012,2,13,15,5,50,340,0,5,0.034722222,340,390,5100,12870,146880,370656
+Pulicaria dysenterica,17/08/2012,10:30,clapton nature reserve,moorland,single capitulum,2012,3,6,3,3,240,86,0,5,0.034722222,86,326,258,3912,7430.4,112665.6
+Pulicaria dysenterica,17/08/2012,10:30,clapton nature reserve,moorland,single capitulum,2012,4,10,8,3,188,170,0,4,0.027777778,170,358,1360,7518,48960,270648
+Pulicaria dysenterica,17/08/2012,10:30,clapton nature reserve,moorland,single capitulum,2012,5,9,6,3,310,190,0,6,0.041666667,190,500,1140,9000,27360,216000
+Ranunculus bulbosus,09/05/2012,14:35,brandon hill,grassland-park,single flower,2012,1,21,13,16,0,1,0,8,0.055555556,1,1,13,50,234,900
+Ranunculus bulbosus,09/05/2012,14:35,brandon hill,grassland-park,single flower,2012,2,0,9,8,0,1,0,6,0.041666667,1,1,9,17,216,408
+Ranunculus bulbosus,09/05/2012,14:35,brandon hill,grassland-park,single flower,2012,3,9,10,7,0,1,0,7,0.048611111,1,1,10,26,205.7142857,534.8571429
+Ranunculus bulbosus,09/05/2012,14:35,brandon hill,grassland-park,single flower,2012,4,28,16,8,0,1,0,18,0.125,1,1,16,52,128,416
+Ranunculus bulbosus,09/05/2012,14:35,brandon hill,grassland-park,single flower,2012,5,17,15,2,0,1,0,12,0.083333333,1,1,15,34,180,408
+Ranunculus bulbosus,10/05/2012,10:30,north road-leigh woods,grassland,single flower,2012,1,42,32,7,0,1,0,22,0.152777778,1,1,32,81,209.4545455,530.1818182
+Ranunculus bulbosus,10/05/2012,10:30,north road-leigh woods,grassland,single flower,2012,2,29,14,3,0,1,0,16,0.111111111,1,1,14,46,126,414
+Ranunculus bulbosus,10/05/2012,10:30,north road-leigh woods,grassland,single flower,2012,3,44,14,2,0,1,0,20,0.138888889,1,1,14,60,100.8,432
+Ranunculus bulbosus,10/05/2012,10:30,north road-leigh woods,grassland,single flower,2012,4,21,9,2,0,1,0,12,0.083333333,1,1,9,32,108,384
+Ranunculus bulbosus,10/05/2012,10:30,north road-leigh woods,grassland,single flower,2012,5,28,29,7,0,1,0,15,0.104166667,1,1,29,64,278.4,614.4
+Ranunculus acris,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,1,0,2,0,0,1,0,3,0.020833333,1,1,2,2,96,96
+Ranunculus acris,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,2,0,3,1,0,1,0,1,0.006944444,1,1,3,4,432,576
+Ranunculus acris,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,3,0,6,2,0,1,0,2,0.013888889,1,1,6,8,432,576
+Ranunculus acris,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,4,0,15,3,0,1,0,4,0.027777778,1,1,15,18,540,648
+Ranunculus acris,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,5,0,9,1,0,1,0,2,0.013888889,1,1,9,10,648,720
+Ranunculus acris,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,1,20,30,9,0,1,0,15,0.104166667,1,1,30,59,288,566.4
+Ranunculus acris,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,2,14,29,9,0,1,0,11,0.076388889,1,1,29,52,379.6363636,680.7272727
+Ranunculus acris,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,3,9,18,14,0,1,0,12,0.083333333,1,1,18,41,216,492
+Ranunculus acris,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,4,7,25,14,0,1,0,6,0.041666667,1,1,25,46,600,1104
+Ranunculus acris,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,5,30,56,24,0,1,0,9,0.0625,1,1,56,110,896,1760
+Ranunculus ficaria,11/04/2012,10:00,brandon hill,grassland,single flower,2012,1,8,37,10,0,1,0,32,0.222222222,1,1,37,55,166.5,247.5
+Ranunculus ficaria,11/04/2012,10:00,brandon hill,grassland,single flower,2012,2,10,39,18,0,1,0,35,0.243055556,1,1,39,67,160.4571429,275.6571429
+Ranunculus ficaria,11/04/2012,10:00,brandon hill,grassland,single flower,2012,3,13,46,26,0,1,0,33,0.229166667,1,1,46,85,200.7272727,370.9090909
+Ranunculus ficaria,11/04/2012,10:00,brandon hill,grassland,single flower,2012,4,9,14,11,0,1,0,24,0.166666667,1,1,14,34,84,204
+Ranunculus ficaria,11/04/2012,10:00,brandon hill,grassland,single flower,2012,5,14,31,22,0,1,0,31,0.215277778,1,1,31,67,144,311.2258065
+Ranunculus ficaria,17/04/2012,NA,leigh woods,woodland,single flower,2012,1,18,4,12,0,1,0,19,0.131944444,1,1,4,34,30.31578947,257.6842105
+Ranunculus ficaria,17/04/2012,NA,leigh woods,woodland,single flower,2012,2,28,9,17,0,1,0,21,0.145833333,1,1,9,54,61.71428571,370.2857143
+Ranunculus ficaria,17/04/2012,NA,leigh woods,woodland,single flower,2012,3,22,4,15,0,1,0,18,0.125,1,1,4,41,32,328
+Ranunculus ficaria,17/04/2012,NA,leigh woods,woodland,single flower,2012,4,11,5,16,0,1,0,24,0.166666667,1,1,5,32,30,192
+Ranunculus ficaria,17/04/2012,NA,leigh woods,woodland,single flower,2012,5,7,7,21,0,1,0,18,0.125,1,1,7,35,56,280
+Ranunculus flammula,16/08/2012,11:15,avalon,wetland,single flower,2012,1,12,7,5,0,1,0,2,0.013888889,1,1,7,24,504,1728
+Ranunculus flammula,16/08/2012,11:15,avalon,wetland,single flower,2012,2,9,3,5,0,1,0,2,0.013888889,1,1,3,17,216,1224
+Ranunculus flammula,16/08/2012,11:15,avalon,wetland,single flower,2012,3,6,6,19,0,1,0,4,0.027777778,1,1,6,31,216,1116
+Ranunculus flammula,16/08/2012,11:15,avalon,wetland,single flower,2012,4,6,5,33,0,1,0,4,0.027777778,1,1,5,44,180,1584
+Ranunculus flammula,16/08/2012,11:15,avalon,wetland,single flower,2012,5,8,6,26,0,1,0,4,0.027777778,1,1,6,40,216,1440
+Ranunculus flammula,17/08/2012,11:05,clapton nature reserve,moorland,single flower,2012,1,7,4,9,0,1,0,2,0.013888889,1,1,4,20,288,1440
+Ranunculus flammula,17/08/2012,11:05,clapton nature reserve,moorland,single flower,2012,2,10,3,2,0,1,0,1,0.006944444,1,1,3,15,432,2160
+Ranunculus flammula,17/08/2012,11:05,clapton nature reserve,moorland,single flower,2012,3,17,5,5,0,1,0,4,0.027777778,1,1,5,27,180,972
+Ranunculus flammula,17/08/2012,11:05,clapton nature reserve,moorland,single flower,2012,4,20,8,25,0,1,0,4,0.027777778,1,1,8,53,288,1908
+Ranunculus flammula,17/08/2012,11:05,clapton nature reserve,moorland,single flower,2012,5,19,8,15,0,1,0,3,0.020833333,1,1,8,42,384,2016
+Ranunculus lingua,13/08/2012,12:40,clapton nature reserve,wetland,single flower,2012,1,2,2,1,0,1,0,5,0.034722222,1,1,2,5,57.6,144
+Ranunculus lingua,13/08/2012,12:40,clapton nature reserve,wetland,single flower,2012,2,0,1,1,0,1,0,2,0.013888889,1,1,1,2,72,144
+Ranunculus lingua,13/08/2012,12:40,clapton nature reserve,wetland,single flower,2012,3,1,2,10,0,1,0,8,0.055555556,1,1,2,13,36,234
+Ranunculus lingua,13/08/2012,12:40,clapton nature reserve,wetland,single flower,2012,4,0,2,5,0,1,0,7,0.048611111,1,1,2,7,41.14285714,144
+Ranunculus lingua,13/08/2012,12:40,clapton nature reserve,wetland,single flower,2012,5,0,2,3,0,1,0,4,0.027777778,1,1,2,5,72,180
+Ranunculus repens,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,1,0,8,2,0,1,0,9,0.0625,1,1,8,10,128,160
+Ranunculus repens,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,2,0,3,1,0,1,0,7,0.048611111,1,1,3,4,61.71428571,82.28571429
+Ranunculus repens,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,3,3,15,6,0,1,0,18,0.125,1,1,15,24,120,192
+Ranunculus repens,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,4,0,8,2,0,1,0,6,0.041666667,1,1,8,10,192,240
+Ranunculus repens,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,5,3,3,1,0,1,0,2,0.013888889,1,1,3,7,216,504
+Ranunculus repens,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,1,15,40,5,0,1,0,30,0.208333333,1,1,40,60,192,288
+Ranunculus repens,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,2,3,20,43,0,1,0,26,0.180555556,1,1,20,66,110.7692308,365.5384615
+Ranunculus repens,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,3,12,38,62,0,1,0,32,0.222222222,1,1,38,112,171,504
+Ranunculus repens,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,4,4,27,8,0,1,0,15,0.104166667,1,1,27,39,259.2,374.4
+Ranunculus repens,24/05/2011,17:00,brandon hill,grassland nature reserve,single flower,2011,5,7,33,18,0,1,0,16,0.111111111,1,1,33,58,297,522
+Raphanus raphanistrum,13/09/2012,15:00,failand farm1,grassland,single flower,2012,1,90,15,32,0,1,0,4,0.027777778,1,1,15,137,540,4932
+Raphanus raphanistrum,13/09/2012,15:00,failand farm1,grassland,single flower,2012,2,88,9,63,0,1,0,3,0.020833333,1,1,9,160,432,7680
+Raphanus raphanistrum,13/09/2012,15:00,failand farm1,grassland,single flower,2012,3,220,27,80,0,1,0,1,0.006944444,1,1,27,327,3888,47088
+Raphanus raphanistrum,13/09/2012,15:00,failand farm1,grassland,single flower,2012,4,208,22,54,0,1,0,4,0.027777778,1,1,22,284,792,10224
+Raphanus raphanistrum,13/09/2012,15:00,failand farm1,grassland,single flower,2012,5,247,14,59,0,1,0,3,0.020833333,1,1,14,320,672,15360
+Raphanus raphanistrum,13/09/2012,14:40,failand farm2,grassland,single flower,2012,1,150,24,25,0,1,0,1,0.006944444,1,1,24,199,3456,28656
+Raphanus raphanistrum,13/09/2012,14:40,failand farm2,grassland,single flower,2012,2,36,6,15,0,1,0,1,0.006944444,1,1,6,57,864,8208
+Raphanus raphanistrum,13/09/2012,14:40,failand farm2,grassland,single flower,2012,3,111,21,24,0,1,0,3,0.020833333,1,1,21,156,1008,7488
+Raphanus raphanistrum,13/09/2012,14:40,failand farm2,grassland,single flower,2012,4,54,15,90,0,1,0,2,0.013888889,1,1,15,159,1080,11448
+Raphanus raphanistrum,13/09/2012,14:40,failand farm2,grassland,single flower,2012,5,120,13,48,0,1,0,2,0.013888889,1,1,13,181,936,13032
+Raphanus sativus,06/08/2012,12:00,pill allotments,allotments,single flower,2012,1,418,20,116,0,1,0,4,0.027777778,1,1,20,554,720,19944
+Raphanus sativus,06/08/2012,12:00,pill allotments,allotments,single flower,2012,2,924,30,250,0,1,0,28,0.194444444,1,1,30,1204,154.2857143,6192
+Raphanus sativus,06/08/2012,12:00,pill allotments,allotments,single flower,2012,3,444,17,258,0,1,0,9,0.0625,1,1,17,719,272,11504
+Raphanus sativus,06/08/2012,12:00,pill allotments,allotments,single flower,2012,4,1778,62,594,0,1,0,34,0.236111111,1,1,62,2434,262.5882353,10308.70588
+Raphanus sativus,06/08/2012,12:00,pill allotments,allotments,single flower,2012,5,1184,26,188,0,1,0,24,0.166666667,1,1,26,1398,156,8388
+Rhinanthus minor,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,1,6,5,2,0,1,0,8,0.055555556,1,1,5,13,90,234
+Rhinanthus minor,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,2,7,21,11,0,1,0,10,0.069444444,1,1,21,39,302.4,561.6
+Rhinanthus minor,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,3,2,10,3,0,1,0,2,0.013888889,1,1,10,15,720,1080
+Rhinanthus minor,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,4,3,6,0,0,1,0,1,0.006944444,1,1,6,9,864,1296
+Rhinanthus minor,20/06/2011,10:30,ashton court,grassland nature reserve,single flower,2011,5,6,4,0,0,1,0,2,0.013888889,1,1,4,10,288,720
+Rhinanthus minor,02/06/2011,11:50,brandon hill,grassland nature reserve,single flower,2011,1,5,21,96,0,1,0,10,0.069444444,1,1,21,122,302.4,1756.8
+Rhinanthus minor,02/06/2011,11:50,brandon hill,grassland nature reserve,single flower,2011,2,0,18,32,0,1,0,4,0.027777778,1,1,18,50,648,1800
+Rhinanthus minor,02/06/2011,11:50,brandon hill,grassland nature reserve,single flower,2011,3,0,27,82,0,1,0,4,0.027777778,1,1,27,109,972,3924
+Rhinanthus minor,02/06/2011,11:50,brandon hill,grassland nature reserve,single flower,2011,4,4,22,73,0,1,0,5,0.034722222,1,1,22,99,633.6,2851.2
+Rhinanthus minor,02/06/2011,11:50,brandon hill,grassland nature reserve,single flower,2011,5,6,15,15,0,1,0,2,0.013888889,1,1,15,36,1080,2592
+Rhododendron ponticum,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,1,14,72,17,0,1,0,22,0.152777778,1,1,72,103,471.2727273,674.1818182
+Rhododendron ponticum,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,2,22,24,6,0,1,0,34,0.236111111,1,1,24,52,101.6470588,220.2352941
+Rhododendron ponticum,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,3,18,0,6,0,1,0,32,0.222222222,1,1,0,24,0,108
+Rhododendron ponticum,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,4,4,28,12,0,1,0,35,0.243055556,1,1,28,44,115.2,181.0285714
+Rhododendron ponticum,15/05/2012,NA,ashton court,grassland-woodland,single flower,2012,5,45,0,0,0,1,0,35,0.243055556,1,1,0,45,0,185.1428571
+Rhododendron ponticum,23/05/2012,NA,paradise bottom,woodland,single flower,2012,1,22,9,11,0,1,0,32,0.222222222,1,1,9,42,40.5,189
+Rhododendron ponticum,23/05/2012,NA,paradise bottom,woodland,single flower,2012,2,29,9,0,0,1,0,29,0.201388889,1,1,9,38,44.68965517,188.6896552
+Rhododendron ponticum,23/05/2012,NA,paradise bottom,woodland,single flower,2012,3,4,32,60,0,1,0,26,0.180555556,1,1,32,96,177.2307692,531.6923077
+Rhododendron ponticum,23/05/2012,NA,paradise bottom,woodland,single flower,2012,4,1,30,8,0,1,0,26,0.180555556,1,1,30,39,166.1538462,216
+Rhododendron ponticum,23/05/2012,NA,paradise bottom,woodland,single flower,2012,5,6,37,9,0,1,0,36,0.25,1,1,37,52,148,208
+Rosa canina agg.,25/06/2012,10:40,downs,grassland,single flower,2012,1,14,8,16,0,1,0,23,0.159722222,1,1,8,38,50.08695652,237.9130435
+Rosa canina agg.,25/06/2012,10:40,downs,grassland,single flower,2012,2,4,4,4,0,1,0,32,0.222222222,1,1,4,12,18,54
+Rosa canina agg.,25/06/2012,10:40,downs,grassland,single flower,2012,3,3,2,25,0,1,0,28,0.194444444,1,1,2,30,10.28571429,154.2857143
+Rosa canina agg.,25/06/2012,10:40,downs,grassland,single flower,2012,4,0,3,38,0,1,0,13,0.090277778,1,1,3,41,33.23076923,454.1538462
+Rosa canina agg.,25/06/2012,10:40,downs,grassland,single flower,2012,5,0,1,14,0,1,0,22,0.152777778,1,1,1,15,6.545454545,98.18181818
+Rosa canina agg.,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,1,55,4,11,0,1,0,11,0.076388889,1,1,4,70,52.36363636,916.3636364
+Rosa canina agg.,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,1,9,2,4,0,1,0,3,0.020833333,1,1,2,15,96,720
+Rosa canina agg.,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,2,6,3,22,0,1,0,7,0.048611111,1,1,3,31,61.71428571,637.7142857
+Rosa canina agg.,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,3,14,10,15,0,1,0,13,0.090277778,1,1,10,39,110.7692308,432
+Rosa canina agg.,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,4,4,9,17,0,1,0,6,0.041666667,1,1,9,30,216,720
+Rubus fruticosus agg.,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,1,2,12,25,0,1,0,22,0.152777778,1,1,12,39,78.54545455,255.2727273
+Rubus fruticosus agg.,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,2,20,45,10,0,1,0,30,0.208333333,1,1,45,75,216,360
+Rubus fruticosus agg.,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,3,12,2,0,0,1,0,20,0.138888889,1,1,2,14,14.4,100.8
+Rubus fruticosus agg.,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,4,2,12,4,0,1,0,10,0.069444444,1,1,12,18,172.8,259.2
+Rubus fruticosus agg.,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,5,4,3,7,0,1,0,8,0.055555556,1,1,3,14,54,252
+Rubus fruticosus agg.,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,1,75,9,36,0,1,0,33,0.229166667,1,1,9,120,39.27272727,523.6363636
+Rubus fruticosus agg.,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,2,33,14,11,0,1,0,30,0.208333333,1,1,14,58,67.2,278.4
+Rubus fruticosus agg.,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,3,125,9,16,0,1,0,36,0.25,1,1,9,150,36,600
+Rubus fruticosus agg.,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,4,56,12,8,0,1,0,19,0.131944444,1,1,12,76,90.94736842,576
+Rubus fruticosus agg.,13/06/2011,12:30,brandon hill,woodland nature reserve,single flower,2011,5,128,5,0,0,1,0,34,0.236111111,1,1,5,133,21.17647059,563.2941176
+Sagina sp.,25/06/2012,NA,univ bike shed,pot,single flower,2012,1,75,180,150,0,1,0,4,0.027777778,1,1,180,405,6480,14580
+Sambucus nigra,20/06/2011,11:30,ashton court,grassland nature reserve,whole umbel,2011,1,0,1,0,35,210,0,30,0.208333333,210,245,210,245,1008,1176
+Sambucus nigra,20/06/2011,11:30,ashton court,grassland nature reserve,whole umbel,2011,2,0,2,0,10,180,12,26,0.180555556,180,202,360,404,1993.846154,2237.538462
+Sambucus nigra,20/06/2011,11:30,ashton court,grassland nature reserve,whole umbel,2011,3,0,2,5,0,150,25,15,0.104166667,150,175,300,1225,2880,11760
+Sambucus nigra,20/06/2011,11:30,ashton court,grassland nature reserve,whole umbel,2011,4,0,1,0,2,85,10,12,0.083333333,85,97,85,97,1020,1164
+Sambucus nigra,20/06/2011,11:30,ashton court,grassland nature reserve,whole umbel,2011,5,0,2,1,0,140,30,5,0.034722222,140,170,280,510,8064,14688
+Sambucus nigra,08/06/2011,10:45,brandon hill,woodland nature reserve,whole umbel,2011,1,0,8,8,0,264,66,35,0.243055556,264,330,2112,5280,8689.371429,21723.42857
+Sambucus nigra,08/06/2011,10:45,brandon hill,woodland nature reserve,whole umbel,2011,2,0,8,5,0,188,47,33,0.229166667,188,235,1504,3055,6562.909091,13330.90909
+Sambucus nigra,08/06/2011,10:45,brandon hill,woodland nature reserve,whole umbel,2011,3,0,4,3,0,580,0,32,0.222222222,580,580,2320,4060,10440,18270
+Sambucus nigra,08/06/2011,10:45,brandon hill,woodland nature reserve,whole umbel,2011,4,0,4,7,0,232,0,36,0.25,232,232,928,2552,3712,10208
+Sambucus nigra,08/06/2011,10:45,brandon hill,woodland nature reserve,whole umbel,2011,5,0,1,5,0,219,146,34,0.236111111,219,365,219,2190,927.5294118,9275.294118
+Sanguisorba minor,18/06/2012,12:10,sand point,coastline-grassland,terminal spyke,2012,1,0,7,17,8,11,0,2,0.013888889,11,19,77,456,5544,32832
+Sanguisorba minor,18/06/2012,12:10,sand point,coastline-grassland,terminal spyke,2012,2,0,1,8,0,0,26,2,0.013888889,0,26,0,234,0,16848
+Saponaria officinalis,09/08/2011,NA,troopers hill,grassland park,single flower,2011,1,44,12,0,0,1,0,9,0.0625,1,1,12,56,192,896
+Saponaria officinalis,09/08/2011,NA,troopers hill,grassland park,single flower,2011,2,23,7,1,0,1,0,4,0.027777778,1,1,7,31,252,1116
+Saponaria officinalis,09/08/2011,NA,troopers hill,grassland park,single flower,2011,3,34,32,9,0,1,0,5,0.034722222,1,1,32,75,921.6,2160
+Saponaria officinalis,09/08/2011,NA,troopers hill,grassland park,single flower,2011,4,5,5,13,0,1,0,5,0.034722222,1,1,5,23,144,662.4
+Saponaria officinalis,09/08/2011,NA,troopers hill,grassland park,single flower,2011,5,18,5,0,0,1,0,13,0.090277778,1,1,5,23,55.38461538,254.7692308
+Senecio erucifolius,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,1,24,1,10,50,0,0,1,0.006944444,0,50,0,1750,0,252000
+Senecio erucifolius,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,2,7,12,50,0,44,0,2,0.013888889,44,44,528,3036,38016,218592
+Senecio erucifolius,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,3,70,55,35,0,40,8,7,0.048611111,40,48,2200,7680,45257.14286,157988.5714
+Senecio erucifolius,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,4,35,16,58,16,34,0,3,0.020833333,34,50,544,5450,26112,261600
+Senecio erucifolius,25/08/2011,10:00,ashton court,woodland carpark,single capitulum,2011,5,31,2,15,14,54,0,1,0.006944444,54,68,108,3264,15552,470016
+Senecio jacobaea,21/07/2011,15:00,brandon hill,grassland park,single capitulum,2011,1,31,43,29,52,16,0,3,0.020833333,16,68,688,7004,33024,336192
+Senecio jacobaea,21/07/2011,15:00,brandon hill,grassland park,single capitulum,2011,2,34,28,8,40,30,4,1,0.006944444,30,74,840,5180,120960,745920
+Senecio jacobaea,21/07/2011,15:00,brandon hill,grassland park,single capitulum,2011,3,69,78,16,56,20,0,4,0.027777778,20,76,1560,12388,56160,445968
+Senecio jacobaea,21/07/2011,15:00,brandon hill,grassland park,single capitulum,2011,4,13,20,10,46,28,0,1,0.006944444,28,74,560,3182,80640,458208
+Senecio jacobaea,21/07/2011,15:00,brandon hill,grassland park,single capitulum,2011,5,29,92,24,60,20,0,4,0.027777778,20,80,1840,11600,66240,417600
+Senecio jacobaea,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,1,26,19,3,32,16,0,1,0.006944444,16,48,304,2304,43776,331776
+Senecio jacobaea,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,2,37,43,0,16,36,0,2,0.013888889,36,52,1548,4160,111456,299520
+Senecio jacobaea,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,3,125,60,40,48,12,0,4,0.027777778,12,60,720,13500,25920,486000
+Senecio jacobaea,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,4,32,16,2,40,14,0,1,0.006944444,14,54,224,2700,32256,388800
+Senecio jacobaea,14/07/2011,10:30,troopers hill,grassland park,single capitulum,2011,5,43,1,0,14,52,0,1,0.006944444,52,66,52,2904,7488,418176
+Senecio vulgaris,08/05/2012,11:45,north road-leigh woods,grassland,single capitulum,2012,1,46,79,49,12,98,0,6,0.041666667,98,110,7742,19140,185808,459360
+Senecio vulgaris,08/05/2012,11:45,north road-leigh woods,grassland,single capitulum,2012,2,39,72,69,28,74,0,2,0.013888889,74,102,5328,18360,383616,1321920
+Senecio vulgaris,05/07/2012,13:15,pill allotments,allotments,single capitulum,2012,1,15,20,42,0,36,0,2,0.013888889,36,36,720,2772,51840,199584
+Senecio vulgaris,05/07/2012,13:15,pill allotments,allotments,single capitulum,2012,2,18,45,98,14,32,0,6,0.041666667,32,46,1440,7406,34560,177744
+Senecio vulgaris,05/07/2012,13:15,pill allotments,allotments,single capitulum,2012,3,13,55,112,0,64,0,8,0.055555556,64,64,3520,11520,63360,207360
+Senecio vulgaris,05/07/2012,13:15,pill allotments,allotments,single capitulum,2012,4,8,19,22,0,60,0,1,0.006944444,60,60,1140,2940,164160,423360
+Senecio vulgaris,05/07/2012,13:15,pill allotments,allotments,single capitulum,2012,5,19,15,31,40,42,0,1,0.006944444,42,82,630,5330,90720,767520
+Silene dioica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,1,8,45,20,0,1,0,26,0.180555556,1,1,45,73,249.2307692,404.3076923
+Silene dioica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,2,12,60,35,0,1,0,22,0.152777778,1,1,60,107,392.7272727,700.3636364
+Silene dioica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,3,0,7,22,0,1,0,8,0.055555556,1,1,7,29,126,522
+Silene dioica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,4,1,10,35,0,1,0,3,0.020833333,1,1,10,46,480,2208
+Silene dioica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,5,10,15,12,0,1,0,15,0.104166667,1,1,15,37,144,355.2
+Silene dioica,16/06/2011,11:00,brandon hill,grassland park,single flower,2011,1,2,3,24,0,1,0,8,0.055555556,1,1,3,29,54,522
+Silene dioica,16/06/2011,11:00,brandon hill,grassland park,single flower,2011,2,37,44,48,0,1,0,26,0.180555556,1,1,44,129,243.6923077,714.4615385
+Silene dioica,16/06/2011,11:00,brandon hill,grassland park,single flower,2011,3,15,13,6,0,1,0,7,0.048611111,1,1,13,34,267.4285714,699.4285714
+Silene dioica,16/06/2011,11:00,brandon hill,grassland park,single flower,2011,4,0,3,6,0,1,0,9,0.0625,1,1,3,9,48,144
+Silene dioica,16/06/2011,11:00,brandon hill,grassland park,single flower,2011,5,9,47,39,0,1,0,26,0.180555556,1,1,47,95,260.3076923,526.1538462
+Silene vulgaris,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,1,12,7,4,0,1,0,3,0.020833333,1,1,7,23,336,1104
+Silene vulgaris,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,2,8,4,6,0,1,0,2,0.013888889,1,1,4,18,288,1296
+Silene vulgaris,08/08/2011,13:00,troopers hill,grassland park,single flower,2011,3,9,9,10,0,1,0,4,0.027777778,1,1,9,28,324,1008
+Sinapis arvensis,24/05/2012,14:00,brandon hill,grassland-park,single flower,2012,1,66,12,10,0,1,0,4,0.027777778,1,1,12,88,432,3168
+Sinapis arvensis,24/05/2012,14:00,brandon hill,grassland-park,single flower,2012,2,675,140,96,0,1,0,7,0.048611111,1,1,140,911,2880,18740.57143
+Sinapis arvensis,24/05/2012,14:00,brandon hill,grassland-park,single flower,2012,3,504,132,72,0,1,0,7,0.048611111,1,1,132,708,2715.428571,14564.57143
+Sinapis arvensis,24/05/2012,14:00,brandon hill,grassland-park,single flower,2012,4,51,7,18,0,1,0,2,0.013888889,1,1,7,76,504,5472
+Sinapis arvensis,24/05/2012,14:00,brandon hill,grassland-park,single flower,2012,5,198,36,36,0,1,0,4,0.027777778,1,1,36,270,1296,9720
+Sinapis arvensis,09/05/2012,11:00,greenhouse-university,pot,single flower,2012,1,368,220,510,0,1,0,11,0.076388889,1,1,220,1098,2880,14373.81818
+Sinapis arvensis,09/05/2012,11:00,greenhouse-university,pot,single flower,2012,2,448,360,600,0,1,0,4,0.027777778,1,1,360,1408,12960,50688
+Sisymbrium officinale,14/06/2011,15:00,brandon hill,woodland nature reserve,single raceme,2011,1,13,80,0,6,4,2,24,0.166666667,4,12,320,1116,1920,6696
+Sisymbrium officinale,14/06/2011,15:00,brandon hill,woodland nature reserve,single raceme,2011,2,8,55,2,8,1,0,16,0.111111111,1,9,55,585,495,5265
+Sisymbrium officinale,14/06/2011,15:00,brandon hill,woodland nature reserve,single raceme,2011,3,8,72,6,10,4,0,20,0.138888889,4,14,288,1204,2073.6,8668.8
+Sisymbrium officinale,14/06/2011,15:00,brandon hill,woodland nature reserve,single raceme,2011,4,4,60,4,9,3,3,10,0.069444444,3,15,180,1020,2592,14688
+Sisymbrium officinale,14/06/2011,15:00,brandon hill,woodland nature reserve,single raceme,2011,5,12,75,4,10,3,2,22,0.152777778,3,15,225,1365,1472.727273,8934.545455
+Sisymbrium officinale,09/08/2011,NA,troopers hill,grassland park,single raceme,2011,1,0,82,0,5,4,21,7,0.048611111,4,30,328,2460,6747.428571,50605.71429
+Sisymbrium officinale,09/08/2011,NA,troopers hill,grassland park,single raceme,2011,2,0,20,0,13,3,11,1,0.006944444,3,27,60,540,8640,77760
+Sisymbrium officinale,09/08/2011,NA,troopers hill,grassland park,single raceme,2011,3,0,51,0,13,4,4,6,0.041666667,4,21,204,1071,4896,25704
+Sisymbrium officinale,09/08/2011,NA,troopers hill,grassland park,single raceme,2011,4,0,24,0,12,3,11,2,0.013888889,3,26,72,624,5184,44928
+Sisymbrium officinale,09/08/2011,NA,troopers hill,grassland park,single raceme,2011,5,0,47,0,7,5,9,5,0.034722222,5,21,235,987,6768,28425.6
+Solanum dulcamara,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,1,24,2,3,0,1,0,1,0.006944444,1,1,2,29,288,4176
+Solanum dulcamara,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,2,10,1,11,0,1,0,3,0.020833333,1,1,1,22,48,1056
+Solanum dulcamara,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,3,6,2,20,0,1,0,3,0.020833333,1,1,2,28,96,1344
+Solanum dulcamara,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,4,22,3,11,0,1,0,4,0.027777778,1,1,3,36,108,1296
+Solanum dulcamara,03/08/2011,14:00,ashton court nature reserve,woodland carpark,single flower,2011,5,2,2,7,0,1,0,3,0.020833333,1,1,2,11,96,528
+Solanum nigrum,16/08/2011,10:00,river frome,wetland,single flower,2011,1,65,24,28,0,1,0,19,0.131944444,1,1,24,117,181.8947368,886.7368421
+Solanum nigrum,16/08/2011,10:00,river frome,wetland,single flower,2011,2,32,12,21,0,1,0,9,0.0625,1,1,12,65,192,1040
+Solanum tuberosum,28/06/2012,10:30,pill allotments1,allotments,single flower,2012,1,7,7,0,0,1,0,31,0.215277778,1,1,7,14,32.51612903,65.03225806
+Solanum tuberosum,28/06/2012,10:30,pill allotments1,allotments,single flower,2012,2,27,10,0,0,1,0,33,0.229166667,1,1,10,37,43.63636364,161.4545455
+Solanum tuberosum,28/06/2012,10:30,pill allotments1,allotments,single flower,2012,3,14,1,0,0,1,0,34,0.236111111,1,1,1,15,4.235294118,63.52941176
+Solanum tuberosum,28/06/2012,10:30,pill allotments1,allotments,single flower,2012,4,16,2,0,0,1,0,36,0.25,1,1,2,18,8,72
+Solanum tuberosum,28/06/2012,10:30,pill allotments1,allotments,single flower,2012,5,26,9,1,0,1,0,34,0.236111111,1,1,9,36,38.11764706,152.4705882
+Solanum tuberosum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,1,9,4,3,0,1,0,29,0.201388889,1,1,4,16,19.86206897,79.44827586
+Solanum tuberosum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,2,8,3,1,0,1,0,30,0.208333333,1,1,3,12,14.4,57.6
+Solanum tuberosum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,3,14,4,4,0,1,0,26,0.180555556,1,1,4,22,22.15384615,121.8461538
+Solanum tuberosum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,4,10,1,6,0,1,0,33,0.229166667,1,1,1,17,4.363636364,74.18181818
+Solanum tuberosum,28/06/2012,10:30,pill allotments2,allotments,single flower,2012,5,7,12,5,0,1,0,34,0.236111111,1,1,12,24,50.82352941,101.6470588
+Sonchus arvensis,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,1,8,6,32,0,158,0,4,0.027777778,158,158,948,7268,34128,261648
+Sonchus arvensis,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,2,7,2,25,0,124,30,2,0.013888889,124,154,248,5236,17856,376992
+Sonchus arvensis,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,4,18,8,61,0,230,0,6,0.041666667,230,230,1840,20010,44160,480240
+Sonchus arvensis,08/08/2011,11:50,troopers hill,grassland park,single capitulum,2011,5,21,2,47,0,240,0,5,0.034722222,240,240,480,16800,13824,483840
+Sonchus asper,04/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,1,34,3,12,8,162,0,7,0.048611111,162,170,486,8330,9997.714286,171360
+Sonchus asper,04/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,2,7,3,1,24,116,0,3,0.020833333,116,140,348,1540,16704,73920
+Sonchus asper,04/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,3,35,4,8,0,208,0,7,0.048611111,208,208,832,9776,17115.42857,201106.2857
+Sonchus asper,04/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,4,19,1,3,0,178,0,8,0.055555556,178,178,178,4094,3204,73692
+Sonchus asper,04/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,5,29,4,12,0,164,0,12,0.083333333,164,164,656,7380,7872,88560
+Sonchus asper,16/08/2011,NA,river frome,wetland,single capitulum,2011,1,7,2,30,12,180,0,2,0.013888889,180,192,360,7488,25920,539136
+Sonchus asper,16/08/2011,NA,river frome,wetland,single capitulum,2011,2,4,2,1,0,140,0,1,0.006944444,140,140,280,980,40320,141120
+Sonchus asper,16/08/2011,NA,river frome,wetland,single capitulum,2011,3,7,1,15,46,160,0,3,0.020833333,160,206,160,4738,7680,227424
+Sonchus asper,16/08/2011,NA,river frome,wetland,single capitulum,2011,4,15,1,78,0,194,0,4,0.027777778,194,194,194,18236,6984,656496
+Sonchus asper,16/08/2011,NA,river frome,wetland,single capitulum,2011,5,14,3,12,0,196,0,1,0.006944444,196,196,588,5684,84672,818496
+Sonchus asper,03/09/2012,11:30,pill allotments,allotments,single capitulum,2012,1,17,3,28,0,50,98,2,0.013888889,50,148,150,7104,10800,511488
+Sonchus asper,03/09/2012,11:30,pill allotments,allotments,single capitulum,2012,2,10,2,7,0,60,100,3,0.020833333,60,160,120,3040,5760,145920
+Sonchus asper,03/09/2012,11:30,pill allotments,allotments,single capitulum,2012,3,29,5,36,0,70,40,4,0.027777778,70,110,350,7700,12600,277200
+Sonchus asper,03/09/2012,11:30,pill allotments,allotments,single capitulum,2012,4,14,2,30,5,60,30,2,0.013888889,60,95,120,4370,8640,314640
+Sonchus oleraceus,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,1,28,14,70,112,114,8,16,0.111111111,114,234,1596,26208,14364,235872
+Sonchus oleraceus,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,2,10,8,42,96,138,0,20,0.138888889,138,234,1104,14040,7948.8,101088
+Sonchus oleraceus,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,3,28,18,80,100,104,8,28,0.194444444,104,212,1872,26712,9627.428571,137376
+Sonchus oleraceus,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,4,13,3,13,76,132,16,5,0.034722222,132,224,396,6496,11404.8,187084.8
+Sonchus oleraceus,13/06/2011,12:30,brandon hill,woodland nature reserve,single capitulum,2011,5,6,2,65,84,122,0,12,0.083333333,122,206,244,15038,2928,180456
+Sonchus oleraceus,08/08/2011,13:00,troopers hill,grassland park,single capitulum,2011,1,117,25,52,0,102,0,15,0.104166667,102,102,2550,19788,24480,189964.8
+Sonchus oleraceus,08/08/2011,13:00,troopers hill,grassland park,single capitulum,2011,2,40,5,5,70,102,0,3,0.020833333,102,172,510,8600,24480,412800
+Sonchus oleraceus,08/08/2011,13:00,troopers hill,grassland park,single capitulum,2011,3,56,3,3,0,130,0,5,0.034722222,130,130,390,8060,11232,232128
+Sonchus oleraceus,08/08/2011,13:00,troopers hill,grassland park,single capitulum,2011,4,62,5,5,0,108,0,4,0.027777778,108,108,540,7776,19440,279936
+Stachys sylvatica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,1,6,35,16,0,1,0,8,0.055555556,1,1,35,57,630,1026
+Stachys sylvatica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,2,12,20,15,0,1,0,4,0.027777778,1,1,20,47,720,1692
+Stachys sylvatica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,3,22,46,20,0,1,0,12,0.083333333,1,1,46,88,552,1056
+Stachys sylvatica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,4,8,25,14,0,1,0,5,0.034722222,1,1,25,47,720,1353.6
+Stachys sylvatica,27/06/2011,10:00,ashton court,woodland carpark,single flower,2011,5,10,26,20,0,1,0,4,0.027777778,1,1,26,56,936,2016
+Stachys sylvatica,14/06/2011,10:30,brandon hill,woodland nature reserve,single flower,2011,1,65,28,42,0,1,0,10,0.069444444,1,1,28,135,403.2,1944
+Stachys sylvatica,14/06/2011,10:30,brandon hill,woodland nature reserve,single flower,2011,2,120,170,120,0,1,0,25,0.173611111,1,1,170,410,979.2,2361.6
+Stachys sylvatica,14/06/2011,10:30,brandon hill,woodland nature reserve,single flower,2011,3,60,95,55,0,1,0,12,0.083333333,1,1,95,210,1140,2520
+Stachys sylvatica,14/06/2011,10:30,brandon hill,woodland nature reserve,single flower,2011,4,65,82,43,0,1,0,10,0.069444444,1,1,82,190,1180.8,2736
+Stachys sylvatica,14/06/2011,10:30,brandon hill,woodland nature reserve,single flower,2011,5,250,270,180,0,1,0,34,0.236111111,1,1,270,700,1143.529412,2964.705882
+Stellaria graminea,10/07/2012,13:30,westay nature reserve,wetland-grassland,single flower,2012,1,158,119,11,0,1,0,17,0.118055556,1,1,119,288,1008,2439.529412
+Stellaria graminea,10/07/2012,13:30,westay nature reserve,wetland-grassland,single flower,2012,2,53,31,6,0,1,0,6,0.041666667,1,1,31,90,744,2160
+Stellaria graminea,10/07/2012,13:30,westay nature reserve,wetland-grassland,single flower,2012,3,49,94,16,0,1,0,8,0.055555556,1,1,94,159,1692,2862
+Stellaria graminea,10/07/2012,13:30,westay nature reserve,wetland-grassland,single flower,2012,4,34,29,6,0,1,0,2,0.013888889,1,1,29,69,2088,4968
+Stellaria graminea,10/07/2012,13:30,westay nature reserve,wetland-grassland,single flower,2012,5,85,47,21,0,1,0,6,0.041666667,1,1,47,153,1128,3672
+Stellaria holostea,01/06/2012,10:30,river frome,woodland,single flower,2012,1,0,1,31,0,1,0,22,0.152777778,1,1,1,32,6.545454545,209.4545455
+Stellaria holostea,01/06/2012,10:30,river frome,woodland,single flower,2012,2,0,0,64,0,1,0,21,0.145833333,1,1,0,64,0,438.8571429
+Stellaria holostea,01/06/2012,10:30,river frome,woodland,single flower,2012,3,0,0,73,0,1,0,31,0.215277778,1,1,0,73,0,339.0967742
+Stellaria holostea,01/06/2012,10:30,river frome,woodland,single flower,2012,4,0,0,19,0,1,0,34,0.236111111,1,1,0,19,0,80.47058824
+Stellaria holostea,01/06/2012,10:30,river frome,woodland,single flower,2012,5,0,0,16,0,1,0,31,0.215277778,1,1,0,16,0,74.32258065
+Stellaria media,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,1,7,5,502,0,1,0,18,0.125,1,1,5,514,40,4112
+Stellaria media,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,2,58,22,572,0,1,0,20,0.138888889,1,1,22,652,158.4,4694.4
+Stellaria media,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,3,6,24,555,0,1,0,17,0.118055556,1,1,24,585,203.2941176,4955.294118
+Stellaria media,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,4,17,12,541,0,1,0,14,0.097222222,1,1,12,570,123.4285714,5862.857143
+Stellaria media,27/07/2011,12:00,brandon hill,grassland park,single flower,2011,5,31,56,205,0,1,0,14,0.097222222,1,1,56,292,576,3003.428571
+Succisa pratensis,12/09/2011,16:30,brandon hill,grassland nature reserve,single capitulum,2011,1,49,13,5,43,33,0,16,0.111111111,33,76,429,5092,3861,45828
+Succisa pratensis,12/09/2011,16:30,brandon hill,grassland nature reserve,single capitulum,2011,2,16,11,6,38,27,0,11,0.076388889,27,65,297,2145,3888,28080
+Succisa pratensis,12/09/2011,16:30,brandon hill,grassland nature reserve,single capitulum,2011,3,30,6,2,10,74,0,13,0.090277778,74,84,444,3192,4918.153846,35357.53846
+Succisa pratensis,12/09/2011,16:30,brandon hill,grassland nature reserve,single capitulum,2011,4,31,7,0,7,63,0,14,0.097222222,63,70,441,2660,4536,27360
+Succisa pratensis,12/09/2011,16:30,brandon hill,grassland nature reserve,single capitulum,2011,5,26,11,7,37,40,0,12,0.083333333,40,77,440,3388,5280,40656
+Succisa pratensis,08/09/2011,12:00,leigh woods,garden,single capitulum,2011,1,5,6,3,28,20,0,3,0.020833333,20,48,120,672,5760,32256
+Succisa pratensis,08/09/2011,12:00,leigh woods,garden,single capitulum,2011,2,3,14,7,4,80,0,7,0.048611111,80,84,1120,2016,23040,41472
+Succisa pratensis,08/09/2011,12:00,leigh woods,garden,single capitulum,2011,3,10,18,12,0,62,0,10,0.069444444,62,62,1116,2480,16070.4,35712
+Succisa pratensis,08/09/2011,12:00,leigh woods,garden,single capitulum,2011,4,5,13,14,26,18,20,8,0.055555556,18,64,234,2048,4212,36864
+Succisa pratensis,08/09/2011,12:00,leigh woods,garden,single capitulum,2011,5,2,14,7,44,34,0,12,0.083333333,34,78,476,1794,5712,21528
+Symphytum officinale,15/08/2011,12:00,river frome,wetland,single flower,2011,1,148,24,52,0,1,0,20,0.138888889,1,1,24,224,172.8,1612.8
+Symphytum officinale,15/08/2011,12:00,river frome,wetland,single flower,2011,2,62,8,51,0,1,0,19,0.131944444,1,1,8,121,60.63157895,917.0526316
+Symphytum officinale,15/08/2011,12:00,river frome,wetland,single flower,2011,3,41,3,78,0,1,0,23,0.159722222,1,1,3,122,18.7826087,763.826087
+Symphytum officinale,15/08/2011,12:00,river frome,wetland,single flower,2011,4,34,6,10,0,1,0,24,0.166666667,1,1,6,50,36,300
+Symphytum officinale,15/08/2011,12:00,river frome,wetland,single flower,2011,5,5,19,57,0,1,0,13,0.090277778,1,1,19,81,210.4615385,897.2307692
+Taraxacum agg.,28/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,1,0,2,0,20,420,0,5,0.034722222,420,440,840,880,24192,25344
+Taraxacum agg.,28/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,2,0,1,0,0,580,30,6,0.041666667,580,610,580,610,13920,14640
+Taraxacum agg.,28/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,3,0,2,1,8,144,40,12,0.083333333,144,192,288,576,3456,6912
+Taraxacum agg.,28/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,4,1,2,4,22,150,50,5,0.034722222,150,222,300,1554,8640,44755.2
+Taraxacum agg.,28/06/2011,14:00,ashton court,woodland carpark,single capitulum,2011,5,0,1,3,50,120,0,2,0.013888889,120,170,120,680,8640,48960
+Taraxacum agg.,05/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,1,0,1,0,0,182,0,8,0.055555556,182,182,182,182,3276,3276
+Taraxacum agg.,05/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,2,1,2,3,24,98,0,3,0.020833333,98,122,196,732,9408,35136
+Taraxacum agg.,05/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,3,0,2,0,0,126,0,1,0.006944444,126,126,252,252,36288,36288
+Taraxacum agg.,05/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,4,0,1,2,0,120,0,5,0.034722222,120,120,120,360,3456,10368
+Taraxacum agg.,05/07/2011,09:00,brandon hill,grassland park,single capitulum,2011,5,0,1,0,20,124,0,3,0.020833333,124,144,124,144,5952,6912
+Teucrium scorodonia,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,1,16,59,187,0,1,0,5,0.034722222,1,1,59,262,1699.2,7545.6
+Teucrium scorodonia,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,2,29,75,296,0,1,0,14,0.097222222,1,1,75,400,771.4285714,4114.285714
+Teucrium scorodonia,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,3,42,62,357,0,1,0,19,0.131944444,1,1,62,461,469.8947368,3493.894737
+Teucrium scorodonia,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,4,76,65,390,0,1,0,26,0.180555556,1,1,65,531,360,2940.923077
+Teucrium scorodonia,04/08/2011,12:00,dolebury warren,dwarf shrub heath,single flower,2011,5,10,45,270,0,1,0,12,0.083333333,1,1,45,325,540,3900
+Teucrium scorodonia,14/07/2011,10:30,troopers hill,dwarf shrub heath,single flower,2011,1,105,70,800,0,1,0,26,0.180555556,1,1,70,975,387.6923077,5400
+Teucrium scorodonia,14/07/2011,10:30,troopers hill,dwarf shrub heath,single flower,2011,2,120,80,170,0,1,0,33,0.229166667,1,1,80,370,349.0909091,1614.545455
+Teucrium scorodonia,14/07/2011,10:30,troopers hill,dwarf shrub heath,single flower,2011,3,20,66,313,0,1,0,34,0.236111111,1,1,66,399,279.5294118,1689.882353
+Teucrium scorodonia,14/07/2011,10:30,troopers hill,dwarf shrub heath,single flower,2011,4,27,63,156,0,1,0,7,0.048611111,1,1,63,246,1296,5060.571429
+Teucrium scorodonia,14/07/2011,10:30,troopers hill,dwarf shrub heath,single flower,2011,5,25,183,170,0,1,0,14,0.097222222,1,1,183,378,1882.285714,3888
+Thymus polytrichus,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,1,950,52,3,0,1,0,7,0.048611111,1,1,52,1005,1069.714286,20674.28571
+Thymus polytrichus,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,2,330,22,2,0,1,0,4,0.027777778,1,1,22,354,792,12744
+Thymus polytrichus,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,3,1064,11,1,0,1,0,2,0.013888889,1,1,11,1076,792,77472
+Thymus polytrichus,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,4,264,0,0,0,1,0,1,0.006944444,1,1,0,264,0,38016
+Thymus polytrichus,18/06/2012,12:10,sand point,coastline-grassland,single flower,2012,5,994,31,1,0,1,0,3,0.020833333,1,1,31,1026,1488,49248
+Trifolium dubium,14/06/2012,12:15,royate fort garden,grassland,single globular raceme,2012,1,120,48,96,0,17,0,10,0.069444444,17,17,816,4488,11750.4,64627.2
+Trifolium dubium,14/06/2012,13:15,royate fort garden,grassland,single globular raceme,2012,2,128,96,160,0,17,0,12,0.083333333,17,17,1632,6528,19584,78336
+Trifolium dubium,14/06/2012,14:15,royate fort garden,grassland,single globular raceme,2012,3,132,99,132,0,0,14,8,0.055555556,0,14,0,5082,0,91476
+Trifolium dubium,14/06/2012,15:15,royate fort garden,grassland,single globular raceme,2012,4,102,68,102,0,21,0,11,0.076388889,21,21,1428,5712,18693.81818,74775.27273
+Trifolium dubium,14/06/2012,16:15,royate fort garden,grassland,single globular raceme,2012,5,260,104,260,0,19,0,21,0.145833333,19,19,1976,11856,13549.71429,81298.28571
+Trifolium pratense,20/06/2011,10:30,ashton court,grassland nature reserve,single globular raceme,2011,1,3,5,2,0,16,13,4,0.027777778,16,29,80,290,2880,10440
+Trifolium pratense,20/06/2011,10:30,ashton court,grassland nature reserve,single globular raceme,2011,2,3,6,2,4,16,9,5,0.034722222,16,29,96,319,2764.8,9187.2
+Trifolium pratense,20/06/2011,10:30,ashton court,grassland nature reserve,single globular raceme,2011,3,13,11,11,27,44,3,14,0.097222222,44,74,484,2590,4978.285714,26640
+Trifolium pratense,20/06/2011,10:30,ashton court,grassland nature reserve,single globular raceme,2011,4,5,5,11,11,42,9,9,0.0625,42,62,210,1302,3360,20832
+Trifolium pratense,20/06/2011,10:30,ashton court,grassland nature reserve,single globular raceme,2011,5,13,12,4,22,24,7,8,0.055555556,24,53,288,1537,5184,27666
+Trifolium pratense,24/05/2011,15:15,brandon hill,grassland nature reserve,single globular raceme,2011,1,0,17,4,1,17,18,8,0.055555556,17,36,289,756,5202,13608
+Trifolium pratense,24/05/2011,15:15,brandon hill,grassland nature reserve,single globular raceme,2011,2,6,9,2,22,12,10,3,0.020833333,12,44,108,748,5184,35904
+Trifolium pratense,24/05/2011,15:15,brandon hill,grassland nature reserve,single globular raceme,2011,3,6,7,0,29,32,12,7,0.048611111,32,73,224,949,4608,19522.28571
+Trifolium pratense,24/05/2011,15:15,brandon hill,grassland nature reserve,single globular raceme,2011,4,18,12,5,26,23,6,15,0.104166667,23,55,276,1925,2649.6,18480
+Trifolium pratense,24/05/2011,15:15,brandon hill,grassland nature reserve,single globular raceme,2011,5,3,26,5,0,15,35,14,0.097222222,15,50,390,1700,4011.428571,17485.71429
+Trifolium repens,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,1,0,10,7,26,28,0,8,0.055555556,28,54,280,918,5040,16524
+Trifolium repens,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,2,0,15,14,0,32,0,10,0.069444444,32,32,480,928,6912,13363.2
+Trifolium repens,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,3,0,2,1,0,14,31,2,0.013888889,14,45,28,135,2016,9720
+Trifolium repens,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,4,0,11,0,0,26,12,8,0.055555556,26,38,286,418,5148,7524
+Trifolium repens,20/06/2011,11:30,ashton court,grassland nature reserve,single globular raceme,2011,5,0,7,3,8,25,6,3,0.020833333,25,39,175,390,8400,18720
+Trifolium repens,08/06/2011,10:30,brandon hill,grassland nature reserve,single globular raceme,2011,1,1,8,3,25,12,18,9,0.0625,12,55,96,660,1536,10560
+Trifolium repens,08/06/2011,10:30,brandon hill,grassland nature reserve,single globular raceme,2011,2,0,11,5,11,29,16,5,0.034722222,29,56,319,896,9187.2,25804.8
+Trifolium repens,08/06/2011,10:30,brandon hill,grassland nature reserve,single globular raceme,2011,3,5,27,5,10,19,18,28,0.194444444,19,47,513,1739,2638.285714,8943.428571
+Trifolium repens,08/06/2011,10:30,brandon hill,grassland nature reserve,single globular raceme,2011,4,3,27,6,23,25,6,19,0.131944444,25,54,675,1944,5115.789474,14733.47368
+Trifolium repens,08/06/2011,10:30,brandon hill,grassland nature reserve,single globular raceme,2011,5,14,26,1,8,17,13,21,0.145833333,17,38,442,1558,3030.857143,10683.42857
+Ulex europaeus,15/05/2012,11:00,ashton court-nature reserve,grassland,single flower,2012,1,75,165,2600,0,1,0,33,0.229166667,1,1,165,2840,720,12392.72727
+Ulex europaeus,15/05/2012,11:00,ashton court-nature reserve,grassland,single flower,2012,2,42,120,1100,0,1,0,27,0.1875,1,1,120,1262,640,6730.666667
+Ulex europaeus,15/05/2012,11:00,ashton court-nature reserve,grassland,single flower,2012,3,30,90,360,0,1,0,22,0.152777778,1,1,90,480,589.0909091,3141.818182
+Ulex europaeus,15/05/2012,11:00,ashton court-nature reserve,grassland,single flower,2012,4,72,140,400,0,1,0,31,0.215277778,1,1,140,612,650.3225806,2842.83871
+Ulex europaeus,15/05/2012,11:00,ashton court-nature reserve,grassland,single flower,2012,5,80,210,2100,0,1,0,32,0.222222222,1,1,210,2390,945,10755
+Ulex gallii,21/09/2011,11:30,dolebury warren,dwarf shrub heath,single flower,2011,1,229,30,76,0,1,0,35,0.243055556,1,1,30,335,123.4285714,1378.285714
+Ulex gallii,21/09/2011,11:30,dolebury warren,dwarf shrub heath,single flower,2011,2,89,17,24,0,1,0,35,0.243055556,1,1,17,130,69.94285714,534.8571429
+Ulex gallii,21/09/2011,11:30,dolebury warren,dwarf shrub heath,single flower,2011,3,390,97,22,0,1,0,32,0.222222222,1,1,97,509,436.5,2290.5
+Ulex gallii,21/09/2011,11:30,dolebury warren,dwarf shrub heath,single flower,2011,4,400,65,120,0,1,0,35,0.243055556,1,1,65,585,267.4285714,2406.857143
+Ulex gallii,21/09/2011,11:30,dolebury warren,dwarf shrub heath,single flower,2011,5,260,152,100,0,1,0,35,0.243055556,1,1,152,512,625.3714286,2106.514286
+Ulex gallii,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,1,720,6,0,0,1,0,19,0.131944444,1,1,6,726,45.47368421,5502.315789
+Ulex gallii,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,2,648,16,0,0,1,0,24,0.166666667,1,1,16,664,96,3984
+Ulex gallii,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,3,330,66,0,0,1,0,7,0.048611111,1,1,66,396,1357.714286,8146.285714
+Ulex gallii,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,4,981,21,0,0,1,0,17,0.118055556,1,1,21,1002,177.8823529,8487.529412
+Ulex gallii,09/08/2012,12:15,brecon beacons,heathland,single flower,2012,5,2592,232,106,0,1,0,19,0.131944444,1,1,232,2930,1758.315789,22206.31579
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,1,2,2,9,0,1,0,34,0.236111111,1,1,2,13,8.470588235,55.05882353
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,1,7,6,65,0,1,0,32,0.222222222,1,1,6,78,27,351
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,2,37,61,22,0,1,0,32,0.222222222,1,1,61,120,274.5,540
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,2,8,32,37,0,1,0,31,0.215277778,1,1,32,77,148.6451613,357.6774194
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,3,12,17,67,0,1,0,36,0.25,1,1,17,96,68,384
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,3,8,22,76,0,1,0,36,0.25,1,1,22,106,88,424
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,4,4,1,41,0,1,0,36,0.25,1,1,1,46,4,184
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,4,16,66,87,0,1,0,36,0.25,1,1,66,169,264,676
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,5,26,288,52,0,1,0,36,0.25,1,1,288,366,1152,1464
+Vaccinium myrtillus,28/05/2012,13:30,edale-peak district,heathland-moorland,single flower,2012,5,3,33,72,0,1,0,28,0.194444444,1,1,33,108,169.7142857,555.4285714
+Vaccinium vitis-idaea,09/08/2012,12:00,brecon beacons,heathland,single flower,2012,1,102,3,0,0,1,0,5,0.034722222,1,1,3,105,86.4,3024
+Vaccinium vitis-idaea,09/08/2012,12:00,brecon beacons,heathland,single flower,2012,2,72,2,11,0,1,0,21,0.145833333,1,1,2,85,13.71428571,582.8571429
+Vaccinium vitis-idaea,09/08/2012,12:00,brecon beacons,heathland,single flower,2012,3,155,6,0,0,1,0,13,0.090277778,1,1,6,161,66.46153846,1783.384615
+Vaccinium vitis-idaea,09/08/2012,12:00,brecon beacons,heathland,single flower,2012,4,75,5,5,0,1,0,11,0.076388889,1,1,5,85,65.45454545,1112.727273
+Vaccinium vitis-idaea,09/08/2012,12:00,brecon beacons,heathland,single flower,2012,5,75,8,45,0,1,0,28,0.194444444,1,1,8,128,41.14285714,658.2857143
+Veronica chamaedrys,08/05/2012,14:15,woodland road,grassland,single flower,2012,1,16,6,1,0,1,0,1,0.006944444,1,1,6,23,864,3312
+Veronica chamaedrys,08/05/2012,14:15,woodland road,grassland,single flower,2012,2,23,9,2,0,1,0,1,0.006944444,1,1,9,34,1296,4896
+Veronica chamaedrys,08/05/2012,14:15,woodland road,grassland,single flower,2012,3,38,10,2,0,1,0,3,0.020833333,1,1,10,50,480,2400
+Veronica chamaedrys,08/05/2012,14:15,woodland road,grassland,single flower,2012,4,35,7,0,0,1,0,3,0.020833333,1,1,7,42,336,2016
+Veronica chamaedrys,08/05/2012,14:15,woodland road,grassland,single flower,2012,5,39,6,3,0,1,0,2,0.013888889,1,1,6,48,432,3456
+Veronica persica,11/09/2012,12:50,farm-rodmasfer,cultivated farm land,single flower,2012,1,9,2,54,0,1,0,1,0.006944444,1,1,2,65,288,9360
+Veronica persica,11/09/2012,12:50,farm-rodmasfer,cultivated farm land,single flower,2012,2,10,1,39,0,1,0,1,0.006944444,1,1,1,50,144,7200
+Veronica persica,11/09/2012,12:50,farm-rodmasfer,cultivated farm land,single flower,2012,3,10,1,30,0,1,0,1,0.006944444,1,1,1,41,144,5904
+Veronica persica,11/09/2012,12:50,farm-rodmasfer,cultivated farm land,single flower,2012,4,6,1,45,0,1,0,1,0.006944444,1,1,1,52,144,7488
+Veronica persica,11/09/2012,12:50,farm-rodmasfer,cultivated farm land,single flower,2012,5,6,4,22,0,1,0,1,0.006944444,1,1,4,32,576,4608
+Veronica persica,28/06/2012,12:00,pill allotments,allotments,single flower,2012,1,45,12,60,0,1,0,2,0.013888889,1,1,12,117,864,8424
+Veronica persica,28/06/2012,12:00,pill allotments,allotments,single flower,2012,2,15,3,15,0,1,0,1,0.006944444,1,1,3,33,432,4752
+Veronica persica,28/06/2012,12:00,pill allotments,allotments,single flower,2012,3,65,14,112,0,1,0,1,0.006944444,1,1,14,191,2016,27504
+Veronica persica,28/06/2012,12:00,pill allotments,allotments,single flower,2012,4,84,22,210,0,1,0,3,0.020833333,1,1,22,316,1056,15168
+Veronica persica,28/06/2012,12:00,pill allotments,allotments,single flower,2012,5,20,6,24,0,1,0,1,0.006944444,1,1,6,50,864,7200
+Veronica serpyllifolia,01/06/2012,10:30,river frome,woodland-grassland,single flower,2012,1,11,5,72,0,1,0,1,0.006944444,1,1,5,88,720,12672
+Veronica serpyllifolia,01/06/2012,10:30,river frome,woodland-grassland,single flower,2012,2,12,5,68,0,1,0,1,0.006944444,1,1,5,85,720,12240
+Veronica serpyllifolia,01/06/2012,10:30,river frome,woodland-grassland,single flower,2012,3,47,21,741,0,1,0,11,0.076388889,1,1,21,809,274.9090909,10590.54545
+Veronica serpyllifolia,01/06/2012,10:30,river frome,woodland-grassland,single flower,2012,4,9,12,165,0,1,0,2,0.013888889,1,1,12,186,864,13392
+Veronica serpyllifolia,01/06/2012,10:30,river frome,woodland-grassland,single flower,2012,5,15,13,154,0,1,0,1,0.006944444,1,1,13,182,1872,26208
+Veronica serpyllifolia,08/05/2012,14:15,woodland road,grassland,single flower,2012,1,102,8,221,0,1,0,1,0.006944444,1,1,8,331,1152,47664
+Veronica serpyllifolia,08/05/2012,14:15,woodland road,grassland,single flower,2012,2,33,3,5,0,1,0,1,0.006944444,1,1,3,41,432,5904
+Veronica serpyllifolia,08/05/2012,14:15,woodland road,grassland,single flower,2012,3,25,12,1,0,1,0,1,0.006944444,1,1,12,38,1728,5472
+Vicia cracca,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,1,75,90,22,0,1,0,18,0.125,1,1,90,187,720,1496
+Vicia cracca,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,2,25,20,15,0,1,0,17,0.118055556,1,1,20,60,169.4117647,508.2352941
+Vicia cracca,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,3,35,55,10,0,1,0,21,0.145833333,1,1,55,100,377.1428571,685.7142857
+Vicia cracca,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,4,40,50,15,0,1,0,9,0.0625,1,1,50,105,800,1680
+Vicia cracca,08/07/2011,11:00,ashton court,grassland nature reserve,single flower,2011,5,45,30,0,0,1,0,7,0.048611111,1,1,30,75,617.1428571,1542.857143
+Vicia cracca,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,1,139,13,43,0,1,0,8,0.055555556,1,1,13,195,234,3510
+Vicia cracca,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,2,51,20,10,0,1,0,5,0.034722222,1,1,20,81,576,2332.8
+Vicia cracca,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,3,70,9,11,0,1,0,6,0.041666667,1,1,9,90,216,2160
+Vicia cracca,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,4,45,3,6,0,1,0,5,0.034722222,1,1,3,54,86.4,1555.2
+Vicia cracca,21/07/2011,15:00,brandon hill,grassland nature reserve,single flower,2011,5,225,12,24,0,1,0,7,0.048611111,1,1,12,261,246.8571429,5369.142857
+Vicia sativa,21/05/2012,15:00,troopers hill,grassland,single flower,2012,1,12,16,11,0,1,0,7,0.048611111,1,1,16,39,329.1428571,802.2857143
+Vicia sativa,21/05/2012,15:00,troopers hill,grassland,single flower,2012,2,13,19,14,0,1,0,6,0.041666667,1,1,19,46,456,1104
+Vicia sativa,21/05/2012,15:00,troopers hill,grassland,single flower,2012,3,18,16,24,0,1,0,7,0.048611111,1,1,16,58,329.1428571,1193.142857
+Vicia sativa,21/05/2012,15:00,troopers hill,grassland,single flower,2012,4,10,9,3,0,1,0,3,0.020833333,1,1,9,22,432,1056
+Vicia sativa,21/05/2012,15:00,troopers hill,grassland,single flower,2012,5,39,40,49,0,1,0,17,0.118055556,1,1,40,128,338.8235294,1084.235294
+Vicia sepium,25/08/2011,10:00,ashton court,woodland carpark,single flower,2011,1,4,2,6,0,1,0,1,0.006944444,1,1,2,12,288,1728
+Vicia sepium,25/08/2011,10:00,ashton court,woodland carpark,single flower,2011,2,13,6,4,0,1,0,3,0.020833333,1,1,6,23,288,1104
+Vicia sepium,25/08/2011,10:00,ashton court,woodland carpark,single flower,2011,3,2,1,2,0,1,0,1,0.006944444,1,1,1,5,144,720
+Viola arvensis,09/05/2012,11:00,greenhouse-university,pot,single flower,2012,1,12,19,13,0,1,0,13,0.090277778,1,1,19,44,210.4615385,487.3846154
+Viola arvensis,09/05/2012,11:00,greenhouse-university,pot,single flower,2012,2,2,7,8,0,1,0,16,0.111111111,1,1,7,17,63,153
+Viola riviniana/reichenbiana,02/04/2012,10:30,brandon hill,hedgerow-grassland,single flower,2012,1,6,17,5,0,1,0,9,0.0625,1,1,17,28,272,448
+Viola riviniana/reichenbiana,02/04/2012,10:30,brandon hill,hedgerow-grassland,single flower,2012,2,8,28,10,0,1,0,14,0.097222222,1,1,28,46,288,473.1428571
+Viola riviniana/reichenbiana,02/04/2012,10:30,brandon hill,hedgerow-grassland,single flower,2012,3,17,44,21,0,1,0,18,0.125,1,1,44,82,352,656
+Viola riviniana/reichenbiana,02/04/2012,10:30,brandon hill,hedgerow-grassland,single flower,2012,4,21,37,11,0,1,0,18,0.125,1,1,37,69,296,552
+Viola riviniana/reichenbiana,02/04/2012,10:30,brandon hill,hedgerow-grassland,single flower,2012,5,18,39,14,0,1,0,20,0.138888889,1,1,39,71,280.8,511.2
+Viola riviniana/reichenbiana,17/04/2012,NA,leigh woods,woodland,single flower,2012,1,3,7,11,0,1,0,10,0.069444444,1,1,7,21,100.8,302.4
+Viola riviniana/reichenbiana,17/04/2012,NA,leigh woods,woodland,single flower,2012,2,2,4,8,0,1,0,10,0.069444444,1,1,4,14,57.6,201.6
+Viola riviniana/reichenbiana,17/04/2012,NA,leigh woods,woodland,single flower,2012,3,0,4,7,0,1,0,8,0.055555556,1,1,4,11,72,198
+Viola riviniana/reichenbiana,17/04/2012,NA,leigh woods,woodland,single flower,2012,4,1,5,11,0,1,0,4,0.027777778,1,1,5,17,180,612
+Viola riviniana/reichenbiana,17/04/2012,NA,leigh woods,woodland,single flower,2012,5,3,7,8,0,1,0,9,0.0625,1,1,7,18,112,288
