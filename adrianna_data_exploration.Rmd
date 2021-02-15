@@ -1,0 +1,98 @@
+---
+title: "adrianna_data_exploration"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading Libraries
+```{r}
+library(tidyverse)
+library(RColorBrewer)
+library(paletteer)
+library(janitor)
+library(here)
+library(skimr)
+library(ggthemes)
+library(naniar)
+library(readr)
+```
+
+## Loading data
+This is a preloading of the data. The original publication can be found [here](https://doi.org/10.1038/nature16532) and it was also mentioned in [this paper.](https://doi.org/10.1111/2041-210X.12779).
+```{r}
+nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
+```
+
+```{r}
+nectar_perspecies <- read_csv(here("potential_datasets", "AgriLand_Nectar_perspecies.csv"))
+```
+
+### Nectar Per Flower Analysis
+```{r}
+nectar_perflower <- nectar_perflower %>% 
+  clean_names() %>% 
+  mutate_all(tolower)
+summary(nectar_perflower)
+```
+
+```{r}
+nectar_perflower <- nectar_perflower %>% 
+  separate(species,
+           into = c("genus", "species")) %>% 
+  separate(bagging_date,
+           into = c("bagging_day", "bagging_month", "bagging_year"),
+           sep = "/") %>% 
+  separate(collection_date,
+           into = c("collection_day", "collection_month", "collection_year"),
+           sep = "/") #%>% 
+  #separate(habitat,
+           #into = c("habitat_class", "habitat_specific",
+                    #sep = "-"))
+nectar_perflower
+```
+
+```{r}
+nectar_perflower %>% 
+  tabyl(collection_year)
+```
+
+```{r}
+nectar_perflower %>% 
+  tabyl(bagging_year)
+```
+
+
+```{r}
+nectar_perflower %>% 
+  count(genus, species, sort = T)
+```
+```{r}
+nectar_perflower %>% 
+  count(genus, sort = T)
+```
+```{r}
+
+```
+
+
+
+
+### Nectar Per Species Analysis
+```{r}
+nectar_perspecies <- nectar_perspecies %>%
+  clean_names() %>% 
+   separate(species,
+           into = c("genus", "species"))
+nectar_perspecies
+```
+
+
+
+
+
+
+
+

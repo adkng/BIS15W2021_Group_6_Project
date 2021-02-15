@@ -23,4 +23,7 @@ This is a preloading of the data. The original publication can be found [here](h
 ```{r}
 nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
 ```
+```{r}
+nectar_perflower
+```
 
