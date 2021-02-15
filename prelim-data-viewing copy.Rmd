@@ -1,0 +1,60 @@
+---
+title: "Lean_data_exploration_2/15"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(RColorBrewer)
+library(paletteer)
+library(janitor)
+library(here)
+library(skimr)
+library(ggthemes)
+library(naniar)
+library(readr)
+```
+
+This is a preloading of the data. The original publication can be found [here](https://doi.org/10.1038/nature16532) and it was also mentioned in [this paper.](https://doi.org/10.1111/2041-210X.12779).
+```{r}
+nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
+```
+
+```{r}
+nectar_perflower <- janitor::clean_names(nectar_perflower)
+```
+
+```{r}
+nectar_perflower
+```
+
+```{r}
+nectar_perflower %>% 
+  separate(species,
+           into = c("genus", "species")) %>% 
+  separate(bagging_date,
+           into = c("bagging_day", "bagging_month", "bagging_year"),
+           sep = "/")
+```
+
+"There is considerable concern over declines in insect pollinator communities and potential impacts on the pollination of crops and wildflowers."
+
+
+
+### Possible Analyses
+1. genus and species present in each habitat
+2. which habitats have the least and most amount of nectar per flower
+3. how temperature and humidity affect the amount of nectar per flower
+4. how flower #, age, and sex affect the amount of nectar per flower
+
+-Which combinations of factors result in the least and most amount of nectar per flower? 
+  (amount of nectar is correlated to amount of pollinators bc flowers use nectar to attract pollinators)
+
+
+-Why are insect pollinator communities declining?
