@@ -45,16 +45,17 @@ nectar_perflower %>%
 
 "There is considerable concern over declines in insect pollinator communities and potential impacts on the pollination of crops and wildflowers."
 
-
+### Main Question:
+-Why are insect pollinator communities declining?
 
 ### Possible Analyses
-1. genus and species present in each habitat
-2. which habitats have the least and most amount of nectar per flower
-3. how temperature and humidity affect the amount of nectar per flower
-4. how flower #, age, and sex affect the amount of nectar per flower
+1. Which habitats have the least and most amount of nectar per flower? Why?
+2. Which months have the least and most amount of nectar per flower? Why?
+2. How do temperature and humidity affect the amount of nectar per flower?
+3. How do flower #, age, and sex affect the amount of nectar per flower?
+4. Why is there a discrepancy between sugar and sugar max?
 
 -Which combinations of factors result in the least and most amount of nectar per flower? 
   (amount of nectar is correlated to amount of pollinators bc flowers use nectar to attract pollinators)
-
-
--Why are insect pollinator communities declining?
+-what factors possibly contribute to the decline of pollinators?
+-what steps can we take to minimize the loss of pollinator communities?
