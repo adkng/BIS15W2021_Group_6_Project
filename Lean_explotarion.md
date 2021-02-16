@@ -190,5 +190,7 @@ nectar_perflower %>%
 
 -Which combinations of factors result in the least and most amount of nectar per flower? 
   (amount of nectar is correlated to amount of pollinators bc flowers use nectar to attract pollinators)
+  
 -what factors possibly contribute to the decline of pollinators?
+
 -what steps can we take to minimize the loss of pollinator communities?
