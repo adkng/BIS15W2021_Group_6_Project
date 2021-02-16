@@ -29,7 +29,9 @@ library(skimr)
 library(ggthemes)
 library(naniar)
 library(readr)
+library(lubridate)
 ```
+
 
 Color Palette Workshop
 ```{r}
@@ -91,9 +93,39 @@ nectar_perflower %>%
   count(genus, sort = T)
 ```
 ```{r}
-
+nectar_perflower %>% 
+  count(habitat_class, sort = T)
+```
+```{r}
+nectar_perflower %>%
+  count(genus, species, habitat_class)
+```
+```{r}
+nectar_perflower %>% 
+  summarise(nspecies = n_distinct(species))
 ```
 
+
+## Survey Locale Analysis
+```{r}
+nectar_perflower %>% 
+  ggplot(aes(x = habitat_class)) +
+  geom_bar() +
+  coord_flip()
+```
+```{r}
+nectar_perflower %>% 
+  filter(habitat_specific != "NA") %>% 
+  ggplot(aes(x = habitat_class, fill = habitat_specific))+
+  geom_bar(position = "dodge") +
+  coord_flip()
+```
+Among plots of land with specific variances, it seems like nature reserves were most sampled.
+
+## Genus, Species Presence in Habitats
+```{r}
+
+```
 
 
 
