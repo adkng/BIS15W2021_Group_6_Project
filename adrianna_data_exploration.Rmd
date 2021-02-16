@@ -3,6 +3,17 @@ title: "adrianna_data_exploration"
 output: html_document
 ---
 
+### Suggested Analysis (via Lean):
+1. Genus and species present in each habitat
+2. Which habitats have the least and most amount of nectar per flower
+3. How temperature and humidity affect the amount of nectar per flower
+4. How flower #, age, and sex affect the amount of nectar per flower
+
+### Big Picture Questions (via Lean):
+1. Which combinations of factors result in the least and most amount of nectar per flower? 
+  (Amount of nectar is correlated to amount of pollinators --> flowers use nectar to attract pollinators)
+2. Why are insect pollinator communities declining?
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -19,6 +30,13 @@ library(ggthemes)
 library(naniar)
 library(readr)
 ```
+
+Color Palette Workshop
+```{r}
+colors <- paletteer::palettes_d_names
+view(colors)
+```
+
 
 ## Loading data
 This is a preloading of the data. The original publication can be found [here](https://doi.org/10.1038/nature16532) and it was also mentioned in [this paper.](https://doi.org/10.1111/2041-210X.12779).
@@ -47,21 +65,20 @@ nectar_perflower <- nectar_perflower %>%
            sep = "/") %>% 
   separate(collection_date,
            into = c("collection_day", "collection_month", "collection_year"),
-           sep = "/") #%>% 
-  #separate(habitat,
-           #into = c("habitat_class", "habitat_specific",
-                    #sep = "-"))
+           sep = "/")
+nectar_perflower <- nectar_perflower %>% 
+  separate(habitat,
+           into = c("habitat_class", "habitat_specific"),
+                    sep = "-",
+                    extra = "merge")
+nectar_perflower <- nectar_perflower %>% 
+  select(-bagging_year, -collection_year)
+
 nectar_perflower
 ```
 
 ```{r}
-nectar_perflower %>% 
-  tabyl(collection_year)
-```
-
-```{r}
-nectar_perflower %>% 
-  tabyl(bagging_year)
+names(nectar_perflower)
 ```
 
 
