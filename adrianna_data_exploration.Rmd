@@ -36,7 +36,7 @@ library(lubridate)
 Color Palette Workshop
 ```{r}
 colors <- paletteer::palettes_d_names
-view(colors)
+#view(colors)
 ```
 
 
@@ -47,7 +47,7 @@ nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflow
 ```
 
 ```{r}
-nectar_perspecies <- read_csv(here("potential_datasets", "AgriLand_Nectar_perspecies.csv"))
+#nectar_perspecies <- read_csv(here("potential_datasets", "AgriLand_Nectar_perspecies.csv"))
 ```
 
 ### Nectar Per Flower Analysis
@@ -73,6 +73,7 @@ nectar_perflower <- nectar_perflower %>%
            into = c("habitat_class", "habitat_specific"),
                     sep = "-",
                     extra = "merge")
+
 nectar_perflower <- nectar_perflower %>% 
   select(-bagging_year, -collection_year)
 
@@ -100,9 +101,9 @@ nectar_perflower %>%
 nectar_perflower %>%
   count(genus, species, habitat_class)
 ```
+
 ```{r}
-nectar_perflower %>% 
-  summarise(nspecies = n_distinct(species))
+levels(nectar_perflower$species)
 ```
 
 
@@ -113,6 +114,7 @@ nectar_perflower %>%
   geom_bar() +
   coord_flip()
 ```
+Among all habitats sampled, grasslands seem like the most popular!
 ```{r}
 nectar_perflower %>% 
   filter(habitat_specific != "NA") %>% 
@@ -128,14 +130,13 @@ Among plots of land with specific variances, it seems like nature reserves were 
 ```
 
 
-
 ### Nectar Per Species Analysis
 ```{r}
-nectar_perspecies <- nectar_perspecies %>%
-  clean_names() %>% 
-   separate(species,
-           into = c("genus", "species"))
-nectar_perspecies
+#nectar_perspecies <- nectar_perspecies %>%
+  #clean_names() %>% 
+   #separate(species,
+           #into = c("genus", "species"))
+#nectar_perspecies
 ```
 
 
