@@ -1,0 +1,112 @@
+---
+title: "Esha_exploration"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Uploading the data:
+
+```{r}
+library(tidyverse)
+library(RColorBrewer)
+library(paletteer)
+library(janitor)
+library(here)
+library(skimr)
+library(ggthemes)
+library(naniar)
+library(readr)
+```
+
+```{r}
+nectar_perflower <- read_csv(here("BISW2021_Group6", "potential_datasets", "AgriLand_Nectar_perflower.csv"))
+```
+I'm getting a weird error in loading the data here. I'm not sure why - I've played with it for a while (I'd appreciate a hand with it!). I have, below, the analyses that should work once this data access issue is resolved: 
+
+```{r}
+nectar_perflower <- janitor::clean_names(nectar_perflower)
+```
+
+```{r}
+nectar_perflower
+```
+
+```{r}
+nectar_perflower %>% 
+  separate(species,
+           into = c("genus", "species")) %>% 
+  separate(bagging_date,
+           into = c("bagging_day", "bagging_month", "bagging_year"),
+           sep = "/")
+```
+
+## Analyses: which habitats have the least and most amount of nectar per flower
+
+Exploration of the data: 
+
+Habitats with the most nectar (using sugar_in_micrograms_flower_24h):
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(sugar_in_micrograms_flower_24h != NA) %>%
+  summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
+  arrange(desc(mean_nectar))
+```
+
+Habitats with the least nectar: 
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(sugar_in_micrograms_flower_24h != NA) %>%
+  summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
+  arrange(mean_nectar)
+```
+
+Plotting the habitats with the most nectar: 
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(sugar_in_micrograms_flower_24h != NA) %>%
+  summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
+  arrange(desc(mean_nectar)) %>%
+  top_n(5) %>%
+  ggplot(aes(x = habitat, y = mean_nectar, color = habitat)) + 
+  geom_col() + 
+  theme_linedraw()
+```
+
+Habitats with the most nectar (using sugarmax_in_micrograms_flower_24h instead):
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(sugarmax_in_micrograms_flower_24h != NA) %>%
+  summarize(mean_nectar_from_max = mean(sugarmax_in_micrograms_flower_24h)) %>%
+  arrange(desc(mean_nectar_from_max))
+```
+
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(sugarmax_in_micrograms_flower_24h != NA) %>%
+  summarize(mean_nectar_from_max = mean(sugarmax_in_micrograms_flower_24h)) %>%
+  arrange(mean_nectar_from_max)
+```
+
+Plotting the habitats with the most nectar (using sugarmax instead): 
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(sugarmax_in_micrograms_flower_24h != NA) %>%
+  summarize(mean_nectar_from_max = mean(sugarmax_in_micrograms_flower_24h)) %>%
+  arrange(desc(mean_nectar_from_max)) %>%
+  top_n(5) %>%
+  ggplot(aes(x = habitat, y = mean_nectar_from_max, color = habitat)) + 
+  geom_col() + 
+  theme_linedraw()
+```
+
