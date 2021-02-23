@@ -142,9 +142,9 @@ nectar_perflower
 
 
 ```r
-nectar_perflower %>% 
+nectar_per_flower_clean <- nectar_perflower %>% 
   separate(species,
-           into = c("genus", "species")) %>% 
+           into = c("genus", "epithet")) %>% 
   separate(bagging_date,
            into = c("bagging_day", "bagging_month", "bagging_year"),
            sep = "/")
@@ -156,9 +156,13 @@ nectar_perflower %>%
 ## 495, 496, ...].
 ```
 
+```r
+nectar_per_flower_clean
+```
+
 ```
 ## # A tibble: 3,303 x 22
-##    genus species location habitat id    bagging rinsing bagging_day
+##    genus epithet location habitat id    bagging rinsing bagging_day
 ##    <chr> <chr>   <chr>    <chr>   <chr> <chr>   <chr>   <chr>      
 ##  1 Acer  pseudo… clifton… grassl… 2012… bag     Y       3          
 ##  2 Acer  pseudo… clifton… grassl… 2012… bag     Y       3          
@@ -186,7 +190,7 @@ How do time, flower age, and flower sex affect the amount of nectar per flower?
 #### Note: NA's are removed
 
 ```r
-nectar_perflower %>% 
+nectar_per_flower_clean %>% 
   filter(flower_age!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   ggplot(aes(x=flower_age, y=sugar_in_micrograms_flower_24h))+
   geom_col()+
@@ -206,7 +210,7 @@ Flowers that are not too young or not too old produce the most nectar.
 
 
 ```r
-nectar_perflower %>% 
+nectar_per_flower_clean %>% 
   filter(flower_sex!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   group_by(flower_sex) %>% 
   ggplot(aes(x=flower_sex, y=sugar_in_micrograms_flower_24h))+
@@ -226,7 +230,7 @@ Flowers that are hermaphrodite (have both male and female sex organs) produce th
 
 
 ```r
-nectar_perflower %>% 
+nectar_per_flower_clean %>% 
   filter(collection_hour!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   ggplot(aes(x=collection_hour, y=sugar_in_micrograms_flower_24h))+
   geom_col()+
@@ -241,6 +245,31 @@ nectar_perflower %>%
 
 Flowers collected from about 10:00 AM to 12:00 PM produce the most nectar. Perhaps this is because it is generally quite sunny around this time. Therefore, pollinators likely come to the flowers most at around this time. 
 
+
+```r
+nectar_perflower %>% 
+  filter(species!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
+  group_by(species) %>% 
+  summarise(mean_nectar_per_species=mean(sugar_in_micrograms_flower_24h)) %>% 
+  arrange(desc(mean_nectar_per_species))
+```
+
+```
+## # A tibble: 175 x 2
+##    species                mean_nectar_per_species
+##    <chr>                                    <dbl>
+##  1 Impatiens glandulifera                   5112.
+##  2 Iris pseudacorus                         3413.
+##  3 Gladiolus sp.                            3142.
+##  4 Rubus fruticosus agg.                    1893.
+##  5 Lonicera periclymenum                    1864.
+##  6 Calystegia sepium                        1801.
+##  7 Digitalis purpurea                       1274.
+##  8 Rhododendron ponticum                    1257.
+##  9 Vaccinium myrtillus                      1058.
+## 10 Symphytum officinale                     1045.
+## # … with 165 more rows
+```
 
 
 "There is considerable concern over declines in insect pollinator communities and potential impacts on the pollination of crops and wildflowers."
@@ -261,3 +290,8 @@ Flowers collected from about 10:00 AM to 12:00 PM produce the most nectar. Perha
 -what factors possibly contribute to the decline of pollinators?
 
 -what steps can we take to minimize the loss of pollinator communities?
+
+
+#### changes
+-add hypotheses
+-change each x axis numbers manually

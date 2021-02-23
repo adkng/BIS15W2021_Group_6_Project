@@ -37,12 +37,13 @@ nectar_perflower
 
 
 ```{r}
-nectar_perflower %>% 
+nectar_per_flower_clean <- nectar_perflower %>% 
   separate(species,
-           into = c("genus", "species")) %>% 
+           into = c("genus", "epithet")) %>% 
   separate(bagging_date,
            into = c("bagging_day", "bagging_month", "bagging_year"),
            sep = "/")
+nectar_per_flower_clean
 ```
 
 
@@ -52,7 +53,7 @@ How do time, flower age, and flower sex affect the amount of nectar per flower?
 
 #### Note: NA's are removed
 ```{r}
-nectar_perflower %>% 
+nectar_per_flower_clean %>% 
   filter(flower_age!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   ggplot(aes(x=flower_age, y=sugar_in_micrograms_flower_24h))+
   geom_col()+
@@ -69,7 +70,7 @@ Flowers that are not too young or not too old produce the most nectar.
 
 
 ```{r}
-nectar_perflower %>% 
+nectar_per_flower_clean %>% 
   filter(flower_sex!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   group_by(flower_sex) %>% 
   ggplot(aes(x=flower_sex, y=sugar_in_micrograms_flower_24h))+
@@ -86,7 +87,7 @@ Flowers that are hermaphrodite (have both male and female sex organs) produce th
 
 
 ```{r}
-nectar_perflower %>% 
+nectar_per_flower_clean %>% 
   filter(collection_hour!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   ggplot(aes(x=collection_hour, y=sugar_in_micrograms_flower_24h))+
   geom_col()+
@@ -99,6 +100,13 @@ nectar_perflower %>%
 
 Flowers collected from about 10:00 AM to 12:00 PM produce the most nectar. Perhaps this is because it is generally quite sunny around this time. Therefore, pollinators likely come to the flowers most at around this time. 
 
+```{r}
+nectar_perflower %>% 
+  filter(species!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
+  group_by(species) %>% 
+  summarise(mean_nectar_per_species=mean(sugar_in_micrograms_flower_24h)) %>% 
+  arrange(desc(mean_nectar_per_species))
+```
 
 
 "There is considerable concern over declines in insect pollinator communities and potential impacts on the pollination of crops and wildflowers."
@@ -119,3 +127,8 @@ Flowers collected from about 10:00 AM to 12:00 PM produce the most nectar. Perha
 -what factors possibly contribute to the decline of pollinators?
 
 -what steps can we take to minimize the loss of pollinator communities?
+
+
+#### changes
+-add hypotheses
+-change each x axis numbers manually
