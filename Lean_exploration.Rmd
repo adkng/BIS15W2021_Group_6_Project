@@ -1,0 +1,121 @@
+---
+title: "Lean_data_exploration_2/15"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(RColorBrewer)
+library(paletteer)
+library(janitor)
+library(here)
+library(skimr)
+library(ggthemes)
+library(naniar)
+library(readr)
+options(scipen=999)
+```
+
+This is a preloading of the data. The original publication can be found [here](https://doi.org/10.1038/nature16532) and it was also mentioned in [this paper.](https://doi.org/10.1111/2041-210X.12779).
+```{r}
+nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
+```
+
+```{r}
+nectar_perflower <- janitor::clean_names(nectar_perflower)
+```
+
+```{r}
+nectar_perflower
+```
+
+
+```{r}
+nectar_perflower %>% 
+  separate(species,
+           into = c("genus", "species")) %>% 
+  separate(bagging_date,
+           into = c("bagging_day", "bagging_month", "bagging_year"),
+           sep = "/")
+```
+
+
+# Lean's analyses
+How do flower age and sex affect the amount of nectar per flower?
+
+
+## Note: NA's are removed
+```{r}
+nectar_perflower %>% 
+  filter(flower_age!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
+  ggplot(aes(x=flower_age, y=sugar_in_micrograms_flower_24h))+
+  geom_col()+
+  labs(title = "How Flower Age Affects the Amount of Nectar", x = "Flower Age", y = "Sugar Collected by Flower in 24 Hours (mg)") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12))
+```
+
+Flowers that are not too young or not too old produce the most nectar. 
+
+
+
+
+```{r}
+nectar_perflower %>% 
+  filter(flower_sex!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
+  group_by(flower_sex) %>% 
+  ggplot(aes(x=flower_sex, y=sugar_in_micrograms_flower_24h))+
+  geom_col()+
+  labs(title = "How Flower Sex Affects the Amount of Nectar", x = "Flower Sex", y = "Sugar Collected by Flower in 24 Hours (mg)") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12))
+```
+
+Flowers that are hermaphrodite (have both male and female sex organs) produce the most nectar. 
+
+
+
+```{r}
+nectar_perflower %>% 
+  filter(collection_hour!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
+  ggplot(aes(x=collection_hour, y=sugar_in_micrograms_flower_24h))+
+  geom_col()+
+  labs(title = "What Time Gives the Most Amount of Nectar?", x = "Collection Hour", y = "Sugar Collected by Flower in 24 Hours (mg)") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12))
+```
+
+Flowers collected from about 10:00 AM to 12:00 PM produce the most nectar. Perhaps this is because it is generally quite sunny around this time. Therefore, pollinators likely come to the flowers most at around this time. 
+
+
+
+"There is considerable concern over declines in insect pollinator communities and potential impacts on the pollination of crops and wildflowers."
+
+### Main Question:
+-Why are insect pollinator communities declining?
+
+### Possible Analyses
+1. Which habitats have the least and most amount of nectar per flower? Why?
+2. Which months have the least and most amount of nectar per flower? Why?
+2. How do temperature and humidity affect the amount of nectar per flower?
+3. How do age, sex, and collection hour affect the amount of nectar per flower?
+4. Why is there a discrepancy between sugar and sugar max?
+
+-Which combinations of factors result in the least and most amount of nectar per flower? 
+  (amount of nectar is correlated to amount of pollinators bc flowers use nectar to attract pollinators)
+  
+-what factors possibly contribute to the decline of pollinators?
+
+-what steps can we take to minimize the loss of pollinator communities?
