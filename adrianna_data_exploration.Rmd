@@ -3,6 +3,17 @@ title: "adrianna_data_exploration"
 output: html_document
 ---
 
+### Suggested Analysis (via Lean):
+1. Genus and species present in each habitat
+2. Which habitats have the least and most amount of nectar per flower
+3. How temperature and humidity affect the amount of nectar per flower
+4. How flower #, age, and sex affect the amount of nectar per flower
+
+### Big Picture Questions (via Lean):
+1. Which combinations of factors result in the least and most amount of nectar per flower? 
+  (Amount of nectar is correlated to amount of pollinators --> flowers use nectar to attract pollinators)
+2. Why are insect pollinator communities declining?
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -18,7 +29,16 @@ library(skimr)
 library(ggthemes)
 library(naniar)
 library(readr)
+library(lubridate)
 ```
+
+
+Color Palette Workshop
+```{r}
+colors <- paletteer::palettes_d_names
+#view(colors)
+```
+
 
 ## Loading data
 This is a preloading of the data. The original publication can be found [here](https://doi.org/10.1038/nature16532) and it was also mentioned in [this paper.](https://doi.org/10.1111/2041-210X.12779).
@@ -27,7 +47,7 @@ nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflow
 ```
 
 ```{r}
-nectar_perspecies <- read_csv(here("potential_datasets", "AgriLand_Nectar_perspecies.csv"))
+#nectar_perspecies <- read_csv(here("potential_datasets", "AgriLand_Nectar_perspecies.csv"))
 ```
 
 ### Nectar Per Flower Analysis
@@ -47,21 +67,21 @@ nectar_perflower <- nectar_perflower %>%
            sep = "/") %>% 
   separate(collection_date,
            into = c("collection_day", "collection_month", "collection_year"),
-           sep = "/") #%>% 
-  #separate(habitat,
-           #into = c("habitat_class", "habitat_specific",
-                    #sep = "-"))
+           sep = "/")
+nectar_perflower <- nectar_perflower %>% 
+  separate(habitat,
+           into = c("habitat_class", "habitat_specific"),
+                    sep = "-",
+                    extra = "merge")
+
+nectar_perflower <- nectar_perflower %>% 
+  select(-bagging_year, -collection_year)
+
 nectar_perflower
 ```
 
 ```{r}
-nectar_perflower %>% 
-  tabyl(collection_year)
-```
-
-```{r}
-nectar_perflower %>% 
-  tabyl(bagging_year)
+names(nectar_perflower)
 ```
 
 
@@ -74,19 +94,49 @@ nectar_perflower %>%
   count(genus, sort = T)
 ```
 ```{r}
+nectar_perflower %>% 
+  count(habitat_class, sort = T)
+```
+```{r}
+nectar_perflower %>%
+  count(genus, species, habitat_class)
+```
+
+```{r}
+levels(nectar_perflower$species)
+```
+
+
+## Survey Locale Analysis
+```{r}
+nectar_perflower %>% 
+  ggplot(aes(x = habitat_class)) +
+  geom_bar() +
+  coord_flip()
+```
+Among all habitats sampled, grasslands seem like the most popular!
+```{r}
+nectar_perflower %>% 
+  filter(habitat_specific != "NA") %>% 
+  ggplot(aes(x = habitat_class, fill = habitat_specific))+
+  geom_bar(position = "dodge") +
+  coord_flip()
+```
+Among plots of land with specific variances, it seems like nature reserves were most sampled.
+
+## Genus, Species Presence in Habitats
+```{r}
 
 ```
 
 
-
-
 ### Nectar Per Species Analysis
 ```{r}
-nectar_perspecies <- nectar_perspecies %>%
-  clean_names() %>% 
-   separate(species,
-           into = c("genus", "species"))
-nectar_perspecies
+#nectar_perspecies <- nectar_perspecies %>%
+  #clean_names() %>% 
+   #separate(species,
+           #into = c("genus", "species"))
+#nectar_perspecies
 ```
 
 
