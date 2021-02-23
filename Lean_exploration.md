@@ -180,10 +180,10 @@ nectar_perflower %>%
 
 
 # Lean's analyses
-How do flower age and sex affect the amount of nectar per flower?
+How do time, flower age, and flower sex affect the amount of nectar per flower?
 
 
-## Note: NA's are removed
+#### Note: NA's are removed
 
 ```r
 nectar_perflower %>% 
