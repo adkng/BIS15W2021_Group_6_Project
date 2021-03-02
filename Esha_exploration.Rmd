@@ -24,9 +24,8 @@ library(readr)
 ```
 
 ```{r}
-nectar_perflower <- read_csv(here("BISW2021_Group6", "potential_datasets", "AgriLand_Nectar_perflower.csv"))
+nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
 ```
-I'm getting a weird error in loading the data here. I'm not sure why - I've played with it for a while (I'd appreciate a hand with it!). I have, below, the analyses that should work once this data access issue is resolved: 
 
 ```{r}
 nectar_perflower <- janitor::clean_names(nectar_perflower)
@@ -53,7 +52,7 @@ Habitats with the most nectar (using sugar_in_micrograms_flower_24h):
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
-  filter(sugar_in_micrograms_flower_24h != NA) %>%
+  filter(sugar_in_micrograms_flower_24h != "NA") %>%
   summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
   arrange(desc(mean_nectar))
 ```
@@ -62,7 +61,7 @@ Habitats with the least nectar:
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
-  filter(sugar_in_micrograms_flower_24h != NA) %>%
+  filter(sugar_in_micrograms_flower_24h != "NA") %>%
   summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
   arrange(mean_nectar)
 ```
@@ -71,12 +70,13 @@ Plotting the habitats with the most nectar:
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
-  filter(sugar_in_micrograms_flower_24h != NA) %>%
+  filter(sugar_in_micrograms_flower_24h != "NA") %>%
   summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
   arrange(desc(mean_nectar)) %>%
   top_n(5) %>%
-  ggplot(aes(x = habitat, y = mean_nectar, color = habitat)) + 
+  ggplot(aes(x = habitat, y = mean_nectar, fill = habitat)) + 
   geom_col() + 
+  coord_flip() +
   theme_linedraw()
 ```
 
@@ -84,7 +84,7 @@ Habitats with the most nectar (using sugarmax_in_micrograms_flower_24h instead):
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
-  filter(sugarmax_in_micrograms_flower_24h != NA) %>%
+  filter(sugarmax_in_micrograms_flower_24h != "NA") %>%
   summarize(mean_nectar_from_max = mean(sugarmax_in_micrograms_flower_24h)) %>%
   arrange(desc(mean_nectar_from_max))
 ```
@@ -92,7 +92,7 @@ nectar_perflower %>%
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
-  filter(sugarmax_in_micrograms_flower_24h != NA) %>%
+  filter(sugarmax_in_micrograms_flower_24h != "NA") %>%
   summarize(mean_nectar_from_max = mean(sugarmax_in_micrograms_flower_24h)) %>%
   arrange(mean_nectar_from_max)
 ```
@@ -101,12 +101,64 @@ Plotting the habitats with the most nectar (using sugarmax instead):
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
-  filter(sugarmax_in_micrograms_flower_24h != NA) %>%
+  filter(sugarmax_in_micrograms_flower_24h != "NA") %>%
   summarize(mean_nectar_from_max = mean(sugarmax_in_micrograms_flower_24h)) %>%
   arrange(desc(mean_nectar_from_max)) %>%
   top_n(5) %>%
-  ggplot(aes(x = habitat, y = mean_nectar_from_max, color = habitat)) + 
+  ggplot(aes(x = habitat, y = mean_nectar_from_max, fill = habitat)) + 
   geom_col() + 
+  coord_flip() +
   theme_linedraw()
 ```
+
+I'm still playing with this plot. My goal is to make one that includes the temporal aspect of this data:
+```{r}
+nectar_perflower %>%
+  group_by(habitat, year) %>%
+  filter(sugarmax_in_micrograms_flower_24h != "NA") %>%
+  ggplot(aes(x = year, y = sugar_in_micrograms_flower_24h, color = habitat)) + 
+  geom_point() +
+  theme_linedraw()
+```
+
+I'm gonna keep playing with this: 
+```{r}
+nectar_perflower %>%
+  group_by(habitat, year) %>%
+  filter(sugar_in_micrograms_flower_24h != "NA") %>%
+  filter(habitat == "street" | habitat == "pond" | habitat == "managed grassland-garden" | habitat == "hedgerow" | habitat == "healthland-mooseland") %>%
+  summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
+  ggplot(aes(x = habitat, y = mean_nectar, fill = habitat)) + 
+  geom_col() + 
+  coord_flip() +
+  facet_wrap(~year) +
+  theme_linedraw()
+```
+Yikes! This is very problematic! We have no way of seeing how nectar collected varies over the years. 
+
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(sugar_in_micrograms_flower_24h != "NA") %>%
+  filter(year == "2011")
+```
+
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(sugar_in_micrograms_flower_24h != "NA") %>%
+  filter(year == "2012")
+```
+
+```{r}
+nectar_perflower %>%
+  group_by(habitat) %>%
+  filter(habitat == "wetland") %>%
+  filter(sugar_in_micrograms_flower_24h != "NA") %>%
+  summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
+  ggplot(aes(x = habitat, y = sugar_in_micrograms_flower_24h, color = habitat)) + 
+  geom_col() +
+  theme_linedraw() 
+```
+
 
