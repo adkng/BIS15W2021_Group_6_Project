@@ -20,44 +20,51 @@ library(ggthemes)
 library(naniar)
 library(readr)
 options(scipen=999)
+library(shiny)
+library(shinydashboard)
+if (!require("tidyverse")) install.packages('tidyverse')
 ```
 
 This is a preloading of the data. The original publication can be found [here](https://doi.org/10.1038/nature16532) and it was also mentioned in [this paper.](https://doi.org/10.1111/2041-210X.12779).
 ```{r}
-nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
-```
-
-```{r}
-nectar_perflower <- janitor::clean_names(nectar_perflower)
-```
-
-```{r}
-nectar_perflower
+nectar_per_flower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
 ```
 
 
 ```{r}
-nectar_per_flower_clean <- nectar_perflower %>% 
+nectar_per_flower <- janitor::clean_names(nectar_per_flower)
+nectar_per_flower
+```
+
+
+```{r}
+nectar_per_flower %>% 
+  group_by(flower_no) %>% 
+  summarise(total_flower_number=sum(flower_no))
+```
+
+
+```{r}
+nectar_per_flower <- nectar_per_flower %>% 
   separate(species,
            into = c("genus", "epithet")) %>% 
   separate(bagging_date,
            into = c("bagging_day", "bagging_month", "bagging_year"),
            sep = "/")
-nectar_per_flower_clean
 ```
 
 
 # Lean's analyses
-How do time, flower age, and flower sex affect the amount of nectar per flower?
+How do time of day, flower age, and flower sex affect the amount of nectar per flower?
 
 
 #### Note: NA's are removed
 ```{r}
-nectar_per_flower_clean %>% 
+nectar_per_flower %>% 
   filter(flower_age!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   ggplot(aes(x=flower_age, y=sugar_in_micrograms_flower_24h))+
   geom_col()+
-  labs(title = "How Flower Age Affects the Amount of Nectar", x = "Flower Age", y = "Sugar Collected by Flower in 24 Hours (mg)") +
+  labs(title = "How Flower Age Affects the Amount of Nectar", x = "Flower Age", y = "Sugar Made by Flower in 24 Hours (mg)") +
   theme(legend.position = "bottom",
         plot.title = element_text(size = 14, face = "bold"),
         axis.text = element_text(size = 10),
@@ -70,7 +77,7 @@ Flowers that are not too young or not too old produce the most nectar.
 
 
 ```{r}
-nectar_per_flower_clean %>% 
+nectar_per_flower %>% 
   filter(flower_sex!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   group_by(flower_sex) %>% 
   ggplot(aes(x=flower_sex, y=sugar_in_micrograms_flower_24h))+
@@ -87,7 +94,7 @@ Flowers that are hermaphrodite (have both male and female sex organs) produce th
 
 
 ```{r}
-nectar_per_flower_clean %>% 
+nectar_per_flower %>% 
   filter(collection_hour!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
   ggplot(aes(x=collection_hour, y=sugar_in_micrograms_flower_24h))+
   geom_col()+
@@ -98,15 +105,92 @@ nectar_per_flower_clean %>%
         axis.title = element_text(size = 12))
 ```
 
-Flowers collected from about 10:00 AM to 12:00 PM produce the most nectar. Perhaps this is because it is generally quite sunny around this time. Therefore, pollinators likely come to the flowers most at around this time. 
+Flowers collected from about 10:00 AM to 2:00 PM produce the most nectar. Perhaps this is because it is generally quite sunny around this time. Therefore, pollinators likely come to the flowers most at around this time. 
+
+
+
 
 ```{r}
-nectar_perflower %>% 
-  filter(species!="NA", sugar_in_micrograms_flower_24h!="NA") %>% 
-  group_by(species) %>% 
-  summarise(mean_nectar_per_species=mean(sugar_in_micrograms_flower_24h)) %>% 
-  arrange(desc(mean_nectar_per_species))
+nectar_per_flower$sugar_in_micrograms_flower_24h <- as.numeric(nectar_per_flower$sugar_in_micrograms_flower_24h)
+nectar_per_flower$year <- as.numeric(nectar_per_flower$year)
 ```
+
+
+
+```{r}
+ui <- fluidPage(    
+  
+  titlePanel("Amount of Nectar Produced Per Habitat"),
+  sidebarLayout(      
+    sidebarPanel(
+      selectInput("habitat", " Select Habitat of Interest:", 
+                  choices=unique(nectar_per_flower$habitat)),
+      hr(),
+      helpText("Reference: Baude M, Kunin W, Boatman N, Davies N, Gillespie M, Morton D, Smart S, Memmott J. Historical nectar assessment reveals the fall and rise of floral resources in Britain. 2016.")
+    ),
+    
+    mainPanel(
+      plotOutput("habitatPlot")  
+    )
+    
+  )
+)
+
+server <- function(input, output, session) {
+  
+  output$habitatPlot <- renderPlot({
+    nectar_per_flower %>% 
+    filter(habitat == input$habitat) %>% 
+    filter(sugar_in_micrograms_flower_24h!="NA", habitat!="NA") %>%
+    ggplot(aes(x=sugar_in_micrograms_flower_24h)) + 
+    geom_density(color="black", fill="pink", alpha=0.8)+
+    theme_light(base_size = 19) +
+    labs(y = "Nectar Produced (mg)")
+  })
+  
+}
+
+shinyApp(ui, server)
+```
+
+
+```{r}
+ui <- dashboardPage(skin="black",
+  dashboardHeader(title = "Why are Insect Pollinator Communities Declining?",
+                  titleWidth = 450),
+  dashboardSidebar(disable = T),
+  dashboardBody(
+  fluidRow(
+  box(title = "Variable Options", width = 3,
+  selectInput("x", "Select Variable:", choices = c("collection_date", "year", "temp", "hum", "flower_sex", "flower_age", "collection_hour"),
+              selected = "collection_date"),
+  hr(),
+      helpText("Reference: Baude M, Kunin W, Boatman N, Davies N, Gillespie M, Morton D, Smart S, Memmott J. Historical nectar assessment reveals the fall and rise of floral resources in Britain. 2016.")
+  ), 
+  box(title = "Amount of Nectar Produced", width = 6,
+  plotOutput("plot", width = "600px", height = "500px")
+  ) 
+  ) 
+  ) 
+)
+
+server <- function(input, output, session) { 
+  
+  output$plot <- renderPlot({
+  nectar_per_flower %>%
+    filter(flower_sex!="NA", flower_age!="NA", sugar_in_micrograms_flower_24h!="NA", collection_date!="NA", year!="NA", temp!="NA", hum!="NA", collection_hour!="NA") %>%
+    ggplot(aes_string(x=input$x)) + 
+    geom_bar(position="dodge", color="black", fill="pink", alpha=0.8) +
+    theme_light(base_size = 19) +
+    labs(y = "Nectar Produced (mg)")
+  })
+  
+  session$onSessionEnded(stopApp)
+  }
+
+shinyApp(ui, server)
+```
+
 
 
 "There is considerable concern over declines in insect pollinator communities and potential impacts on the pollination of crops and wildflowers."
@@ -131,4 +215,4 @@ nectar_perflower %>%
 
 #### changes
 -add hypotheses
--change each x axis numbers manually
+-change each x axis numbers manually?
