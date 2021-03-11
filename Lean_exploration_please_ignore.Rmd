@@ -115,7 +115,7 @@ nectar_perflower_clean %>%
 ```{r}
 ui <- dashboardPage(skin="black",
   dashboardHeader(title = "Why are Insect Pollinator Communities Declining?",
-                  titleWidth = 450),
+                  titleWidth = 550),
   dashboardSidebar(disable = T),
   dashboardBody(
   fluidRow(
@@ -138,7 +138,7 @@ server <- function(input, output, session) {
   nectar_perflower_clean %>%
     filter(flower_sex!="NA", flower_age!="NA", sugar_in_micrograms_flower_24h!="NA", sugar_in_micrograms_flower_24h!="0.0000000",  year!="NA", temp!="NA", hum!="NA", collection_hour!="NA") %>%
     ggplot(aes_string(x=input$x)) + 
-    geom_bar(position="dodge", color="black", fill="olivedrab4", alpha=0.7) +
+    geom_bar(position="dodge", color="black", fill="chartreuse4", alpha=0.7) +
     ggthemes::theme_pander(base_size = 13) +
     labs(y = "Nectar Produced (mg)")
   })
