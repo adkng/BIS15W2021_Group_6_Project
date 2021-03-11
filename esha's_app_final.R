@@ -1,22 +1,5 @@
-library(tidyverse)
-library(RColorBrewer)
-library(paletteer)
-library(janitor)
-library(here)
-library(skimr)
-library(ggthemes)
-library(naniar)
-library(readr)
-library(shiny)
-library(shinydashboard)
-library(stringr)
-
-
-nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
-
-
 ui <- dashboardPage(skin = "black",
-                    dashboardHeader(title = "Change in Nectar Quantities Collected in the UK (2011-2012)",
+                    dashboardHeader(title = "Nectar Collection by Habitat",
                                     titleWidth = 600),
                     dashboardSidebar(disable = T),
                     dashboardBody(
