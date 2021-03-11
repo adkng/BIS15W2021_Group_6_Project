@@ -39,7 +39,7 @@ nectar_perflower_clean$year <- as.numeric(nectar_perflower_clean$year)
 
 ui <- dashboardPage(skin="black",
                     dashboardHeader(title = "Why are Insect Pollinator Communities Declining?",
-                                    titleWidth = 450),
+                                    titleWidth = 550),
                     dashboardSidebar(disable = T),
                     dashboardBody(
                       fluidRow(
