@@ -535,9 +535,12 @@ nectar_perflower_clean$year &lt;- as.numeric(nectar_perflower_clean$year)</code>
 ##  8 16                    9660. 
 ##  9 08                    8989. 
 ## 10 17                      45.0</code></pre>
+</div>
+<div id="shiny-app-showing-different-factors-that-affect-nectar-production" class="section level2">
+<h2>Shiny App Showing Different Factors that Affect Nectar Production</h2>
 <pre class="r"><code>ui &lt;- dashboardPage(skin=&quot;black&quot;,
   dashboardHeader(title = &quot;Why are Insect Pollinator Communities Declining?&quot;,
-                  titleWidth = 450),
+                  titleWidth = 550),
   dashboardSidebar(disable = T),
   dashboardBody(
   fluidRow(
@@ -547,7 +550,7 @@ nectar_perflower_clean$year &lt;- as.numeric(nectar_perflower_clean$year)</code>
   hr(),
       helpText(&quot;Reference: Baude M, Kunin W, Boatman N, Davies N, Gillespie M, Morton D, Smart S, Memmott J. Historical nectar assessment reveals the fall and rise of floral resources in Britain. 2016.&quot;)
   ), 
-  box(title = &quot;Amount of Nectar Produced&quot;, width = 7,
+  box(title = &quot;Amount of Nectar Produced&quot;, width = 6,
   plotOutput(&quot;plot&quot;, width = &quot;600px&quot;, height = &quot;500px&quot;)
   ) 
   ) 
@@ -560,7 +563,7 @@ server &lt;- function(input, output, session) {
   nectar_perflower_clean %&gt;%
     filter(flower_sex!=&quot;NA&quot;, flower_age!=&quot;NA&quot;, sugar_in_micrograms_flower_24h!=&quot;NA&quot;, sugar_in_micrograms_flower_24h!=&quot;0.0000000&quot;,  year!=&quot;NA&quot;, temp!=&quot;NA&quot;, hum!=&quot;NA&quot;, collection_hour!=&quot;NA&quot;) %&gt;%
     ggplot(aes_string(x=input$x)) + 
-    geom_bar(position=&quot;dodge&quot;, color=&quot;black&quot;, fill=&quot;olivedrab4&quot;, alpha=0.7) +
+    geom_bar(position=&quot;dodge&quot;, color=&quot;black&quot;, fill=&quot;chartreuse4&quot;, alpha=0.7) +
     ggthemes::theme_pander(base_size = 13) +
     labs(y = &quot;Nectar Produced (mg)&quot;)
   })
