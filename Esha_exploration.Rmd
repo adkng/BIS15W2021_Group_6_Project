@@ -26,6 +26,7 @@ library(readr)
 library(shiny)
 library(shinydashboard)
 library(stringr)
+library(ggplot2)
 ```
 
 ```{r}
@@ -49,9 +50,9 @@ nectar_perflower %>%
            sep = "/")
 ```
 
-## Analyses: which habitats have the least and most amount of nectar per flower
+## Analyses: which habitats have the least and most amount of nectar per flower? How has this changed over the years?
 
-Exploration of the data: 
+### Exploration of the data: 
 
 Habitats with the most nectar (using sugar_in_micrograms_flower_24h):
 ```{r}
@@ -61,6 +62,7 @@ nectar_perflower %>%
   summarize(mean_nectar = mean(sugar_in_micrograms_flower_24h)) %>%
   arrange(desc(mean_nectar))
 ```
+Looks like the pond environment has the biggest average of nectar collected per flower. 
 
 Habitats with the least nectar: 
 ```{r}
@@ -71,7 +73,14 @@ nectar_perflower %>%
   arrange(mean_nectar)
 ```
 
-Plotting the habitats with the most nectar: 
+That's weird that the bog and rock have a mean nectar value of 0.0. Let's take a closer look at them:
+```{r}
+nectar_perflower %>%
+  filter(habitat == "bog" | habitat == "rock")
+```
+This chart indicates to us that the average amount of nectar collected for the bog and habitat environments is actually zero. Interesting. Though it makes sense logically that the researchers didn't collect any nectar from the "rock" habitat, I'm curious as to how or why they weren't able to find any in a bog (aka a wetland!) since bogs actually are home to a variety of flowers. 
+
+Plotting the habitats with the most nectar (I plotted this to accompany the chart I just made, since a visual will be better for people to look at in a powerpoint presentation): 
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
@@ -81,11 +90,12 @@ nectar_perflower %>%
   top_n(5) %>%
   ggplot(aes(x = habitat, y = mean_nectar, fill = habitat)) + 
   geom_col() + 
-  coord_flip() +
+  labs(title = "Average Nectar Collected per Habitat", x = "Habitat", y = "Average Nectar Collected (micrograms)") +
+  coord_flip() + 
   theme_linedraw()
 ```
 
-Habitats with the most nectar (using sugarmax_in_micrograms_flower_24h instead):
+Habitats with the most nectar (using sugarmax_in_micrograms_flower_24h instead to see if there are significant differences):
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
@@ -93,6 +103,7 @@ nectar_perflower %>%
   summarize(mean_nectar_from_max = mean(sugarmax_in_micrograms_flower_24h)) %>%
   arrange(desc(mean_nectar_from_max))
 ```
+Looks like we get the same results as we got when we analyzed the sugar_in_micrograms_flower_24h. I wonder now what the difference between the "sugarmax_in_micrograms_flower_24h" variable and the sugar_in_micrograms_flower_24h is. Why were these variables made seperate if they show the same results?
 
 ```{r}
 nectar_perflower %>%
@@ -101,6 +112,7 @@ nectar_perflower %>%
   summarize(mean_nectar_from_max = mean(sugarmax_in_micrograms_flower_24h)) %>%
   arrange(mean_nectar_from_max)
 ```
+We also got the same results as before when we arranged mean_nectar_from_max from the smallest mean to the larger mean. 
 
 Plotting the habitats with the most nectar (using sugarmax instead): 
 ```{r}
@@ -116,7 +128,7 @@ nectar_perflower %>%
   theme_linedraw()
 ```
 
-I'm still playing with this plot. My goal is to make one that includes the temporal aspect of this data:
+I made this plot to try and see if we could represent how the average nectar collected changed over 2011-2012 (the years that the study was conducted): 
 ```{r}
 nectar_perflower %>%
   group_by(habitat, year) %>%
@@ -126,7 +138,7 @@ nectar_perflower %>%
   theme_linedraw()
 ```
 
-I'm gonna keep playing with this: 
+This is clearly not the best way to show how the mean nectar collected changes over time. Let's try a different kind of plot: 
 ```{r}
 nectar_perflower %>%
   group_by(habitat, year) %>%
@@ -136,11 +148,12 @@ nectar_perflower %>%
   ggplot(aes(x = habitat, y = mean_nectar, fill = habitat)) + 
   geom_col() + 
   coord_flip() +
-  facet_wrap(~year) +
+  facet_wrap(~year) +  labs(x = "Habitat", y = "Nectar Collected (micrograms)") +
   theme_linedraw()
 ```
-Yikes! This is very problematic! We have no way of seeing how nectar collected varies over the years. 
+This is a very problematic aspect of this data. Unfortunately, it looks as if the researchers didn't stay consistent and revisit some of the habitats they visited in 2011/didn't visit some of the places they went to in 2012 back in 2011. 
 
+I performed the following analyses to figure out if there are any habitats which the scientists collected nectar from in 2011 and 2012: 
 ```{r}
 nectar_perflower %>%
   group_by(habitat) %>%
@@ -154,56 +167,98 @@ nectar_perflower %>%
   filter(sugar_in_micrograms_flower_24h != "NA") %>%
   filter(year == "2012")
 ```
+Looks like the only habitat that the scientists visited in 2011 and 2012 was the wetland. That is unfortunate. But we'll do what we can and see how the nectar collected has changed over the years (or in the case of this data, year). 
+
+I'm making this graph to compare how the average nectar collected changed over 2011-2012:
+```{r}
+wetland_by_species <- nectar_perflower %>%
+  filter(habitat == "wetland") %>%
+  filter(sugar_in_micrograms_flower_24h != "NA") %>%
+  ggplot(aes(x = species, y = sugar_in_micrograms_flower_24h, fill = species), legend = "NULL") + 
+  geom_boxplot() + 
+  coord_flip() +
+  facet_wrap(~year) + 
+  theme_linedraw()
+
+wetland_by_species
+```
+
+```{r}
+wetland_by_species+theme_linedraw()+
+  theme(legend.position = "none",
+        axis.text.x = element_text(angle = 60, hjust=1))+
+  labs(title = "Nectar Collected from the Wetland Habitat by Species (2011-2012)",
+       x = "Nectar Collected (micrograms) ",
+       y= "Species")
+```
+This graph shows how the species collected in the wetland habitat varied over the years. I made another graph to summarize how many species were collected from 2011-2012: 
 
 ```{r}
 nectar_perflower %>%
   filter(habitat == "wetland") %>%
   filter(sugar_in_micrograms_flower_24h != "NA") %>%
-  ggplot(aes(x = habitat, y = sugar_in_micrograms_flower_24h, fill = habitat)) + 
+  ggplot(aes(x = habitat, y = sugar_in_micrograms_flower_24h, fill = species)) + 
   geom_col() + 
   facet_wrap(~year) +
-  theme_linedraw()
+  theme_linedraw() + 
+  labs(title = "Nectar Collected from the Wetland Habitat by Species (2011-2012)",
+       x = "Habitat",
+       y = "Nectar Collected (micrograms)")
 ```
+This graph gives us a better idea of how much the nectar that we collected changed over the years. 
 
-```{r}
-nectar_perflower %>%
-  filter(habitat == "wetland") %>%
-  filter(sugar_in_micrograms_flower_24h != "NA") %>%
-  ggplot(aes(x = year, y = sugar_in_micrograms_flower_24h, fill = habitat)) + 
-  geom_point() + 
-  geom_line() + 
-  theme_linedraw()
-```
+### App for Data Organization
 
-I made an app to illustrate the point that there are numerous discrepancies in this data:
+I made this app to actually help the researchers keep track of their data and for anyone like us to wants to analyze it. The app displays the amount of nectar collected per species in each habitat, and it allows you to select which habitat and year to focus on. This way, the researchers can keep track of where they are missing data (in other words, they can keep track of which years they neglected to visit certain habitats) and allows people analyzing the data to not jumpt to any incorrect conclusions (for example, it would be incorrect to assume that the average mean nectar collected from a certain habitat increased from 2011-2012 when the researchers didn't actually collect any data in 2011 for that habitat).
+
+Side note: the final, working version of my app is labeled as "esha's_app_final". Please do not look at the one labeled "esha's_app", that was a version that is broken. 
+
+Here's the app:
 ```{r}
-ui <- dashboardPage(
-  dashboardHeader(title = "Nectar Collection by Habitat"),
-  dashboardSidebar(disable = T),
-  dashboardBody(
-  fluidRow(
-  box(title = "Plot Options", width = 3,
-  selectInput("x", "Select a habitat:", choices = c("allotments", "bog", "cemetery-park", "coastland-grassland", "cultivated farmland", "dwarf shrub heath", "garden", "grassland", "grassland-carpark", "grassland-coastland", "grassland-coastland", "grassland-hedgerow", "grassland-nature reserve", "grassland-park", "grassland-wetland", "grassland-woodland", "heathland", "heathland-mooseland", "hedgerow", "hedgerow-woodland", "managed grassland-park", "moorland", "pavement", "pond", "pot", "rock", "street", "wetland", "woodland", "woodland-carpark", "woodland-nature reserve"),
-              selected = "wetland"), 
-  selectInput("y", "Select an year:", choices = c("2011", "2012"),
-              selected = "2011"),
-   sliderInput("pointsize", "Select the Point Size", min = 1, max = 5, value = 2, step = 0.5)
-  ), 
-  box(title = "Nectar Collection by Habitat", width = 7,
-  plotOutput("plot", width = "600px", height = "500px")
-  ) 
-  ) 
-  ) 
-) 
+ui <- dashboardPage(skin = "black",
+                    dashboardHeader(title = "Change in Nectar Quantities Collected in the UK (2011-2012)",
+                                    titleWidth = 600),
+                    dashboardSidebar(disable = T),
+                    dashboardBody(
+                      fluidRow(
+                        box(title = "Plot Options", width = 3,
+                            selectInput("x", "Select a Habitat:", choices = c("allotments", "bog", "cemetery-park", "coastland-grassland", "cultivated farmland", "dwarf shrub heath", "garden", "grassland", "grassland-carpark", "grassland-coastland", "grassland-coastland", "grassland-hedgerow", "grassland-nature reserve", "grassland-park", "grassland-wetland", "grassland-woodland", "heathland", "heathland-mooseland", "hedgerow", "hedgerow-woodland", "managed grassland-park", "moorland", "pavement", "pond", "pot", "rock", "street", "wetland", "woodland", "woodland-carpark", "woodland-nature reserve"), 
+                                        selected = "wetland"),
+                            selectInput("y", "Select a Year:", choices = c("2011", "2012"),
+                                        selected = "2011"),
+                            sliderInput("pointsize", "Select the Point Size", min = 1, max = 5, value = 2, step = 0.5),
+                            hr(),
+                            helpText("Reference: Baude M, Kunin W, Boatman N, Davies N, Gillespie M, Morton D, Smart S, Memmott J. 
+               Historical nectar assessment reveals the fall and rise of floral resources in Britain. 2016.")
+                        ), # close the first box
+                        box(title = "Nectar Collection by Habitat", width = 6,
+                            plotOutput("plot", width = "600px", height = "500px")
+                        ) # close the second box
+                      ) # close the row
+                    ) # close the dashboard body
+) # close the ui
 
 server <- function(input, output, session) { 
-  output$plot <- renderPlot({ 
-  nectar_perflower %>%
-  filter(habitat==input$x & year ==input$y) %>% 
-  ggplot(aes(x = species, y = sugar_in_micrograms_flower_24h, fill = species)) + geom_point(size=input$pointsize, alpha=0.8) + geom_col() + theme_light(base_size = 18)+ theme(axis.text.x = element_text(angle = 60, hjust= 1))+ labs(x = "Species", y = "Nectar Collected (micrograms)")
+  
+  output$plot <- renderPlot({
+    nectar_perflower %>%
+      filter(habitat==input$x & year ==input$y) %>% 
+      ggplot(aes_string(x = "species", y = "sugar_in_micrograms_flower_24h", fill = "species")) +
+      geom_point(size=input$pointsize, alpha=0.8) +
+      geom_col()+
+      theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+      labs(y = "Nectar Collected (micrograms)",
+           x = "Species")
   })
+  
+  # stop the app when we close it
   session$onSessionEnded(stopApp)
 }
 
 shinyApp(ui, server)
 ```
+
+## Concluding Remarks
+Through our investigation of how the total amount of nectar collected varies per habitat, we see that there is clear variance in in mean nectar per habitat. The habitat from which the most nectar was collected was the pond habitat. The habitat from which the least nectar was collected were the bog and the rock. In our analysis, we think that the high biodiversity in the pond habitat may have contributed to increased nectar production/collection. The rock habitat may not have been home to many flowering plants, explaining that aspect of the data. On closer investigation, the bog likely had a low nectar production because the researchers visited this habitat during the Autumn season (which isn't ideal!). 
+
+This data contained another major discrepancy: the researchers didn't consistently visit each habitat for both 2011 and 2012. Due to that, we were only able to look at the wetland habitat (which did have data for 2011 and 2012) to determine how nectar collection changed over the years. Overall, we determined that the overall nectar collected actually decreased over the years. It is entirely possible that this decrease could be explained by a pollinator decline, but it is possible that this too could be the result of the researchers failing to be consistent (some of the plants that nectar was collected from were not revisited in 2011, for some reason). 

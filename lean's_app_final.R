@@ -32,7 +32,7 @@ nectar_perflower_clean$sugar_in_micrograms_flower_24h <- as.numeric(nectar_perfl
 nectar_perflower_clean$sugarmax_in_micrograms_flower_24h <- as.numeric(nectar_perflower_clean$sugarmax_in_micrograms_flower_24h)
 nectar_perflower_clean$hum <- as.numeric(nectar_perflower_clean$hum)
 nectar_perflower_clean$temp <- as.numeric(nectar_perflower_clean$temp)
-nectar_perflower_clean$year <- as.numeric(nectar_perflower_clean$year)
+nectar_perflower_clean$year <- as.factor(nectar_perflower_clean$year)
 
 
 
