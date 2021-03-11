@@ -49,7 +49,7 @@ ui <- dashboardPage(skin="black",
                             hr(),
                             helpText("Reference: Baude M, Kunin W, Boatman N, Davies N, Gillespie M, Morton D, Smart S, Memmott J. Historical nectar assessment reveals the fall and rise of floral resources in Britain. 2016.")
                         ), 
-                        box(title = "Amount of Nectar Produced", width = 6,
+                        box(title = "Amount of Nectar Produced", width = 7,
                             plotOutput("plot", width = "600px", height = "500px")
                         ) 
                       ) 

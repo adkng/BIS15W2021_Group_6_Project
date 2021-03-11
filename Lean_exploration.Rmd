@@ -84,7 +84,7 @@ nectar_perflower_clean %>%
   filter(sugar_in_micrograms_flower_24h!="NA", flower_sex!="NA") %>% 
   select(flower_sex, sugar_in_micrograms_flower_24h) %>% 
   group_by(flower_sex) %>% 
-  summarise(total_nectar = mean(sugar_in_micrograms_flower_24h)) %>% 
+  summarise(total_nectar = sum(sugar_in_micrograms_flower_24h)) %>% 
   arrange(desc(total_nectar))
 ```
 
