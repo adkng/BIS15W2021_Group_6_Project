@@ -292,6 +292,22 @@ nectar_highlow %>%
 ```
 It seems like habitat may have an impact on how much nectar a population within a genera can have. *Impatiens* in woodland areas have higher nectar on average compared to their sister populations in wetlands.
 
+```{r}
+nectar_highlow %>% 
+  filter(nectar_category == "high") %>% 
+  ggplot(aes(x = habitat_class, y = sugar_in_micrograms_flower_24h, fill = genus)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1)) +
+  scale_fill_manual(values = paletteer::paletteer_d("ggthemr::grass")) +
+  geom_jitter(aes(color = temp), width = 0.1, size = 1) +
+  scale_color_gradient(low = "#7692B5", high = "#D5544B") +
+  labs(x = "Habitat Type",
+       y = "Nectar Content (μg)",
+       fill = "Genus",
+       title = "Differences in Nectar Amongst Habitat and Genera") +
+  ggthemes::theme_pander(base_size = 13)
+```
+
 
 
 ## Family Analysis
