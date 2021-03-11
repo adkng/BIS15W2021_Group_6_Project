@@ -486,12 +486,13 @@ nectar_perflower_clean$year &lt;- as.numeric(nectar_perflower_clean$year)</code>
 ## #   hum &lt;dbl&gt;, plant_no &lt;chr&gt;, flower_no &lt;chr&gt;, flower_age &lt;chr&gt;,
 ## #   flower_sex &lt;chr&gt;, sugar_in_micrograms_flower_24h &lt;dbl&gt;,
 ## #   sugarmax_in_micrograms_flower_24h &lt;dbl&gt;</code></pre>
-<div id="note-nas-are-removed" class="section level4">
-<h4>Note: NA’s are removed</h4>
+<div id="note-nas-are-removed" class="section level5">
+<h5>Note: NA’s are removed</h5>
 </div>
-<div id="biological-analyses" class="section level4">
-<h4>Biological Analyses</h4>
-<p>######How do time of day, flower age, and flower sex affect the amount of nectar per flower?</p>
+<div id="biological-analyses" class="section level2">
+<h2>Biological Analyses</h2>
+<div id="how-do-time-of-day-flower-age-and-flower-sex-affect-the-amount-of-nectar-per-flower" class="section level6">
+<h6>How do time of day, flower age, and flower sex affect the amount of nectar per flower?</h6>
 <pre class="r"><code>nectar_perflower_clean %&gt;% 
   filter(sugar_in_micrograms_flower_24h!=&quot;NA&quot;, flower_sex!=&quot;NA&quot;) %&gt;% 
   select(flower_sex, sugar_in_micrograms_flower_24h) %&gt;% 
@@ -536,8 +537,9 @@ nectar_perflower_clean$year &lt;- as.numeric(nectar_perflower_clean$year)</code>
 ##  9 08                    8989. 
 ## 10 17                      45.0</code></pre>
 </div>
+</div>
 <div id="shiny-app-showing-different-factors-that-affect-nectar-production" class="section level2">
-<h2>Shiny App Showing Different Factors that Affect Nectar Production</h2>
+<h2>Shiny App Showing Different Factors that Affect Nectar Production:</h2>
 <pre class="r"><code>ui &lt;- dashboardPage(skin=&quot;black&quot;,
   dashboardHeader(title = &quot;Why are Insect Pollinator Communities Declining?&quot;,
                   titleWidth = 550),

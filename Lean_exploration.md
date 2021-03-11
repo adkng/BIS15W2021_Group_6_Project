@@ -228,10 +228,10 @@ nectar_perflower_clean
 ## #   sugarmax_in_micrograms_flower_24h <dbl>
 ```
 
-#### Note: NA's are removed
+##### Note: NA's are removed
 
-#### Biological Analyses
-######How do time of day, flower age, and flower sex affect the amount of nectar per flower?
+## Biological Analyses
+###### How do time of day, flower age, and flower sex affect the amount of nectar per flower?
 
 
 
@@ -304,7 +304,7 @@ nectar_perflower_clean %>%
  
 
 
-## Shiny App Showing Different Factors that Affect Nectar Production
+## Shiny App Showing Different Factors that Affect Nectar Production:
 
 ```r
 ui <- dashboardPage(skin="black",
