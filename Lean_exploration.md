@@ -304,46 +304,8 @@ nectar_perflower_clean %>%
  
 
 
-## Shiny App Showing Different Factors that Affect Nectar Production:
+### There is also a Shiny App showing different factors that affect nectar production called "lean_final_app"
 
-```r
-ui <- dashboardPage(skin="black",
-  dashboardHeader(title = "Why are Insect Pollinator Communities Declining?",
-                  titleWidth = 550),
-  dashboardSidebar(disable = T),
-  dashboardBody(
-  fluidRow(
-  box(title = "Variables Affecting Nectar Production", width = 3,
-  selectInput("x", "Select Variable:", choices = c("year", "temp", "hum", "collection_hour", "flower_sex", "flower_age"),
-              selected = "year"),
-  hr(),
-      helpText("Reference: Baude M, Kunin W, Boatman N, Davies N, Gillespie M, Morton D, Smart S, Memmott J. Historical nectar assessment reveals the fall and rise of floral resources in Britain. 2016.")
-  ), 
-  box(title = "Amount of Nectar Produced", width = 6,
-  plotOutput("plot", width = "600px", height = "500px")
-  ) 
-  ) 
-  ) 
-)
-
-server <- function(input, output, session) { 
-  
-  output$plot <- renderPlot({
-  nectar_perflower_clean %>%
-    filter(flower_sex!="NA", flower_age!="NA", sugar_in_micrograms_flower_24h!="NA", sugar_in_micrograms_flower_24h!="0.0000000",  year!="NA", temp!="NA", hum!="NA", collection_hour!="NA") %>%
-    ggplot(aes_string(x=input$x)) + 
-    geom_bar(position="dodge", color="black", fill="chartreuse4", alpha=0.7) +
-    ggthemes::theme_pander(base_size = 13) +
-    labs(y = "Nectar Produced (mg)")
-  })
-  
-  session$onSessionEnded(stopApp)
-  }
-
-shinyApp(ui, server)
-```
-
-`<div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div>`{=html}
 
 
 
