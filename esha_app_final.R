@@ -1,3 +1,28 @@
+library(tidyverse)
+library(RColorBrewer)
+library(paletteer)
+library(janitor)
+library(here)
+library(skimr)
+library(ggthemes)
+library(naniar)
+library(readr)
+library(shiny)
+library(shinydashboard)
+library(stringr)
+
+
+nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
+
+nectar_perflower_clean <- nectar_perflower %>% 
+  clean_names() %>% 
+  mutate_all(tolower)
+
+nectar_perflower_clean$sugar_in_micrograms_flower_24h <- as.numeric(nectar_perflower_clean$sugar_in_micrograms_flower_24h)
+nectar_perflower_clean$sugarmax_in_micrograms_flower_24h <- as.numeric(nectar_perflower_clean$sugarmax_in_micrograms_flower_24h)
+nectar_perflower_clean$hum <- as.numeric(nectar_perflower_clean$hum)
+nectar_perflower_clean$temp <- as.numeric(nectar_perflower_clean$temp)
+
 ui <- dashboardPage(skin = "black",
                     dashboardHeader(title = "Nectar Collection by Habitat",
                                     titleWidth = 600),
@@ -24,7 +49,7 @@ ui <- dashboardPage(skin = "black",
 server <- function(input, output, session) { 
   
   output$plot <- renderPlot({
-    nectar_perflower %>%
+    nectar_perflower_clean %>%
       filter(habitat==input$x & year ==input$y) %>% 
       ggplot(aes_string(x = "species", y = "sugar_in_micrograms_flower_24h", fill = "species")) +
       geom_point(size=input$pointsize, alpha=0.8) +
