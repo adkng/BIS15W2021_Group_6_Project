@@ -386,37 +386,49 @@ The genera with the highest mean nectar in micrograms was Impatiens, Iris, Gladi
 
 
 ```r
+nectar_perflower_clean %>%
+  filter(genus == "impatiens" | genus == "iris" | genus == "gladiolus" | genus == "rubus" | genus == "lonicera") %>% 
+  group_by(genus, species) %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T), .groups = "keep") %>% 
+  arrange(desc(mean_nectar)) %>% 
+  top_n(mean_nectar, n = 5)
+```
+
+```
+## # A tibble: 5 x 3
+## # Groups:   genus, species [5]
+##   genus     species      mean_nectar
+##   <chr>     <chr>              <dbl>
+## 1 impatiens glandulifera       5112.
+## 2 iris      pseudacorus        3413.
+## 3 gladiolus sp                 3142.
+## 4 rubus     fruticosus         1893.
+## 5 lonicera  periclymenum       1864.
+```
+
+
+```r
 nectar_perflower_clean %>% 
   group_by(genus) %>% 
   summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T)) %>% 
-  arrange(mean_nectar) %>% 
-  top_n(mean_nectar)
+  arrange(mean_nectar)
 ```
 
 ```
-## Selecting by mean_nectar
-```
-
-```
-## Warning in if (n > 0) {: the condition has length > 1 and only the first element
-## will be used
-```
-
-```
-## # A tibble: 43 x 2
-##    genus         mean_nectar
-##    <chr>               <dbl>
-##  1 hyacinthoides        85.1
-##  2 viola                88.3
-##  3 glechoma             94.4
-##  4 prunella             95.8
-##  5 knautia              97.5
-##  6 lythrum              98.2
-##  7 crataegus           102. 
-##  8 cirsium             104. 
-##  9 rhinanthus          109. 
-## 10 malus               110. 
-## # ... with 33 more rows
+## # A tibble: 125 x 2
+##    genus        mean_nectar
+##    <chr>              <dbl>
+##  1 anagallis         0     
+##  2 filipendula       0     
+##  3 helianthemum      0     
+##  4 hypericum         0     
+##  5 mercurialis       0     
+##  6 narthecium        0     
+##  7 plantago          0     
+##  8 sagina            0     
+##  9 atriplex          0.0969
+## 10 sanguisorba       0.105 
+## # ... with 115 more rows
 ```
 
 Wow, very many flowers did not have any nectar observed! But, let's see which are the lowest observed.
@@ -424,30 +436,48 @@ Wow, very many flowers did not have any nectar observed! But, let's see which ar
 
 ```r
 nectar_perflower_clean %>% 
-  group_by(genus) %>% 
-  filter(genus != "anagallis", genus != "filipendula", genus != "helianthemum", genus != "hypericum", genus != "mercurialis", genus != "narthecium", genus != "plantago", genus != "sagina") %>% 
-  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T)) %>% 
-  arrange(mean_nectar)
+  group_by(genus, species) %>% 
+  filter(genus == "atriplex" | genus == "sanguisorba" | genus == "pastinaca" | genus == "pulicaria" | genus == "lapsana") %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T), .groups = "keep") %>% 
+  arrange(mean_nectar) %>% 
+  top_n(mean_nectar, n = -5)
 ```
 
 ```
-## # A tibble: 117 x 2
-##    genus       mean_nectar
-##    <chr>             <dbl>
-##  1 atriplex         0.0969
-##  2 sanguisorba      0.105 
-##  3 pastinaca        0.126 
-##  4 pulicaria        0.207 
-##  5 lapsana          0.264 
-##  6 capsella         0.391 
-##  7 matricaria       0.438 
-##  8 anemone          0.789 
-##  9 bellis           0.841 
-## 10 agrimonia        1.37  
-## # ... with 107 more rows
+## # A tibble: 5 x 3
+## # Groups:   genus, species [5]
+##   genus       species     mean_nectar
+##   <chr>       <chr>             <dbl>
+## 1 atriplex    patula           0.0969
+## 2 sanguisorba minor            0.105 
+## 3 pastinaca   sativa           0.126 
+## 4 pulicaria   dysenterica      0.207 
+## 5 lapsana     communis         0.264
 ```
 
 The genera with the lowest mean nectar in micrograms was Atriplex, Sanguisorba, Pastinaca, Pulicaria, and Lapsana.
+
+
+```r
+nectar_perflower_clean %>% 
+  group_by(genus) %>% 
+  filter(genus != "anagallis", genus != "filipendula", genus != "helianthemum", genus != "hypericum", genus != "mercurialis", genus != "narthecium", genus != "plantago", genus != "sagina") %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T)) %>% 
+  arrange(mean_nectar) %>% 
+  top_n(mean_nectar, n = -5)
+```
+
+```
+## # A tibble: 5 x 2
+##   genus       mean_nectar
+##   <chr>             <dbl>
+## 1 atriplex         0.0969
+## 2 sanguisorba      0.105 
+## 3 pastinaca        0.126 
+## 4 pulicaria        0.207 
+## 5 lapsana          0.264
+```
+
 
 
 ## Survey Locale Analysis
@@ -463,7 +493,7 @@ nectar_perflower_clean %>%
   ggthemes::theme_pander(base_size = 13)
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
 Among all habitats sampled, grasslands seem like the most popular!
 
 
@@ -479,7 +509,7 @@ nectar_perflower_clean %>%
   ggthemes::theme_pander(base_size = 13)
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
 Out of all the different types of grasslands that were surveyed, nature reserves were surveyed the most.
 
 
@@ -496,8 +526,11 @@ nectar_perflower_clean %>%
   ggthemes::theme_pander(base_size = 13)
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
 Among plots of land with specific variances, it seems like nature reserves were most sampled.
+
+
+
 
 ## Genus, Species Presence in Habitats
 
@@ -510,7 +543,7 @@ nectar_perflower_clean %>%
   ggplot(aes(x = habitat_class, fill = genus)) +
   geom_bar(position = "dodge") +
   coord_flip() +
-  scale_fill_manual(values = paletteer::paletteer_d("calecopal::vermillion")) +
+  scale_fill_manual(values = paletteer::paletteer_d("ggsci::green_material")) +
   labs(x = "Habitat Type",
        y = "Number of Observations",
        fill = "Genus",
@@ -518,7 +551,7 @@ nectar_perflower_clean %>%
   ggthemes::theme_pander(base_size = 13)
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
 
 The genera with the lowest mean nectar in micrograms was Atriplex, Sanguisorba, Pastinaca, Pulicaria, and Lapsana.
 
@@ -528,7 +561,7 @@ nectar_perflower_clean %>%
   ggplot(aes(x = habitat_class, fill = genus)) +
   geom_bar(position = "dodge") +
   coord_flip() +
-  scale_fill_manual(values = paletteer::paletteer_d("calecopal::vermillion")) +
+  scale_fill_manual(values = paletteer::paletteer_d("ggsci::green_material")) +
   labs(x = "Habitat Type",
        y = "Number of Observations",
        fill = "Genus",
@@ -536,7 +569,7 @@ nectar_perflower_clean %>%
   ggthemes::theme_pander(base_size = 13)
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-22-1.png)<!-- -->
 
 Cool, but we want to see them together!
 
@@ -572,20 +605,26 @@ nectar_highlow
 
 
 ```r
+nectar_labs <- c("High Nectar Content", "Low Nectar Content")
+```
+
+
+
+```r
 nectar_highlow %>% 
   ggplot(aes(x = habitat_class, fill = genus)) +
   geom_bar(position = "dodge") +
   coord_flip() +
   facet_wrap(~nectar_category) +
-  scale_fill_manual(values = paletteer::paletteer_d("dichromat::BluetoGreen_14")) +
+  scale_fill_manual(values = paletteer::paletteer_d("palettetown::treecko")) +
   labs(x = "Habitat Type",
        y = "Number of Observations",
        fill = "Genus",
-       title = "Habitat verus ____") +
+       title = "Habitat verus Nectar Content for Species of Interest") +
   ggthemes::theme_pander(base_size = 13)
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
 
 Interestingly enough, genera with high nectar content come from a wide array of habitats -- especially "woody" areas like woodlands, wetlands, ponds, and grasslands. Genera with low nectar contents came from "allotments", or small parcels of land rented to individuals for the purpose of growing crops... Considering our track record, we know that farm lands traditionally have less diversity because of our insistence on monocultures..
 
@@ -597,16 +636,19 @@ nectar_highlow %>%
   ggplot(aes(x = habitat_class, y = sugar_in_micrograms_flower_24h, fill = genus)) +
   geom_boxplot() +
   theme(axis.text.x = element_text(angle = 40, hjust = 1)) +
-  scale_fill_manual(values = paletteer::paletteer_d("dichromat::BluetoGreen_14")) +
+  scale_fill_manual(values = paletteer::paletteer_d("ggthemr::grass")) +
+  geom_jitter(aes(color = temp), width = 0.1, size = 1) +
+  scale_color_gradientn(colors =  paletteer::paletteer_d("RColorBrewer::RdBu")) +
   labs(x = "Habitat Type",
        y = "Nectar Content (μg)",
        fill = "Genus",
-       title = "Habitat verus ____") +
+       title = "Differences in Nectar Amongst Habitat and Genera") +
   ggthemes::theme_pander(base_size = 13)
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-22-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
 It seems like habitat may have an impact on how much nectar a population within a genera can have. *Impatiens* in woodland areas have higher nectar on average compared to their sister populations in wetlands.
+
 
 
 ## Family Analysis
@@ -649,19 +691,20 @@ nectar_perflower_clean %>%
   coord_flip()
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
 
 
 ```r
 nectar_perflower_clean %>% 
   filter(sugar_in_micrograms_flower_24h != "NA") %>% 
-  ggplot(aes(x = reorder(habitat_class, sugarmax_in_micrograms_flower_24h), y = sugar_in_micrograms_flower_24h, fill = temp)) +
+  ggplot(aes(x = reorder(habitat_class, sugarmax_in_micrograms_flower_24h), y = sugar_in_micrograms_flower_24h)) +
   geom_boxplot() +
+  geom_jitter(aes(color = temp), width = 0.1, alpha = 0.4, size = 0.9) +
   theme(axis.text.x = element_text(angle = 40, hjust = 1)) +
-  scale_fill_gradientn(colors =  paletteer::paletteer_d("calecopal::vermillion"))
+  scale_color_gradientn(colors =  paletteer::paletteer_d("calecopal::vermillion"))
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
 
 
 
@@ -729,7 +772,7 @@ asteraceae %>%
   geom_bar()
 ```
 
-![](adrianna_data_exploration_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
+![](adrianna_data_exploration_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
 
 
 ```r
