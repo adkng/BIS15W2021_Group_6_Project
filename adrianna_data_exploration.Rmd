@@ -1,6 +1,8 @@
 ---
 title: "adrianna_data_exploration"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ### Suggested Analysis (via Lean):
@@ -29,9 +31,14 @@ library(skimr)
 library(ggthemes)
 library(naniar)
 library(readr)
-library(lubridate)
+library(shiny)
+library(shinydashboard)
 ```
 
+## Removing scientific notation
+```{r}
+options(scipen=999) #cancels scientific notation for the session, not permanently
+```
 
 Color Palette Workshop
 ```{r}
@@ -43,23 +50,22 @@ colors <- paletteer::palettes_d_names
 ## Loading data
 This is a preloading of the data. The original publication can be found [here](https://doi.org/10.1038/nature16532) and it was also mentioned in [this paper.](https://doi.org/10.1111/2041-210X.12779).
 ```{r}
-nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower.csv"))
-```
-
-```{r}
-#nectar_perspecies <- read_csv(here("potential_datasets", "AgriLand_Nectar_perspecies.csv"))
+nectar_perflower <- read_csv(here("potential_datasets", "AgriLand_Nectar_perflower_families.csv"))
 ```
 
 ### Nectar Per Flower Analysis
+
+
+
 ```{r}
-nectar_perflower <- nectar_perflower %>% 
+nectar_perflower_clean <- nectar_perflower %>% 
   clean_names() %>% 
   mutate_all(tolower)
-summary(nectar_perflower)
+summary(nectar_perflower_clean)
 ```
 
 ```{r}
-nectar_perflower <- nectar_perflower %>% 
+nectar_perflower_clean <- nectar_perflower_clean %>% 
   separate(species,
            into = c("genus", "species")) %>% 
   separate(bagging_date,
@@ -67,82 +73,301 @@ nectar_perflower <- nectar_perflower %>%
            sep = "/") %>% 
   separate(collection_date,
            into = c("collection_day", "collection_month", "collection_year"),
-           sep = "/")
-nectar_perflower <- nectar_perflower %>% 
+           sep = "/") %>% 
   separate(habitat,
            into = c("habitat_class", "habitat_specific"),
                     sep = "-",
-                    extra = "merge")
-
-nectar_perflower <- nectar_perflower %>% 
+                    extra = "merge") %>% 
   select(-bagging_year, -collection_year)
 
-nectar_perflower
+nectar_perflower_clean$sugar_in_micrograms_flower_24h <- as.numeric(nectar_perflower_clean$sugar_in_micrograms_flower_24h)
+nectar_perflower_clean$sugarmax_in_micrograms_flower_24h <- as.numeric(nectar_perflower_clean$sugarmax_in_micrograms_flower_24h)
+nectar_perflower_clean$hum <- as.numeric(nectar_perflower_clean$hum)
+nectar_perflower_clean$temp <- as.numeric(nectar_perflower_clean$temp)
+
+nectar_perflower_clean
 ```
 
 ```{r}
-names(nectar_perflower)
+names(nectar_perflower_clean)
 ```
 
 
 ```{r}
-nectar_perflower %>% 
+nectar_perflower_clean %>% 
   count(genus, species, sort = T)
 ```
+
 ```{r}
-nectar_perflower %>% 
+nectar_perflower_clean %>% 
   count(genus, sort = T)
-```
-```{r}
-nectar_perflower %>% 
-  count(habitat_class, sort = T)
-```
-```{r}
-nectar_perflower %>%
-  count(genus, species, habitat_class)
 ```
 
 ```{r}
-levels(nectar_perflower$species)
+nectar_perflower_clean %>% 
+  count(habitat_class, sort = T)
 ```
+Most surveys came out of grassland habitats.
+
+```{r}
+nectar_perflower_clean %>% 
+  count(family, habitat_class) %>% 
+  arrange(desc(n))
+```
+
+The family with the most observations was Asteraceae in grasslands!
+
+```{r}
+nectar_perflower_clean %>% 
+  group_by(genus) %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T)) %>% 
+  arrange(desc(mean_nectar)) %>% 
+  top_n(mean_nectar, n = 5)
+```
+The genera with the highest mean nectar in micrograms was Impatiens, Iris, Gladiolus, Rubus, and Lonicera.
+
+```{r}
+nectar_perflower_clean %>%
+  filter(genus == "impatiens" | genus == "iris" | genus == "gladiolus" | genus == "rubus" | genus == "lonicera") %>% 
+  group_by(genus, species) %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T), .groups = "keep") %>% 
+  arrange(desc(mean_nectar)) %>% 
+  top_n(mean_nectar, n = 5)
+```
+
+```{r}
+nectar_perflower_clean %>% 
+  group_by(genus) %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T)) %>% 
+  arrange(mean_nectar)
+```
+
+Wow, very many flowers did not have any nectar observed! But, let's see which are the lowest observed.
+
+```{r}
+nectar_perflower_clean %>% 
+  group_by(genus, species) %>% 
+  filter(genus == "atriplex" | genus == "sanguisorba" | genus == "pastinaca" | genus == "pulicaria" | genus == "lapsana") %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T), .groups = "keep") %>% 
+  arrange(mean_nectar) %>% 
+  top_n(mean_nectar, n = -5)
+```
+
+The genera with the lowest mean nectar in micrograms was Atriplex, Sanguisorba, Pastinaca, Pulicaria, and Lapsana.
+
+```{r}
+nectar_perflower_clean %>% 
+  group_by(genus) %>% 
+  filter(genus != "anagallis", genus != "filipendula", genus != "helianthemum", genus != "hypericum", genus != "mercurialis", genus != "narthecium", genus != "plantago", genus != "sagina") %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T)) %>% 
+  arrange(mean_nectar) %>% 
+  top_n(mean_nectar, n = -5)
+```
+
 
 
 ## Survey Locale Analysis
 ```{r}
-nectar_perflower %>% 
+nectar_perflower_clean %>% 
   ggplot(aes(x = habitat_class)) +
   geom_bar() +
-  coord_flip()
+  coord_flip() +
+  labs(x = "Habitat Type",
+       y = "Number of Observations",
+       title = "Landscape Surveys by Type") +
+  ggthemes::theme_pander(base_size = 13)
 ```
 Among all habitats sampled, grasslands seem like the most popular!
+
 ```{r}
-nectar_perflower %>% 
+nectar_perflower_clean %>% 
+  filter(habitat_class == "grassland") %>% 
+  ggplot(aes(x = habitat_specific)) +
+  geom_bar() +
+  coord_flip() +
+  labs(x = "Number of Observations",
+       y = "Grassland Type",
+       title = "Number and Type of Grassland Variants Sampled") +
+  ggthemes::theme_pander(base_size = 13)
+```
+Out of all the different types of grasslands that were surveyed, nature reserves were surveyed the most.
+
+```{r}
+nectar_perflower_clean %>% 
   filter(habitat_specific != "NA") %>% 
   ggplot(aes(x = habitat_class, fill = habitat_specific))+
   geom_bar(position = "dodge") +
-  coord_flip()
+  coord_flip() +
+  labs(x = "Habitat Type",
+       y = "Number of Observations",
+       fill = "Specific Habitat Variant",
+       title = "Number of Observations in Environments with Variance") +
+  ggthemes::theme_pander(base_size = 13)
 ```
 Among plots of land with specific variances, it seems like nature reserves were most sampled.
 
+```{r}
+
+```
+
+
 ## Genus, Species Presence in Habitats
-```{r}
 
+Let's take a look at where the flowers with the most mean nectar amounts came from!
+The genera with the highest mean nectar in micrograms was Impatiens, Iris, Gladiolus, Rubus, and Lonicera
+```{r}
+nectar_perflower_clean %>% 
+  filter(genus == "impatiens" | genus == "iris" | genus == "gladiolus" | genus == "rubus" | genus == "lonicera") %>% 
+  ggplot(aes(x = habitat_class, fill = genus)) +
+  geom_bar(position = "dodge") +
+  coord_flip() +
+  scale_fill_manual(values = paletteer::paletteer_d("ggsci::green_material")) +
+  labs(x = "Habitat Type",
+       y = "Number of Observations",
+       fill = "Genus",
+       title = "Habitats of Genera with Most Nectar") +
+  ggthemes::theme_pander(base_size = 13)
+```
+
+The genera with the lowest mean nectar in micrograms was Atriplex, Sanguisorba, Pastinaca, Pulicaria, and Lapsana.
+```{r}
+nectar_perflower_clean %>% 
+  filter(genus == "atriplex" | genus == "sanguisorba" | genus == "pastinaca" | genus == "pulicaria" | genus == "lapsana") %>% 
+  ggplot(aes(x = habitat_class, fill = genus)) +
+  geom_bar(position = "dodge") +
+  coord_flip() +
+  scale_fill_manual(values = paletteer::paletteer_d("ggsci::green_material")) +
+  labs(x = "Habitat Type",
+       y = "Number of Observations",
+       fill = "Genus",
+       title = "Habitats of Genera with Least Nectar") +
+  ggthemes::theme_pander(base_size = 13)
+```
+
+Cool, but we want to see them together!
+```{r}
+nectar_highlow <- nectar_perflower_clean %>%
+  filter(genus == "atriplex" | genus == "sanguisorba" | genus == "pastinaca" | genus == "pulicaria" | genus == "lapsana" | genus == "impatiens" | genus == "iris" | genus == "gladiolus" | genus == "rubus" | genus == "lonicera") %>% 
+  mutate(nectar_category = case_when(genus == "atriplex" | genus == "sanguisorba" | genus == "pastinaca" | genus == "pulicaria" | genus == "lapsana" ~ "low",
+                                     genus == "impatiens" | genus == "iris" | genus == "gladiolus" | genus == "rubus" | genus == "lonicera" ~ "high"))
+nectar_highlow
+```
+
+```{r}
+nectar_labs <- c("High Nectar Content", "Low Nectar Content")
 ```
 
 
-### Nectar Per Species Analysis
 ```{r}
-#nectar_perspecies <- nectar_perspecies %>%
-  #clean_names() %>% 
-   #separate(species,
-           #into = c("genus", "species"))
-#nectar_perspecies
+nectar_highlow %>% 
+  ggplot(aes(x = habitat_class, fill = genus)) +
+  geom_bar(position = "dodge") +
+  coord_flip() +
+  facet_wrap(~nectar_category) +
+  scale_fill_manual(values = paletteer::paletteer_d("palettetown::treecko")) +
+  labs(x = "Habitat Type",
+       y = "Number of Observations",
+       fill = "Genus",
+       title = "Habitat verus Nectar Content for Species of Interest") +
+  ggthemes::theme_pander(base_size = 13)
+```
+
+Interestingly enough, genera with high nectar content come from a wide array of habitats -- especially "woody" areas like woodlands, wetlands, ponds, and grasslands. Genera with low nectar contents came from "allotments", or small parcels of land rented to individuals for the purpose of growing crops... Considering our track record, we know that farm lands traditionally have less diversity because of our insistence on monocultures..
+
+## Nectar Variance by Habitat
+```{r}
+nectar_highlow %>% 
+  filter(nectar_category == "high") %>% 
+  ggplot(aes(x = habitat_class, y = sugar_in_micrograms_flower_24h, fill = genus)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1)) +
+  scale_fill_manual(values = paletteer::paletteer_d("ggthemr::grass")) +
+  geom_jitter(aes(color = temp), width = 0.1, size = 1) +
+  scale_color_gradientn(colors =  paletteer::paletteer_d("RColorBrewer::RdBu")) +
+  labs(x = "Habitat Type",
+       y = "Nectar Content (μg)",
+       fill = "Genus",
+       title = "Differences in Nectar Amongst Habitat and Genera") +
+  ggthemes::theme_pander(base_size = 13)
+```
+It seems like habitat may have an impact on how much nectar a population within a genera can have. *Impatiens* in woodland areas have higher nectar on average compared to their sister populations in wetlands.
+
+```{r}
+nectar_highlow %>% 
+  filter(nectar_category == "high") %>% 
+  ggplot(aes(x = habitat_class, y = sugar_in_micrograms_flower_24h, fill = genus)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1)) +
+  scale_fill_manual(values = paletteer::paletteer_d("ggthemr::grass")) +
+  geom_jitter(aes(color = temp), width = 0.1, size = 1) +
+  scale_color_gradient(low = "#7692B5", high = "#D5544B") +
+  labs(x = "Habitat Type",
+       y = "Nectar Content (μg)",
+       fill = "Genus",
+       title = "Differences in Nectar Amongst Habitat and Genera") +
+  ggthemes::theme_pander(base_size = 13)
 ```
 
 
 
+## Family Analysis
+What about families?
+```{r}
+nectar_perflower_clean %>% 
+  group_by(family) %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T)) %>% 
+  arrange(desc(mean_nectar))
+```
+
+The families with the most nectar include Balsaminaceae, Iridaceae, Convolvulaceae, Rosaceae, and Caprifoliaceae.
+
+```{r}
+nectar_perflower_clean %>% 
+  filter(family == "balsaminaceae" | family == "iridaceae" | family == "convolvulaceae" | family == "rosaceae" | family == "caprifoliaceae") %>%
+  group_by(family) %>% 
+  ggplot(aes(x = habitat_class, fill = genus)) +
+  geom_bar(position = "dodge") +
+  facet_wrap(~family) +
+  coord_flip()
+```
+
+```{r}
+nectar_perflower_clean %>% 
+  filter(sugar_in_micrograms_flower_24h != "NA") %>% 
+  ggplot(aes(x = reorder(habitat_class, sugarmax_in_micrograms_flower_24h), y = sugar_in_micrograms_flower_24h)) +
+  geom_boxplot() +
+  geom_jitter(aes(color = temp), width = 0.1, alpha = 0.4, size = 0.9) +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1)) +
+  scale_color_gradientn(colors =  paletteer::paletteer_d("calecopal::vermillion"))
+```
 
 
+```{r}
+nectar_perflower_clean %>% 
+  group_by(family) %>% 
+  summarise(n_obs = n()) %>% 
+  arrange(desc(n_obs))
+```
 
 
+## Specific Analysis: Asteraceae
+```{r}
+asteraceae <- nectar_perflower_clean %>% 
+  filter(family == "asteraceae")
+asteraceae$location <- as.factor(asteraceae$location)
+asteraceae
+```
 
+```{r}
+asteraceae %>%
+  group_by(habitat_class) %>% 
+  ggplot(aes(x = habitat_class)) +
+  geom_bar()
+```
+
+```{r}
+asteraceae %>% 
+  group_by(genus) %>% 
+  summarise(mean_nectar = mean(sugar_in_micrograms_flower_24h, na.rm = T)) %>% 
+  arrange(desc(mean_nectar))
+```
